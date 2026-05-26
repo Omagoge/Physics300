@@ -1,0 +1,31 @@
+{
+  "name": "SMG",
+  "damage": 1.0,
+  "cooldown": 0.10000000149011612,
+  "isAutomatic": true,
+  "maxForce": 10.0,
+  "magazineSize": 20,
+  "initialAmmo": 40,
+  "droppedTexture": "WEAPONS/SMG.mat",
+  "uiIconPath": "UI/images/Subfusil_UI.png",
+  "aimingAnimation": "an_cat_aim_smg",
+  "shootingAnimation": "an_cat_shoot_smg",
+  "recoil.forceFalloffVec": [
+    0.7820000052452087,
+    0.9129999876022339
+  ],
+  "recoil.velocityReduction": 0.14000000059604645,
+  "recoil.forceReduction": 1.399999976158142,
+  "recoil.maxSpeedFactor": 3.446000099182129,
+  "recoil.oppositeBoostScale": 0.6970000267028809,
+  "recoil.groundDamp": 0.2800000011920929,
+  "recoil.yBoostScale": 0.9589999914169312,
+  "recoil.yBoostCap": 2.3239998817443848,
+  "recoil.xImpulseCap": 4.618000030517578,
+  "recoil.xImpulseScale": 0.7649999856948853,
+  "effectSocket": "cat_smg_origin",
+  "maxDispersionAngle": 10.517999649047852,
+  "maxBulletsPerShot": 1,
+  "muzzleAnimName": "smg",
+  "collision_flag": 4
+}

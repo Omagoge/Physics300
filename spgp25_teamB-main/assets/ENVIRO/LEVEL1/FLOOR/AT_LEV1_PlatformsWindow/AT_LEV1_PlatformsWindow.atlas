@@ -1,0 +1,36 @@
+AT_LEV1_PlatformsWindow.png
+size:876,112
+filter:Linear,Linear
+pma:true
+AT_LEV1_PlatformsWindow light1
+bounds:286,3,107,79
+offsets:1,2,109,82
+rotate:90
+AT_LEV1_PlatformsWindow light2
+bounds:750,29,61,81
+offsets:1,1,63,83
+AT_LEV1_PlatformsWindow light3
+bounds:608,15,69,95
+offsets:3,1,73,96
+AT_LEV1_PlatformsWindow light4
+bounds:448,2,78,108
+offsets:1,1,80,110
+AT_LEV1_PlatformsWindow light5
+bounds:2,6,140,104
+offsets:1,1,142,105
+AT_LEV1_PlatformsWindow1
+bounds:367,3,107,79
+offsets:1,2,109,82
+rotate:90
+AT_LEV1_PlatformsWindow2
+bounds:813,29,61,81
+offsets:1,1,63,83
+AT_LEV1_PlatformsWindow3
+bounds:679,15,69,95
+offsets:3,1,73,96
+AT_LEV1_PlatformsWindow4
+bounds:528,2,78,108
+offsets:1,1,80,110
+AT_LEV1_PlatformsWindow5
+bounds:144,6,140,104
+offsets:1,1,142,105

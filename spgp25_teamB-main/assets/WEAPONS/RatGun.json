@@ -1,0 +1,29 @@
+{
+  "name": "Rat Gun",
+  "damage": 1,
+  "cooldown": 1.0,
+  "isAutomatic": false,
+  "maxForce": 0.0,
+  "magazineSize": 0,
+  "initialAmmo": 2144483647,
+  "droppedTexture": "WHITEBOXING/GUN.mat",
+  "aimingAnimation": "an_rat_aim",
+  "shootingAnimation": "an_rat_shoot",
+  "recoil.forceFalloffVec": [
+    0.0,
+    0.0
+  ],
+  "recoil.velocityReduction": 0.0,
+  "recoil.forceReduction": 0.0,
+  "recoil.maxSpeedFactor": 0.0,
+  "recoil.oppositeBoostScale": 0.0,
+  "recoil.groundDamp": 0.0,
+  "recoil.yBoostScale": 0.0,
+  "recoil.yBoostCap": 0.0,
+  "recoil.xImpulseCap": 0.0,
+  "recoil.xImpulseScale": 0.0,
+  "effectSocket": "rat_gun_m_bullet_origin",
+  "maxDispersionAngle": 30.0,
+  "maxBulletsPerShot": 1,
+  "collision_flag": 2
+}

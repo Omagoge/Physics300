@@ -1,0 +1,135 @@
+VFX_BreakableItemsCeiling.png
+size:320,2366
+filter:Linear,Linear
+pma:true
+Alarm
+bounds:219,1261,149,99
+offsets:1,1,151,101
+rotate:90
+Alarm Destroyed
+bounds:2,2,149,98
+offsets:1,1,151,100
+Bulb Piece 1
+bounds:288,1185,22,15
+offsets:1,1,24,17
+Bulb Piece 2
+bounds:183,776,17,13
+offsets:1,1,19,15
+rotate:90
+Bulb Piece 3
+bounds:147,1559,16,17
+offsets:1,3,18,21
+Bulb Piece 4
+bounds:274,805,16,16
+offsets:1,1,18,18
+Camera A
+bounds:153,12,97,144
+offsets:1,1,100,146
+rotate:90
+Camera A Destroyed
+bounds:189,1091,97,168
+offsets:1,1,99,170
+Camera B
+bounds:183,795,146,89
+offsets:1,1,148,91
+rotate:90
+Camera B Destroyed
+bounds:189,943,146,111
+offsets:1,1,148,113
+rotate:90
+Camera C
+bounds:198,535,85,66
+offsets:1,1,87,68
+Camera C Destroyed
+bounds:198,603,85,92
+offsets:1,1,87,94
+Camera D
+bounds:115,111,75,136
+offsets:1,1,77,138
+rotate:90
+Camera D Destroyed
+bounds:198,697,96,85
+offsets:1,1,99,87
+rotate:90
+Exit
+bounds:118,188,177,155
+offsets:1,1,179,157
+Exit  Destroyed
+bounds:118,345,177,155
+offsets:1,1,179,157
+rotate:90
+Light A
+bounds:2,1552,102,405
+offsets:1,1,104,407
+Light A Destroyed
+bounds:2,1959,102,405
+offsets:1,1,104,407
+Light B
+bounds:106,1578,56,101
+offsets:1,1,58,103
+rotate:90
+Light B Destroyed
+bounds:274,840,40,101
+offsets:1,1,42,103
+Light C
+bounds:2,298,224,114
+offsets:1,2,227,117
+rotate:90
+Light C Destroyed
+bounds:219,1412,222,99
+offsets:1,2,224,102
+rotate:90
+Light D Front
+bounds:2,524,194,231
+offsets:2,1,198,233
+Light D Front Destroyed
+bounds:2,102,194,111
+offsets:2,2,198,114
+rotate:90
+Light D Side
+bounds:2,1268,282,215
+offsets:1,1,285,217
+rotate:90
+Light D Side Destroyed
+bounds:106,1636,261,211
+offsets:14,1,277,213
+rotate:90
+Light E Front
+bounds:106,1899,273,204
+offsets:0,1,285,206
+rotate:90
+Light E Front Destroyed
+bounds:106,2174,212,190
+offsets:1,1,215,193
+Light E Front Piece 1
+bounds:253,111,25,20
+offsets:1,1,27,22
+Light E Front Piece 2
+bounds:280,111,20,25
+offsets:1,1,22,27
+rotate:90
+Light E Front Piece 3
+bounds:288,1202,30,19
+offsets:1,1,32,21
+Light E Front Piece 4
+bounds:253,133,53,36
+offsets:1,3,62,40
+rotate:90
+Light E Front Piece 5
+bounds:106,1559,39,17
+offsets:1,2,41,20
+Light E Front Piece 6
+bounds:274,823,36,15
+offsets:2,1,39,17
+Light E Front Piece 7
+bounds:288,1223,36,30
+offsets:1,1,38,32
+rotate:90
+Light E Side
+bounds:2,1007,259,185
+offsets:1,1,261,187
+rotate:90
+Light E Side Destroyed
+bounds:2,757,248,179
+offsets:11,1,261,182
+rotate:90

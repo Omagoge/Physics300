@@ -1,0 +1,29 @@
+{
+  "name": "Dog Gun",
+  "damage": 1,
+  "cooldown": 1.5,
+  "isAutomatic": false,
+  "maxForce": 0.0,
+  "magazineSize": 0,
+  "initialAmmo": 2144483647,
+  "droppedTexture": "WHITEBOXING/SHOTGUN.mat",
+  "aimingAnimation": "an_dog_aim",
+  "shootingAnimation": "an_dog_shoot",
+  "recoil.forceFalloffVec": [
+    0.0,
+    0.0
+  ],
+  "recoil.velocityReduction": 0.0,
+  "recoil.forceReduction": 0.0,
+  "recoil.maxSpeedFactor": 0.0,
+  "recoil.oppositeBoostScale": 0.0,
+  "recoil.groundDamp": 0.0,
+  "recoil.yBoostScale": 0.0,
+  "recoil.yBoostCap": 0.0,
+  "recoil.xImpulseCap": 0.0,
+  "recoil.xImpulseScale": 0.0,
+  "effectSocket": "shot particles_origin",
+  "maxDispersionAngle": 50.0,
+  "maxBulletsPerShot": 1,
+  "collision_flag": 2
+}

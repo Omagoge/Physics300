@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{1ed32797-9698-4ad4-8a5e-86ca2902eddf}">
+		<property name="color">
+			<value>Blue Light 1</value>
+		</property>
+		<property name="assetPath">
+			<value>music/city/Kick_Outro.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.0793541666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fc20db48-1b46-4e5d-88b7-cab459d400e1}</destination>
+		</relationship>
+	</object>
+</objects>

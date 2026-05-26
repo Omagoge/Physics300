@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{9253eeb3-2eca-483f-bcfe-58a9f08194a5}">
+		<property name="name">
+			<value>Speed Arp</value>
+		</property>
+		<relationship name="folder">
+			<destination>{4e16d021-b351-4e59-8a9b-8130ff037946}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{4a02f779-13f5-4aae-92d5-b3ef610e18a1}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{4a02f779-13f5-4aae-92d5-b3ef610e18a1}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

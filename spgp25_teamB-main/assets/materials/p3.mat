@@ -1,0 +1,13 @@
+{
+  "materialParams": [
+    "ASSETS/ASSETS/ASSETS/ENVIRO/LEVEL1/WALLS/AT_LEV1_BRICKSWALL/AT_LEV1_bricks/Left_corner_building_LEVEL1.png",
+    "ASSETS/ASSETS/ASSETS/ENVIRO/LEVEL1/WALLS/AT_LEV1_BRICKSWALL/AT_LEV1_bricks/Left_corner_building_LEVEL1.png",
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "shaderPath": "shaders/default.shader"
+}

@@ -1,0 +1,12 @@
+{
+  "materialParams": [
+    "ENVIRO/LEVEL1/WALLS/AT_LEV1_bricks_top.png",
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "shaderPath": "SHADERS/unlit.shader"
+}

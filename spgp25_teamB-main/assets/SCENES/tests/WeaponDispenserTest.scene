@@ -1,0 +1,177 @@
+{
+  "type": "Scene",
+  "name": "WeaponDispenserTest",
+  "enabled": true,
+  "children": [
+    {
+      "type": "ColliderTest",
+      "name": "Floor",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Collider",
+          "name": "Collider",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              -1.0,
+              -1.0
+            ],
+            [
+              1.0,
+              -1.0
+            ],
+            [
+              1.0,
+              1.0
+            ],
+            [
+              -1.0,
+              1.0
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 0,
+          "data.forceLeft": false,
+          "renderable": {
+            "material_path": "",
+            "showTop": false,
+            "maxSlope": 45.0,
+            "topHeight": 0.5,
+            "topMaterialPath": "",
+            "isOccluder": false,
+            "show": false
+          }
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          -5.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          30.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "WeaponDispenser",
+      "name": "ShotgunDispenser",
+      "enabled": true,
+      "children": [
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_66",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            3.0,
+            3.0,
+            1.0
+          ],
+          "meshPath": "MODELS/quad.obj",
+          "materialPath": "ENVIRO/GEN/WeaponDispenser/ShotgunDispenser.mat",
+          "isOccluder": false
+        }
+      ],
+      "transform": {
+        "position": [
+          15.0,
+          10.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "weaponType": 1,
+      "respawnDelay": 2.0
+    },
+    {
+      "type": "WeaponDispenser",
+      "name": "SMGDispenser",
+      "enabled": true,
+      "children": [
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_67",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            3.0,
+            3.0,
+            1.0
+          ],
+          "meshPath": "MODELS/quad.obj",
+          "materialPath": "ENVIRO/GEN/WeaponDispenser/SMGDispenser.mat",
+          "isOccluder": false
+        }
+      ],
+      "transform": {
+        "position": [
+          -15.0,
+          10.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "weaponType": 2,
+      "respawnDelay": 2.0
+    }
+  ],
+  "format": "scene",
+  "file_path": "SCENES/WeaponDispenserTest.scene"
+}

@@ -1,0 +1,12 @@
+{
+  "materialParams": [
+    "ENVIRO/GEN/WeaponDispenser/ShotgunDispenser.png",
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "shaderPath": "SHADERS/default.shader"
+}

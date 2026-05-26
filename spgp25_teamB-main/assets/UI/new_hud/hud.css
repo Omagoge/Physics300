@@ -1,0 +1,290 @@
+/**
+ * @file hud.css
+ * New artist HUD using sprites in assets/UI/new_hud
+ */
+
+@font-face {
+  font-family: 'Resource Han Rounded';
+  src: url('../../FONTS/ResourceHanRounded/ResourceHanRoundedSC-Regular.ttf') format('truetype');
+  unicode-range: U+4E00-U+9FFF, U+3400-U+4DBF, U+F900-U+FAFF;
+}
+
+:root {
+  --slot-size: 11vmin;
+  --slot-size-small: 7vmin;
+  --heart-size: 5.25vh;
+  --ammo-height: 3.6vh;
+  --ammo-width-pistol: 3.6vh;
+  --ammo-width-shotgun: 5.8vh;
+  --hud-padding: 1.25vh;
+  --hud-gap: 0.75vh;
+  --slot-gap: 0.75vh;
+  --bar-gap: 0.55vh;
+  --fade-duration: 0.6s;
+  --damage-flash-duration: 1s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#game-hud {
+  position: fixed;
+  bottom: var(--hud-padding);
+  left: var(--hud-padding);
+  z-index: 100;
+  display: flex;
+  align-items: flex-end;
+  gap: var(--hud-gap);
+  user-select: none;
+  pointer-events: auto;
+}
+
+.weapon-section {
+  display: flex;
+  align-items: flex-end;
+}
+
+.weapon-grid {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--slot-gap);
+}
+
+.weapon-slot {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--slot-size);
+  height: var(--slot-size);
+  background-image: url("_0016_Icon_empty.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  cursor: pointer;
+  transition: width 0.25s ease, height 0.25s ease, transform 0.25s ease, opacity 0.25s ease;
+}
+
+.weapon-slot.unequipped {
+  width: var(--slot-size-small);
+  height: var(--slot-size-small);
+  background-image: url("_0015_Icon_empty_small.png");
+}
+
+.weapon-slot:not(:has(.weapon-icon[src]:not([src=""]))) {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.7;
+}
+
+.weapon-slot.selected {
+  transform: translateY(-0.2vh);
+}
+
+.weapon-icon {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 14%;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.weapon-icon[src]:not([src=""]) {
+  opacity: 1;
+}
+
+.reserve-ammo {
+  position: absolute;
+  left: 20%;
+  right: 16%;
+  bottom: 14%;
+  z-index: 10;
+  font-size: clamp(12px, 2.05vh, 24px);
+  font-weight: bold;
+  font-family: "Orbitron", "Resource Han Rounded", sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px #000;
+  text-align: right;
+  line-height: 1;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.weapon-slot.selected .reserve-ammo {
+  left: 24%;
+  right: 16%;
+  bottom: 16%;
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+  gap: var(--bar-gap);
+}
+
+.bar-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  background: transparent;
+}
+
+.status-bar {
+  display: flex;
+  align-items: center;
+}
+
+.health-bar {
+  gap: 0.5vh;
+}
+
+.heart-segment {
+  position: relative;
+  width: var(--heart-size);
+  height: var(--heart-size);
+  flex: 0 0 auto;
+}
+
+.heart-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  user-select: none;
+}
+
+.heart-alive-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  overflow: hidden;
+  will-change: width;
+}
+
+.heart-alive-mask .heart-alive {
+  inset: auto;
+  top: 0;
+  left: 0;
+  width: var(--heart-size);
+  height: var(--heart-size);
+  max-width: none;
+}
+
+.heart-outline {
+  z-index: 2;
+}
+
+.ammo-bar {
+  gap: 0;
+  line-height: 0;
+  --active-ammo-width: var(--ammo-width-pistol);
+}
+
+.ammo-bar.pistol-ammo {
+  --active-ammo-width: var(--ammo-width-pistol);
+}
+
+.ammo-bar.shotgun-ammo {
+  --active-ammo-width: var(--ammo-width-shotgun);
+}
+
+.ammo-segment {
+  width: var(--active-ammo-width);
+  height: var(--ammo-height);
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
+  transition: width 0.15s ease;
+}
+
+.ammo-pip {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+#effect {
+  position: fixed;
+  inset: 0;
+  z-index: 150;
+  pointer-events: none;
+  background-color: transparent;
+}
+
+#damage-vignette {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  pointer-events: none;
+  opacity: 0;
+  will-change: opacity;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 0, 0, 0) 36%,
+    rgba(255, 0, 0, 0.38) 70%,
+    rgba(255, 0, 0, 0.9) 100%
+  );
+}
+
+#damage-vignette.hit-flash {
+  animation: damageVignetteFlash var(--damage-flash-duration) ease-out;
+}
+
+#damage-vignette.hit-flash-strong {
+  animation: damageVignetteFlashStrong var(--damage-flash-duration) ease-out;
+}
+
+@keyframes damageVignetteFlash {
+  0% { opacity: 0; }
+  25% { opacity: 0.82; }
+  100% { opacity: 0; }
+}
+
+@keyframes damageVignetteFlashStrong {
+  0% { opacity: 0; }
+  25% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes toBlack {
+  from { background-color: transparent; }
+  to   { background-color: black; }
+}
+
+@keyframes toTransparent {
+  from { background-color: black; }
+  to   { background-color: transparent; }
+}
+
+.is-black {
+  animation: toBlack var(--fade-duration) forwards;
+}
+
+.is-transparent {
+  animation: toTransparent var(--fade-duration) forwards;
+}
+
+#timer-hud-container {
+  position: fixed;
+  top: 2vh;
+  left: 0;
+  width: 50vw;
+  height: 10vw;
+  z-index: 100;
+  pointer-events: none;
+  border: none;
+  overflow: hidden;
+}

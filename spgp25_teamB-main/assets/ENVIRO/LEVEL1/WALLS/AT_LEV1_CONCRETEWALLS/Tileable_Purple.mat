@@ -1,0 +1,12 @@
+{
+  "materialParams": [
+    "ENVIRO/LEVEL1/WALLS/AT_LEV1_CONCRETEWALLS/Concretewall.png",
+    [
+      0.47843137383461,
+      0.4470588266849518,
+      0.7098039388656616,
+      1.0
+    ]
+  ],
+  "shaderPath": "SHADERS/default.shader"
+}

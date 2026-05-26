@@ -1,0 +1,16 @@
+LVL1_FWD_Road&EndOfThePavement1.png
+size:1525,186
+filter:Linear,Linear
+pma:true
+Left Pav. Dark
+bounds:1325,6,95,178
+offsets:1,1,97,180
+Middle Pav. Dark
+bounds:1022,27,301,157
+offsets:1,1,303,159
+Right Pav. Dark
+bounds:1422,27,101,157
+offsets:1,1,103,159
+Road
+bounds:2,2,1018,182
+offsets:1,1,1020,184

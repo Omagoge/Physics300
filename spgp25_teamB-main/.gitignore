@@ -1,0 +1,51 @@
+# Ignore binary files
+[Bb]in/
+*[Bb]uild*/
+[Oo]ut/
+
+# let exteral librarys manage their own .gitignore
+!lib/**
+
+# Ignore Logs
+logs/
+
+# Ignore tests logs
+Testing/
+
+# IDE Files
+.cache/
+.idea/
+.vs/
+.vscode/
+.clangd
+.xmake/
+
+# Files to ignore
+*/[Ll]og/
+*.log
+imgui.ini
+compile_commands.json
+CMakeSettings.json # Generated VS file when you open the solution
+Renderer.settings
+.gdb_history
+docs/Export
+*/toast.data
+
+# Dont ignore assets imgui
+!assets/imgui.ini
+
+external/
+
+config/
+
+!assets/**
+
+# dante moment
+# just use llvm ngl ts pmo
+.gdb_history
+# Renderer.settings
+
+# fmod shit
+.unsaved/
+.user/
+assets/toast.data

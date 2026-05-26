@@ -1,0 +1,1424 @@
+{
+  "type": "LevelScene",
+  "name": "Level_Selector",
+  "enabled": true,
+  "children": [
+    {
+      "type": "Actor",
+      "name": "ToTheLeft",
+      "enabled": true,
+      "children": [
+        {
+          "type": "ShootTrigger",
+          "name": "Level6",
+          "enabled": true,
+          "children": [
+            {
+              "type": "Rigidbody",
+              "name": "Rigidbody_130",
+              "enabled": true,
+              "children": null,
+              "radius": 1.0,
+              "infinite_mass": false,
+              "mass": 0.0,
+              "friction": 0.2,
+              "hasGravity": true,
+              "gravityScale": [
+                0.0,
+                0.0
+              ],
+              "hasDrag": true,
+              "drag": [
+                0.5,
+                0.5
+              ],
+              "restitution": 0.6,
+              "restitutionThreshold": 0.5,
+              "minimumVelocity": [
+                0.10000000149011612,
+                0.10000000149011612
+              ],
+              "ignorePlayer": false,
+              "debug.show": true,
+              "debug.defaultColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "debug.collidingColor": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+              ],
+              "debug.skipResolution": false,
+              "flags": 4
+            }
+          ],
+          "transform": {
+            "position": [
+              -107.89177703857422,
+              27.749771118164063,
+              -6.103515625e-05
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "world": 0,
+          "level": 5
+        },
+        {
+          "type": "ShootTrigger",
+          "name": "Level5",
+          "enabled": true,
+          "children": [
+            {
+              "type": "Rigidbody",
+              "name": "Rigidbody_130",
+              "enabled": true,
+              "children": null,
+              "radius": 1.0,
+              "infinite_mass": false,
+              "mass": 0.0,
+              "friction": 0.2,
+              "hasGravity": true,
+              "gravityScale": [
+                0.0,
+                0.0
+              ],
+              "hasDrag": true,
+              "drag": [
+                0.5,
+                0.5
+              ],
+              "restitution": 0.6,
+              "restitutionThreshold": 0.5,
+              "minimumVelocity": [
+                0.10000000149011612,
+                0.10000000149011612
+              ],
+              "ignorePlayer": false,
+              "debug.show": true,
+              "debug.defaultColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "debug.collidingColor": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+              ],
+              "debug.skipResolution": false,
+              "flags": 4
+            }
+          ],
+          "transform": {
+            "position": [
+              -72.30331420898438,
+              27.749771118164063,
+              -6.103515625e-05
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "world": 0,
+          "level": 5
+        },
+        {
+          "type": "ShootTrigger",
+          "name": "Level4",
+          "enabled": true,
+          "children": [
+            {
+              "type": "Rigidbody",
+              "name": "Rigidbody_130",
+              "enabled": true,
+              "children": null,
+              "radius": 1.0,
+              "infinite_mass": false,
+              "mass": 0.0,
+              "friction": 0.2,
+              "hasGravity": true,
+              "gravityScale": [
+                0.0,
+                0.0
+              ],
+              "hasDrag": true,
+              "drag": [
+                0.5,
+                0.5
+              ],
+              "restitution": 0.6,
+              "restitutionThreshold": 0.5,
+              "minimumVelocity": [
+                0.10000000149011612,
+                0.10000000149011612
+              ],
+              "ignorePlayer": false,
+              "debug.show": true,
+              "debug.defaultColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "debug.collidingColor": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+              ],
+              "debug.skipResolution": false,
+              "flags": 4
+            }
+          ],
+          "transform": {
+            "position": [
+              -19.547805786132813,
+              36.58314514160156,
+              -6.103515625e-05
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "world": 0,
+          "level": 4
+        },
+        {
+          "type": "Actor",
+          "name": "Floor",
+          "enabled": true,
+          "children": [
+            {
+              "type": "Collider",
+              "name": "Floor",
+              "enabled": true,
+              "children": null,
+              "points": [
+                [
+                  1.0,
+                  1.0
+                ],
+                [
+                  -1.0,
+                  1.0
+                ],
+                [
+                  -1.0,
+                  -1.0
+                ],
+                [
+                  1.0,
+                  -1.0
+                ]
+              ],
+              "friction": 0.4,
+              "debug.showPoints": true,
+              "debug.showColliders": true,
+              "debug.showNormals": false,
+              "flags": 1,
+              "data.forceLeft": false
+            }
+          ],
+          "transform": {
+            "position": [
+              -67.33829498291016,
+              10.110549926757813,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              46.5,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "type": "Actor",
+          "name": "Slide",
+          "enabled": true,
+          "children": [
+            {
+              "type": "Collider",
+              "name": "Sllide",
+              "enabled": true,
+              "children": null,
+              "points": [
+                [
+                  -23.0,
+                  25.0
+                ],
+                [
+                  -21.259443283081055,
+                  23.609695434570313
+                ],
+                [
+                  -20.798198699951172,
+                  10.222498893737793
+                ],
+                [
+                  -66.69622039794922,
+                  10.74028491973877
+                ],
+                [
+                  -57.34161376953125,
+                  12.667105674743652
+                ],
+                [
+                  -56.120357513427734,
+                  12.957681655883789
+                ],
+                [
+                  -54.951141357421875,
+                  13.315587997436523
+                ],
+                [
+                  -53.83396911621094,
+                  13.740823745727539
+                ],
+                [
+                  -52.76885223388672,
+                  14.233392715454102
+                ],
+                [
+                  -51.755767822265625,
+                  14.793290138244629
+                ],
+                [
+                  -44.35283660888672,
+                  19.24502182006836
+                ],
+                [
+                  -42.62173843383789,
+                  20.348369598388672
+                ],
+                [
+                  -40.897178649902344,
+                  21.268016815185547
+                ],
+                [
+                  -39.17914581298828,
+                  22.003965377807617
+                ],
+                [
+                  -37.4676513671875,
+                  22.55621337890625
+                ],
+                [
+                  -35.762691497802734,
+                  22.924760818481445
+                ]
+              ],
+              "friction": 0.4,
+              "debug.showPoints": true,
+              "debug.showColliders": true,
+              "debug.showNormals": false,
+              "flags": 1,
+              "data.forceLeft": false
+            }
+          ],
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          6.103515625e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "Level",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Actor",
+          "name": "Floor2",
+          "enabled": true,
+          "children": [
+            {
+              "type": "Collider",
+              "name": "Collider",
+              "enabled": true,
+              "children": null,
+              "points": [
+                [
+                  1.0,
+                  -1.0
+                ],
+                [
+                  1.0,
+                  1.0
+                ],
+                [
+                  -1.0,
+                  1.0
+                ],
+                [
+                  -1.0,
+                  -1.0
+                ]
+              ],
+              "friction": 0.4,
+              "debug.showPoints": true,
+              "debug.showColliders": true,
+              "debug.showNormals": false,
+              "flags": 1,
+              "data.forceLeft": false
+            }
+          ],
+          "transform": {
+            "position": [
+              170.0,
+              6.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              60.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "type": "ShootTrigger",
+          "name": "Level1",
+          "enabled": true,
+          "children": [
+            {
+              "type": "Rigidbody",
+              "name": "Rigidbody_130",
+              "enabled": true,
+              "children": null,
+              "radius": 1.0,
+              "infinite_mass": false,
+              "mass": 0.0,
+              "friction": 0.2,
+              "hasGravity": true,
+              "gravityScale": [
+                0.0,
+                0.0
+              ],
+              "hasDrag": true,
+              "drag": [
+                0.5,
+                0.5
+              ],
+              "restitution": 0.6,
+              "restitutionThreshold": 0.5,
+              "minimumVelocity": [
+                0.10000000149011612,
+                0.10000000149011612
+              ],
+              "ignorePlayer": false,
+              "debug.show": true,
+              "debug.defaultColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "debug.collidingColor": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+              ],
+              "debug.skipResolution": false,
+              "flags": 4
+            }
+          ],
+          "transform": {
+            "position": [
+              51.704345703125,
+              16.565555572509766,
+              -6.103515625e-05
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "world": 0,
+          "level": 1
+        },
+        {
+          "type": "Actor",
+          "name": "Pit",
+          "enabled": true,
+          "children": [
+            {
+              "type": "Actor",
+              "name": "Pit_(1)",
+              "enabled": true,
+              "children": [
+                {
+                  "type": "Collider",
+                  "name": "Collider",
+                  "enabled": true,
+                  "children": null,
+                  "points": [
+                    [
+                      1.0,
+                      -1.0
+                    ],
+                    [
+                      1.0,
+                      1.0
+                    ],
+                    [
+                      -1.0,
+                      1.0
+                    ],
+                    [
+                      -1.0,
+                      -1.0
+                    ]
+                  ],
+                  "friction": 0.4,
+                  "debug.showPoints": true,
+                  "debug.showColliders": true,
+                  "debug.showNormals": false,
+                  "flags": 1,
+                  "data.forceLeft": false
+                }
+              ],
+              "transform": {
+                "position": [
+                  117.69699096679688,
+                  1.8338088989257813,
+                  0.0
+                ],
+                "rotation": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  5.699999809265137,
+                  1.0
+                ]
+              }
+            },
+            {
+              "type": "Actor",
+              "name": "Pit",
+              "enabled": true,
+              "children": [
+                {
+                  "type": "Collider",
+                  "name": "Collider",
+                  "enabled": true,
+                  "children": null,
+                  "points": [
+                    [
+                      1.0,
+                      -1.0
+                    ],
+                    [
+                      1.0,
+                      1.0
+                    ],
+                    [
+                      -1.0,
+                      1.0
+                    ],
+                    [
+                      -1.0,
+                      -1.0
+                    ]
+                  ],
+                  "friction": 0.4,
+                  "debug.showPoints": true,
+                  "debug.showColliders": true,
+                  "debug.showNormals": false,
+                  "flags": 1,
+                  "data.forceLeft": false
+                }
+              ],
+              "transform": {
+                "position": [
+                  104.54740905761719,
+                  -4.0,
+                  0.0
+                ],
+                "rotation": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  12.800000190734863,
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            {
+              "type": "Actor",
+              "name": "Pit_(0)",
+              "enabled": true,
+              "children": [
+                {
+                  "type": "Collider",
+                  "name": "Collider",
+                  "enabled": true,
+                  "children": null,
+                  "points": [
+                    [
+                      1.0,
+                      -1.0
+                    ],
+                    [
+                      1.0,
+                      1.0
+                    ],
+                    [
+                      -1.0,
+                      1.0
+                    ],
+                    [
+                      -1.0,
+                      -1.0
+                    ]
+                  ],
+                  "friction": 0.4,
+                  "debug.showPoints": true,
+                  "debug.showColliders": true,
+                  "debug.showNormals": false,
+                  "flags": 1,
+                  "data.forceLeft": false
+                }
+              ],
+              "transform": {
+                "position": [
+                  91.125,
+                  -2.0,
+                  0.0
+                ],
+                "rotation": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  3.0,
+                  1.0
+                ]
+              }
+            }
+          ],
+          "transform": {
+            "position": [
+              0.0,
+              -2.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "type": "ShootTrigger",
+          "name": "Level0",
+          "enabled": true,
+          "children": [
+            {
+              "type": "Rigidbody",
+              "name": "Rigidbody_130",
+              "enabled": true,
+              "children": null,
+              "radius": 1.0,
+              "infinite_mass": false,
+              "mass": 0.0,
+              "friction": 0.2,
+              "hasGravity": true,
+              "gravityScale": [
+                0.0,
+                0.0
+              ],
+              "hasDrag": true,
+              "drag": [
+                0.5,
+                0.5
+              ],
+              "restitution": 0.6,
+              "restitutionThreshold": 0.5,
+              "minimumVelocity": [
+                0.10000000149011612,
+                0.10000000149011612
+              ],
+              "ignorePlayer": false,
+              "debug.show": true,
+              "debug.defaultColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "debug.collidingColor": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+              ],
+              "debug.skipResolution": false,
+              "flags": 4
+            }
+          ],
+          "transform": {
+            "position": [
+              0.11309814453125,
+              16.565555572509766,
+              -6.103515625e-05
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "world": 0,
+          "level": 0
+        },
+        {
+          "type": "Actor",
+          "name": "Steps",
+          "enabled": true,
+          "children": [
+            {
+              "type": "Actor",
+              "name": "Floor4_(1)",
+              "enabled": true,
+              "children": [
+                {
+                  "type": "Collider",
+                  "name": "Collider",
+                  "enabled": true,
+                  "children": null,
+                  "points": [
+                    [
+                      1.0,
+                      -1.0
+                    ],
+                    [
+                      1.0,
+                      1.0
+                    ],
+                    [
+                      -1.0,
+                      1.0
+                    ],
+                    [
+                      -1.0,
+                      -1.0
+                    ]
+                  ],
+                  "friction": 0.4,
+                  "debug.showPoints": true,
+                  "debug.showColliders": true,
+                  "debug.showNormals": false,
+                  "flags": 1,
+                  "data.forceLeft": false
+                }
+              ],
+              "transform": {
+                "position": [
+                  15.0,
+                  24.0,
+                  0.0
+                ],
+                "rotation": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  38.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            {
+              "type": "Actor",
+              "name": "Floor4",
+              "enabled": true,
+              "children": [
+                {
+                  "type": "Collider",
+                  "name": "Collider",
+                  "enabled": true,
+                  "children": null,
+                  "points": [
+                    [
+                      1.0,
+                      -1.0
+                    ],
+                    [
+                      1.0,
+                      1.0
+                    ],
+                    [
+                      -1.0,
+                      1.0
+                    ],
+                    [
+                      -1.0,
+                      -1.0
+                    ]
+                  ],
+                  "friction": 0.4,
+                  "debug.showPoints": true,
+                  "debug.showColliders": true,
+                  "debug.showNormals": false,
+                  "flags": 1,
+                  "data.forceLeft": false
+                }
+              ],
+              "transform": {
+                "position": [
+                  70.0,
+                  18.0,
+                  0.0
+                ],
+                "rotation": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  6.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            },
+            {
+              "type": "Actor",
+              "name": "Floor3",
+              "enabled": true,
+              "children": [
+                {
+                  "type": "Collider",
+                  "name": "Collider",
+                  "enabled": true,
+                  "children": null,
+                  "points": [
+                    [
+                      1.0,
+                      -1.0
+                    ],
+                    [
+                      1.0,
+                      1.0
+                    ],
+                    [
+                      -1.0,
+                      1.0
+                    ],
+                    [
+                      -1.0,
+                      -1.0
+                    ]
+                  ],
+                  "friction": 0.4,
+                  "debug.showPoints": true,
+                  "debug.showColliders": true,
+                  "debug.showNormals": false,
+                  "flags": 1,
+                  "data.forceLeft": false
+                }
+              ],
+              "transform": {
+                "position": [
+                  93.0,
+                  12.0,
+                  0.0
+                ],
+                "rotation": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  6.0,
+                  1.0,
+                  1.0
+                ]
+              }
+            }
+          ],
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "type": "Actor",
+          "name": "Wall",
+          "enabled": true,
+          "children": [
+            {
+              "type": "Collider",
+              "name": "Collider",
+              "enabled": true,
+              "children": null,
+              "points": [
+                [
+                  1.0,
+                  -1.0
+                ],
+                [
+                  1.0,
+                  1.0
+                ],
+                [
+                  -1.0,
+                  1.0
+                ],
+                [
+                  -1.0,
+                  -1.0
+                ]
+              ],
+              "friction": 0.4,
+              "debug.showPoints": true,
+              "debug.showColliders": true,
+              "debug.showNormals": false,
+              "flags": 1,
+              "data.forceLeft": false
+            }
+          ],
+          "transform": {
+            "position": [
+              -20.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              23.899999618530273,
+              1.0
+            ]
+          }
+        },
+        {
+          "type": "Actor",
+          "name": "Floor",
+          "enabled": true,
+          "children": [
+            {
+              "type": "Collider",
+              "name": "Collider",
+              "enabled": true,
+              "children": null,
+              "points": [
+                [
+                  1.0,
+                  -1.0
+                ],
+                [
+                  1.0,
+                  1.0
+                ],
+                [
+                  -1.0,
+                  1.0
+                ],
+                [
+                  -1.0,
+                  -1.0
+                ]
+              ],
+              "friction": 0.4,
+              "debug.showPoints": true,
+              "debug.showColliders": true,
+              "debug.showNormals": false,
+              "flags": 1,
+              "data.forceLeft": false
+            }
+          ],
+          "transform": {
+            "position": [
+              39.01409912109375,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              60.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "type": "ShootTrigger",
+          "name": "Level2",
+          "enabled": true,
+          "children": [
+            {
+              "type": "Rigidbody",
+              "name": "Rigidbody_130",
+              "enabled": true,
+              "children": null,
+              "radius": 1.0,
+              "infinite_mass": false,
+              "mass": 0.0,
+              "friction": 0.2,
+              "hasGravity": true,
+              "gravityScale": [
+                0.0,
+                0.0
+              ],
+              "hasDrag": true,
+              "drag": [
+                0.5,
+                0.5
+              ],
+              "restitution": 0.6,
+              "restitutionThreshold": 0.5,
+              "minimumVelocity": [
+                0.10000000149011612,
+                0.10000000149011612
+              ],
+              "ignorePlayer": false,
+              "debug.show": true,
+              "debug.defaultColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "debug.collidingColor": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+              ],
+              "debug.skipResolution": false,
+              "flags": 4
+            }
+          ],
+          "transform": {
+            "position": [
+              104.59280395507813,
+              19.412784576416016,
+              -6.103515625e-05
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "world": 0,
+          "level": 2
+        },
+        {
+          "type": "Actor",
+          "name": "Level1_(0)",
+          "enabled": true,
+          "children": [
+            {
+              "type": "Actor",
+              "name": "Ramp",
+              "enabled": true,
+              "children": [
+                {
+                  "type": "Collider",
+                  "name": "Collider_(0)",
+                  "enabled": true,
+                  "children": null,
+                  "points": [
+                    [
+                      1.2000000476837158,
+                      -1.0066325664520264
+                    ],
+                    [
+                      1.1999998092651367,
+                      0.3206644058227539
+                    ],
+                    [
+                      0.7677377462387085,
+                      -0.3058282136917114
+                    ],
+                    [
+                      0.6819660067558289,
+                      -0.40448254346847534
+                    ],
+                    [
+                      0.5719659328460693,
+                      -0.4894825518131256
+                    ],
+                    [
+                      0.4377376437187195,
+                      -0.5608282089233398
+                    ],
+                    [
+                      0.27928102016448975,
+                      -0.6185194253921509
+                    ],
+                    [
+                      -1.0,
+                      -1.0
+                    ]
+                  ],
+                  "friction": 0.4,
+                  "debug.showPoints": true,
+                  "debug.showColliders": true,
+                  "debug.showNormals": false,
+                  "flags": 1,
+                  "data.forceLeft": false
+                }
+              ],
+              "transform": {
+                "position": [
+                  31.795726776123047,
+                  4.0,
+                  -0.00012207086547277868
+                ],
+                "rotation": [
+                  1.0,
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  9.0,
+                  3.0,
+                  1.0
+                ]
+              }
+            },
+            {
+              "type": "Actor",
+              "name": "Ramp2",
+              "enabled": true,
+              "children": [
+                {
+                  "type": "Collider",
+                  "name": "Collider_(0)",
+                  "enabled": true,
+                  "children": null,
+                  "points": [
+                    [
+                      1.1999988555908203,
+                      -0.6021209955215454
+                    ],
+                    [
+                      1.2000000476837158,
+                      0.6999999284744263
+                    ],
+                    [
+                      -1.0,
+                      0.7000059485435486
+                    ],
+                    [
+                      0.3371473550796509,
+                      0.32493364810943604
+                    ],
+                    [
+                      0.538665771484375,
+                      0.25138339400291443
+                    ],
+                    [
+                      0.6975052356719971,
+                      0.15575671195983887
+                    ],
+                    [
+                      0.8136657476425171,
+                      0.03805358707904816
+                    ],
+                    [
+                      0.8871473670005798,
+                      -0.10172596573829651
+                    ]
+                  ],
+                  "friction": 0.4,
+                  "debug.showPoints": true,
+                  "debug.showColliders": true,
+                  "debug.showNormals": false,
+                  "flags": 1,
+                  "data.forceLeft": false
+                }
+              ],
+              "transform": {
+                "position": [
+                  72.1113052368164,
+                  2.962414503097534,
+                  -0.00012207086547277868
+                ],
+                "rotation": [
+                  9.099629210140847e-07,
+                  0.0,
+                  -0.0,
+                  -1.0
+                ],
+                "scale": [
+                  9.0,
+                  3.0,
+                  1.0
+                ]
+              }
+            }
+          ],
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "type": "ShootTrigger",
+          "name": "Level3",
+          "enabled": true,
+          "children": [
+            {
+              "type": "Rigidbody",
+              "name": "Rigidbody_130",
+              "enabled": true,
+              "children": null,
+              "radius": 1.0,
+              "infinite_mass": false,
+              "mass": 0.0,
+              "friction": 0.2,
+              "hasGravity": true,
+              "gravityScale": [
+                0.0,
+                0.0
+              ],
+              "hasDrag": true,
+              "drag": [
+                0.5,
+                0.5
+              ],
+              "restitution": 0.6,
+              "restitutionThreshold": 0.5,
+              "minimumVelocity": [
+                0.10000000149011612,
+                0.10000000149011612
+              ],
+              "ignorePlayer": false,
+              "debug.show": true,
+              "debug.defaultColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ],
+              "debug.collidingColor": [
+                0.0,
+                1.0,
+                0.0,
+                1.0
+              ],
+              "debug.skipResolution": false,
+              "flags": 4
+            }
+          ],
+          "transform": {
+            "position": [
+              51.68175506591797,
+              36.58314514160156,
+              -6.103515625e-05
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          "world": 0,
+          "level": 3
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          6.103515625e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "format": "scene",
+  "file_path": "SCENES/Level_Selector.scene",
+  "camMin": [
+    -100.0,
+    0.0
+  ],
+  "camMax": [
+    200.0,
+    20.0
+  ],
+  "playerSpawn": [
+    0.0,
+    3.0
+  ]
+}

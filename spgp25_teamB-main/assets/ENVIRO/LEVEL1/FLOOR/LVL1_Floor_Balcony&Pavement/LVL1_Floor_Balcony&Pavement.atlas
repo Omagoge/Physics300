@@ -1,0 +1,35 @@
+LVL1_Floor_Balcony&Pavement.png
+size:640,517
+filter:Linear,Linear
+pma:true
+FE 1 Back and Floor
+bounds:2,50,465,200
+offsets:1,1,467,203
+rotate:90
+FE 1 Front
+bounds:204,75,440,179
+offsets:1,1,442,181
+rotate:90
+FE 2 Floor
+bounds:2,2,464,46
+offsets:1,1,466,48
+FE 2 Front
+bounds:385,75,440,179
+offsets:1,1,442,181
+rotate:90
+Left Pav
+bounds:603,117,95,35
+offsets:1,1,97,37
+rotate:90
+Middle Pav
+bounds:603,214,301,35
+offsets:1,1,303,37
+rotate:90
+Middle Pav. Sewers
+bounds:566,214,301,35
+offsets:1,1,303,37
+rotate:90
+Right Pav
+bounds:566,111,101,35
+offsets:1,1,103,37
+rotate:90

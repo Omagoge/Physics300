@@ -1,0 +1,430 @@
+{
+  "type": "LevelScene",
+  "name": "Gravity_Test",
+  "enabled": true,
+  "children": [
+    {
+      "type": "Actor",
+      "name": "Colliders",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Collider",
+          "name": "Collider_40_(3)",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              37.394283294677734,
+              -5.994619369506836
+            ],
+            [
+              41.555606842041016,
+              -6.022802352905273
+            ],
+            [
+              41.533695220947266,
+              -17.072301864624023
+            ],
+            [
+              57.39426040649414,
+              -17.072301864624023
+            ],
+            [
+              57.39426040649414,
+              -19.072298049926758
+            ],
+            [
+              37.39425277709961,
+              -19.072298049926758
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 1,
+          "data.forceLeft": false
+        },
+        {
+          "type": "Collider",
+          "name": "Collider_31",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              -5.0,
+              0.0
+            ],
+            [
+              5.0,
+              0.0
+            ],
+            [
+              15.0,
+              3.0
+            ],
+            [
+              25.0,
+              3.0
+            ],
+            [
+              25.0,
+              -10.0
+            ],
+            [
+              -5.0,
+              -10.0
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 1,
+          "data.forceLeft": false
+        },
+        {
+          "type": "Collider",
+          "name": "Collider_40",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              50.0,
+              -1.1920928955078125e-07
+            ],
+            [
+              75.1855697631836,
+              -1.1920928955078125e-07
+            ],
+            [
+              96.33015441894531,
+              3.49658203125
+            ],
+            [
+              96.33015441894531,
+              -5.0
+            ],
+            [
+              50.0,
+              -5.0
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 1,
+          "data.forceLeft": false
+        },
+        {
+          "type": "Collider",
+          "name": "Collider_40_(2)",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              92.70265197753906,
+              -13.656242370605469
+            ],
+            [
+              112.70265197753906,
+              -13.656242370605469
+            ],
+            [
+              112.70265197753906,
+              -15.656238555908203
+            ],
+            [
+              92.70265197753906,
+              -15.656238555908203
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 1,
+          "data.forceLeft": false
+        },
+        {
+          "type": "Collider",
+          "name": "Collider_32",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              24.98134994506836,
+              -6.978485107421875
+            ],
+            [
+              24.981346130371094,
+              19.027023315429688
+            ],
+            [
+              42.28234100341797,
+              19.027023315429688
+            ],
+            [
+              42.28234100341797,
+              -6.978485107421875
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 1,
+          "data.forceLeft": false
+        },
+        {
+          "type": "Collider",
+          "name": "Collider_40_(0)",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              53.490020751953125,
+              12.862163543701172
+            ],
+            [
+              73.49002075195313,
+              12.862163543701172
+            ],
+            [
+              73.49002075195313,
+              10.862163543701172
+            ],
+            [
+              53.490020751953125,
+              10.862163543701172
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 1,
+          "data.forceLeft": false
+        },
+        {
+          "type": "Collider",
+          "name": "Collider_40_(1)",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              75.18045043945313,
+              25.692440032958984
+            ],
+            [
+              95.18045043945313,
+              25.692440032958984
+            ],
+            [
+              95.18045043945313,
+              23.692440032958984
+            ],
+            [
+              75.18045043945313,
+              23.692440032958984
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 1,
+          "data.forceLeft": false
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "GravPointList",
+      "name": "GravPointList_33",
+      "enabled": true,
+      "children": [
+        {
+          "type": "GravPoint",
+          "name": "GravPoint_35",
+          "enabled": true,
+          "children": [
+            {
+              "type": "MeshRendererComponent",
+              "name": "MeshRendererComponent_36",
+              "enabled": true,
+              "children": null,
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "meshPath": "MODELS/quad.obj",
+              "materialPath": "WHITEBOXING/MAGNENT.mat"
+            }
+          ],
+          "transform": {
+            "position": [
+              28.74414825439453,
+              30.201019287109375,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "type": "GravPoint",
+          "name": "GravPoint_44",
+          "enabled": true,
+          "children": [
+            {
+              "type": "MeshRendererComponent",
+              "name": "MeshRendererComponent_45",
+              "enabled": true,
+              "children": null,
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "meshPath": "MODELS/quad.obj",
+              "materialPath": "WHITEBOXING/MAGNENT.mat"
+            }
+          ],
+          "transform": {
+            "position": [
+              85.23040771484375,
+              30.913002014160156,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "type": "GravPoint",
+          "name": "GravPoint_102",
+          "enabled": true,
+          "children": [
+            {
+              "type": "MeshRendererComponent",
+              "name": "MeshRendererComponent_103",
+              "enabled": true,
+              "children": null,
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "meshPath": "MODELS/quad.obj",
+              "materialPath": "WHITEBOXING/MAGNENT.mat"
+            }
+          ],
+          "transform": {
+            "position": [
+              94.4472427368164,
+              -0.8027534484863281,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "format": "scene",
+  "file_path": "SCENES/Gravity_Test.scene",
+  "camMin": [
+    -10.0,
+    -18.0
+  ],
+  "camMax": [
+    120.0,
+    50.0
+  ],
+  "playerSpawn": [
+    0.0,
+    1.0
+  ]
+}

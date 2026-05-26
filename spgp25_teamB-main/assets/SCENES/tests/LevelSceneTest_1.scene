@@ -1,0 +1,20 @@
+{
+  "type": "LevelScene",
+  "name": "LevelSceneTest_1",
+  "enabled": true,
+  "children": null,
+  "format": "scene",
+  "file_path": "SCENES/LevelSceneTest_1.scene",
+  "camMin": [
+    -10.0,
+    -10.0
+  ],
+  "camMax": [
+    120.0,
+    20.0
+  ],
+  "playerSpawn": [
+    0.0,
+    0.0
+  ]
+}

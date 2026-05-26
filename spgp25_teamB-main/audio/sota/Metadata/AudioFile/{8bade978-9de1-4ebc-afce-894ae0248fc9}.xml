@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{8bade978-9de1-4ebc-afce-894ae0248fc9}">
+		<property name="color">
+			<value>Blue Light 1</value>
+		</property>
+		<property name="assetPath">
+			<value>music/city/Drums_Intro.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>7.0588333333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fc20db48-1b46-4e5d-88b7-cab459d400e1}</destination>
+		</relationship>
+	</object>
+</objects>

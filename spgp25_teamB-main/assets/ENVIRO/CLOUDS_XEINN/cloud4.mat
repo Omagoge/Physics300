@@ -1,0 +1,12 @@
+{
+  "materialParams": [
+    "ENVIRO/CLOUDS_XEINN/cloud4.png",
+    [
+      0.4470588266849518,
+      0.4470588266849518,
+      0.4470588266849518,
+      0.8313725590705872
+    ]
+  ],
+  "shaderPath": "SHADERS/default.shader"
+}

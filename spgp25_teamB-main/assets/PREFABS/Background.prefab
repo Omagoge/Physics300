@@ -1,0 +1,4551 @@
+{
+  "type": "Actor",
+  "name": "Background",
+  "enabled": true,
+  "children": [
+    {
+      "type": "Actor",
+      "name": "BuildingGroup",
+      "enabled": true,
+      "children": [
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            -189.02938842773438,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99447250366211,
+            10.0,
+            9.99447250366211
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -5.375083923339844,
+            -16.774559020996094,
+            -15.145530700683594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.999773025512695,
+            10.0,
+            9.999773025512695
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(0)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            172.00689697265625,
+            -67.5296401977539,
+            -37.642303466796875
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.997032165527344,
+            10.0,
+            9.997032165527344
+          ],
+          "meshPath": "MODELS/Building2.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -79.57718658447266,
+            -67.67366790771484,
+            -15.145561218261719
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99743938446045,
+            10.0,
+            9.99743938446045
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            37.73572540283203,
+            -62.06562042236328,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.997010231018066,
+            10.0,
+            9.997010231018066
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)_(2)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -79.57740020751953,
+            44.39533233642578,
+            -15.145561218261719
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.999247550964355,
+            10.0,
+            9.999247550964355
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(10)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.57809448242188,
+            -132.80718994140625,
+            -62.0345458984375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992369651794434,
+            10.0,
+            9.992369651794434
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(2)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -84.33059692382813,
+            -135.58367919921875,
+            -224.90414428710938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.997942924499512,
+            10.0,
+            9.997942924499512
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            125.58073425292969,
+            -29.671058654785156,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99640941619873,
+            10.0,
+            9.99640941619873
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(4)_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -83.39140319824219,
+            -30.88048553466797,
+            -75.71025085449219
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995319366455078,
+            10.0,
+            9.995319366455078
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(4)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            78.43377685546875,
+            -75.2252426147461,
+            -83.13809204101563
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995001792907715,
+            10.0,
+            9.995001792907715
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            125.58092498779297,
+            -138.24960327148438,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995802879333496,
+            10.0,
+            9.995802879333496
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            78.43389892578125,
+            -186.69754028320313,
+            -83.13809204101563
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993416786193848,
+            10.0,
+            9.993416786193848
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            37.735939025878906,
+            -173.60980224609375,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99618148803711,
+            10.0,
+            9.99618148803711
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            222.30734252929688,
+            40.06901550292969,
+            -7.741878509521484
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993193626403809,
+            10.0,
+            9.993193626403809
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.6986312866211,
+            32.268028259277344,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995110511779785,
+            10.0,
+            9.995110511779785
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.69853973388672,
+            -78.99706268310547,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993517875671387,
+            10.0,
+            9.993517875671387
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.69845581054688,
+            -183.52764892578125,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992738723754883,
+            10.0,
+            9.992738723754883
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            32.60011291503906,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995380401611328,
+            10.0,
+            9.995380401611328
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            -78.92717742919922,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.994906425476074,
+            10.0,
+            9.994906425476074
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)_(2)_(3)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            173.6319580078125,
+            -58.354026794433594,
+            -101.89105224609375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.998745918273926,
+            10.0,
+            9.998745918273926
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            173.63192749023438,
+            -169.07748413085938,
+            -101.89105224609375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.998273849487305,
+            10.0,
+            9.998273849487305
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            11.61912727355957,
+            -29.76287078857422,
+            -101.79922485351563
+          ],
+          "rotation": [
+            0.6810600161552429,
+            -1.0351209311920684e-05,
+            0.732227623462677,
+            8.85516874404857e-06
+          ],
+          "scale": [
+            9.997781753540039,
+            10.0,
+            9.997781753540039
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)_(10)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            216.45993041992188,
+            -28.191505432128906,
+            -73.27197265625
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992382049560547,
+            10.0,
+            9.992382049560547
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            11.622146606445313,
+            -140.61083984375,
+            -101.79922485351563
+          ],
+          "rotation": [
+            0.6810600161552429,
+            -1.0351209311920684e-05,
+            0.732227623462677,
+            8.85516874404857e-06
+          ],
+          "scale": [
+            9.997815132141113,
+            10.0,
+            9.997815132141113
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)_(10)_(11)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            178.85137939453125,
+            -18.480323791503906,
+            14.31271743774414
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.994270324707031,
+            10.0,
+            9.994270324707031
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(7)_(8)_(9)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            222.30734252929688,
+            -68.7654037475586,
+            -7.741878509521484
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992138862609863,
+            10.0,
+            9.992138862609863
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(11)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            178.85122680664063,
+            -129.04507446289063,
+            14.31271743774414
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993457794189453,
+            10.0,
+            9.993457794189453
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -83.07959747314453,
+            -138.8292236328125,
+            -75.79055786132813
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995771408081055,
+            10.0,
+            9.995771408081055
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        }
+      ],
+      "transform": {
+        "position": [
+          -39.40001678466797,
+          -113.1702651977539,
+          -51.70977783203125
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "BuildingGroup_(1)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -5.375083923339844,
+            -16.774559020996094,
+            -15.145530700683594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.999773025512695,
+            10.0,
+            9.999773025512695
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(0)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            172.00689697265625,
+            -67.5296401977539,
+            -37.642303466796875
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.997032165527344,
+            10.0,
+            9.997032165527344
+          ],
+          "meshPath": "MODELS/Building2.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            37.73572540283203,
+            -62.06562042236328,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.997010231018066,
+            10.0,
+            9.997010231018066
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            173.63192749023438,
+            -169.07748413085938,
+            -101.89105224609375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.998273849487305,
+            10.0,
+            9.998273849487305
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(2)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            125.58073425292969,
+            -29.671058654785156,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99640941619873,
+            10.0,
+            9.99640941619873
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            78.43377685546875,
+            -75.2252426147461,
+            -83.13809204101563
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995001792907715,
+            10.0,
+            9.995001792907715
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)_(2)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -79.57740020751953,
+            44.39533233642578,
+            -15.145561218261719
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.999247550964355,
+            10.0,
+            9.999247550964355
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            32.60011291503906,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995380401611328,
+            10.0,
+            9.995380401611328
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -79.57718658447266,
+            -67.67366790771484,
+            -15.145561218261719
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99743938446045,
+            10.0,
+            9.99743938446045
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            222.30734252929688,
+            -68.7654037475586,
+            -7.741878509521484
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992138862609863,
+            10.0,
+            9.992138862609863
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            11.622146606445313,
+            -140.61083984375,
+            -101.79922485351563
+          ],
+          "rotation": [
+            0.6810600161552429,
+            -1.0351209311920684e-05,
+            0.732227623462677,
+            8.85516874404857e-06
+          ],
+          "scale": [
+            9.997815132141113,
+            10.0,
+            9.997815132141113
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(4)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            125.58092498779297,
+            -138.24960327148438,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995802879333496,
+            10.0,
+            9.995802879333496
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            78.43389892578125,
+            -186.69754028320313,
+            -83.13809204101563
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993416786193848,
+            10.0,
+            9.993416786193848
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            -189.02938842773438,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99447250366211,
+            10.0,
+            9.99447250366211
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            37.735939025878906,
+            -173.60980224609375,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99618148803711,
+            10.0,
+            9.99618148803711
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            222.30734252929688,
+            40.06901550292969,
+            -7.741878509521484
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993193626403809,
+            10.0,
+            9.993193626403809
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.6986312866211,
+            32.268028259277344,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995110511779785,
+            10.0,
+            9.995110511779785
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.69853973388672,
+            -78.99706268310547,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993517875671387,
+            10.0,
+            9.993517875671387
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)_(10)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            216.45993041992188,
+            -28.191505432128906,
+            -73.27197265625
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992382049560547,
+            10.0,
+            9.992382049560547
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.69845581054688,
+            -183.52764892578125,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992738723754883,
+            10.0,
+            9.992738723754883
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            -78.92717742919922,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.994906425476074,
+            10.0,
+            9.994906425476074
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)_(2)_(3)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            173.6319580078125,
+            -58.354026794433594,
+            -101.89105224609375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.998745918273926,
+            10.0,
+            9.998745918273926
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            11.61912727355957,
+            -29.76287078857422,
+            -101.79922485351563
+          ],
+          "rotation": [
+            0.6810600161552429,
+            -1.0351209311920684e-05,
+            0.732227623462677,
+            8.85516874404857e-06
+          ],
+          "scale": [
+            9.997781753540039,
+            10.0,
+            9.997781753540039
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(10)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.57809448242188,
+            -132.80718994140625,
+            -62.0345458984375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992369651794434,
+            10.0,
+            9.992369651794434
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)_(10)_(11)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            178.85137939453125,
+            -18.480323791503906,
+            14.31271743774414
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.994270324707031,
+            10.0,
+            9.994270324707031
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(11)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            178.85122680664063,
+            -129.04507446289063,
+            14.31271743774414
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993457794189453,
+            10.0,
+            9.993457794189453
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -83.07959747314453,
+            -138.8292236328125,
+            -75.79055786132813
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995771408081055,
+            10.0,
+            9.995771408081055
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(4)_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -83.39140319824219,
+            -30.88048553466797,
+            -75.71025085449219
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995319366455078,
+            10.0,
+            9.995319366455078
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        }
+      ],
+      "transform": {
+        "position": [
+          48.6830940246582,
+          -294.68017578125,
+          -310.8302307128906
+        ],
+        "rotation": [
+          0.012212546542286873,
+          -8.987821047412581e-07,
+          0.999925434589386,
+          -8.987821047412581e-07
+        ],
+        "scale": [
+          1.000345230102539,
+          1.0,
+          1.000345230102539
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "BackgroundGracient",
+      "enabled": true,
+      "children": [
+        {
+          "type": "AtlasRendererComponent",
+          "name": "AtlasRendererComponent_61",
+          "enabled": true,
+          "children": [
+            {
+              "type": "AtlasSpriteComponent",
+              "name": "LEV1_BG_Sky_0",
+              "enabled": true,
+              "children": null,
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1000.0,
+                25.0,
+                1.0
+              ],
+              "regionName": "LEV1_BG_Sky",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ],
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "atlasResourcePath": "ENVIRO/LEVEL1/BACK/AT_LEV1_assets_ambiental/AT_LEV1_assets_ambiental.atlas"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_63",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            456.60150146484375,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            833.8453369140625,
+            196.5,
+            1.0
+          ],
+          "meshPath": "MODELS/quad.obj",
+          "materialPath": "ENVIRO/LEVEL1/BACK/AT_LEV1_assets_ambiental/BackgroundBlueSolid.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_63_(0)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            -361.6086120605469,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            833.8453369140625,
+            196.5,
+            1.0
+          ],
+          "meshPath": "MODELS/quad.obj",
+          "materialPath": "ENVIRO/LEVEL1/BACK/AT_LEV1_assets_ambiental/BackgroundYellowSolid.mat"
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          64.0,
+          -276.6879577636719
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "BuildingGroup_(2)_(3)_(4)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -5.375083923339844,
+            -16.774559020996094,
+            -15.145530700683594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.999773025512695,
+            10.0,
+            9.999773025512695
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(0)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            172.00689697265625,
+            -67.5296401977539,
+            -37.642303466796875
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.997032165527344,
+            10.0,
+            9.997032165527344
+          ],
+          "meshPath": "MODELS/Building2.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            37.73572540283203,
+            -62.06562042236328,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.997010231018066,
+            10.0,
+            9.997010231018066
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(2)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            125.58073425292969,
+            -29.671058654785156,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99640941619873,
+            10.0,
+            9.99640941619873
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            78.43377685546875,
+            -75.2252426147461,
+            -83.13809204101563
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995001792907715,
+            10.0,
+            9.995001792907715
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)_(2)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -79.57740020751953,
+            44.39533233642578,
+            -15.145561218261719
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.999247550964355,
+            10.0,
+            9.999247550964355
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -79.57718658447266,
+            -67.67366790771484,
+            -15.145561218261719
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99743938446045,
+            10.0,
+            9.99743938446045
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(4)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            125.58092498779297,
+            -138.24960327148438,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995802879333496,
+            10.0,
+            9.995802879333496
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            78.43389892578125,
+            -186.69754028320313,
+            -83.13809204101563
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993416786193848,
+            10.0,
+            9.993416786193848
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            37.735939025878906,
+            -173.60980224609375,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99618148803711,
+            10.0,
+            9.99618148803711
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            222.30734252929688,
+            40.06901550292969,
+            -7.741878509521484
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993193626403809,
+            10.0,
+            9.993193626403809
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.6986312866211,
+            32.268028259277344,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995110511779785,
+            10.0,
+            9.995110511779785
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.69853973388672,
+            -78.99706268310547,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993517875671387,
+            10.0,
+            9.993517875671387
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.69845581054688,
+            -183.52764892578125,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992738723754883,
+            10.0,
+            9.992738723754883
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            32.60011291503906,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995380401611328,
+            10.0,
+            9.995380401611328
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            -78.92717742919922,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.994906425476074,
+            10.0,
+            9.994906425476074
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            -189.02938842773438,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99447250366211,
+            10.0,
+            9.99447250366211
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)_(2)_(3)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            173.6319580078125,
+            -58.354026794433594,
+            -101.89105224609375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.998745918273926,
+            10.0,
+            9.998745918273926
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            173.63192749023438,
+            -169.07748413085938,
+            -101.89105224609375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.998273849487305,
+            10.0,
+            9.998273849487305
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            11.61912727355957,
+            -29.76287078857422,
+            -101.79922485351563
+          ],
+          "rotation": [
+            0.6810600161552429,
+            -1.0351209311920684e-05,
+            0.732227623462677,
+            8.85516874404857e-06
+          ],
+          "scale": [
+            9.997781753540039,
+            10.0,
+            9.997781753540039
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)_(10)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            216.45993041992188,
+            -28.191505432128906,
+            -73.27197265625
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992382049560547,
+            10.0,
+            9.992382049560547
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(10)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.57809448242188,
+            -132.80718994140625,
+            -62.0345458984375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992369651794434,
+            10.0,
+            9.992369651794434
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            11.622146606445313,
+            -140.61083984375,
+            -101.79922485351563
+          ],
+          "rotation": [
+            0.6810600161552429,
+            -1.0351209311920684e-05,
+            0.732227623462677,
+            8.85516874404857e-06
+          ],
+          "scale": [
+            9.997815132141113,
+            10.0,
+            9.997815132141113
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)_(10)_(11)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            178.85137939453125,
+            -18.480323791503906,
+            14.31271743774414
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.994270324707031,
+            10.0,
+            9.994270324707031
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            222.30734252929688,
+            -68.7654037475586,
+            -7.741878509521484
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992138862609863,
+            10.0,
+            9.992138862609863
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(11)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            178.85122680664063,
+            -129.04507446289063,
+            14.31271743774414
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993457794189453,
+            10.0,
+            9.993457794189453
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -83.07959747314453,
+            -138.8292236328125,
+            -75.79055786132813
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995771408081055,
+            10.0,
+            9.995771408081055
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(4)_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -83.39140319824219,
+            -30.88048553466797,
+            -75.71025085449219
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995319366455078,
+            10.0,
+            9.995319366455078
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        }
+      ],
+      "transform": {
+        "position": [
+          461.2608947753906,
+          -61.13877487182617,
+          -205.27047729492188
+        ],
+        "rotation": [
+          0.3900492191314697,
+          -4.829580575460568e-07,
+          0.9207940101623535,
+          -4.829580575460568e-07
+        ],
+        "scale": [
+          1.0003507137298584,
+          1.0,
+          1.0003507137298584
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "BuildingGroup_(2)_(3)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -5.375083923339844,
+            -16.774559020996094,
+            -15.145530700683594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.999773025512695,
+            10.0,
+            9.999773025512695
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(4)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            125.58092498779297,
+            -138.24960327148438,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995802879333496,
+            10.0,
+            9.995802879333496
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            37.73572540283203,
+            -62.06562042236328,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.997010231018066,
+            10.0,
+            9.997010231018066
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(0)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            172.00689697265625,
+            -67.5296401977539,
+            -37.642303466796875
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.997032165527344,
+            10.0,
+            9.997032165527344
+          ],
+          "meshPath": "MODELS/Building2.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(2)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            125.58073425292969,
+            -29.671058654785156,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99640941619873,
+            10.0,
+            9.99640941619873
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            78.43377685546875,
+            -75.2252426147461,
+            -83.13809204101563
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995001792907715,
+            10.0,
+            9.995001792907715
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)_(2)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -79.57740020751953,
+            44.39533233642578,
+            -15.145561218261719
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.999247550964355,
+            10.0,
+            9.999247550964355
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -79.57718658447266,
+            -67.67366790771484,
+            -15.145561218261719
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99743938446045,
+            10.0,
+            9.99743938446045
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            78.43389892578125,
+            -186.69754028320313,
+            -83.13809204101563
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993416786193848,
+            10.0,
+            9.993416786193848
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            37.735939025878906,
+            -173.60980224609375,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99618148803711,
+            10.0,
+            9.99618148803711
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            222.30734252929688,
+            40.06901550292969,
+            -7.741878509521484
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993193626403809,
+            10.0,
+            9.993193626403809
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.6986312866211,
+            32.268028259277344,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995110511779785,
+            10.0,
+            9.995110511779785
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.69853973388672,
+            -78.99706268310547,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993517875671387,
+            10.0,
+            9.993517875671387
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.69845581054688,
+            -183.52764892578125,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992738723754883,
+            10.0,
+            9.992738723754883
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            32.60011291503906,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995380401611328,
+            10.0,
+            9.995380401611328
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            -78.92717742919922,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.994906425476074,
+            10.0,
+            9.994906425476074
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            -189.02938842773438,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99447250366211,
+            10.0,
+            9.99447250366211
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)_(2)_(3)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            173.6319580078125,
+            -58.354026794433594,
+            -101.89105224609375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.998745918273926,
+            10.0,
+            9.998745918273926
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            173.63192749023438,
+            -169.07748413085938,
+            -101.89105224609375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.998273849487305,
+            10.0,
+            9.998273849487305
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -83.07959747314453,
+            -138.8292236328125,
+            -75.79055786132813
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995771408081055,
+            10.0,
+            9.995771408081055
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            11.61912727355957,
+            -29.76287078857422,
+            -101.79922485351563
+          ],
+          "rotation": [
+            0.6810600161552429,
+            -1.0351209311920684e-05,
+            0.732227623462677,
+            8.85516874404857e-06
+          ],
+          "scale": [
+            9.997781753540039,
+            10.0,
+            9.997781753540039
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)_(10)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            216.45993041992188,
+            -28.191505432128906,
+            -73.27197265625
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992382049560547,
+            10.0,
+            9.992382049560547
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(10)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.57809448242188,
+            -132.80718994140625,
+            -62.0345458984375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992369651794434,
+            10.0,
+            9.992369651794434
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            11.622146606445313,
+            -140.61083984375,
+            -101.79922485351563
+          ],
+          "rotation": [
+            0.6810600161552429,
+            -1.0351209311920684e-05,
+            0.732227623462677,
+            8.85516874404857e-06
+          ],
+          "scale": [
+            9.997815132141113,
+            10.0,
+            9.997815132141113
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)_(10)_(11)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            178.85137939453125,
+            -18.480323791503906,
+            14.31271743774414
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.994270324707031,
+            10.0,
+            9.994270324707031
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            222.30734252929688,
+            -68.7654037475586,
+            -7.741878509521484
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992138862609863,
+            10.0,
+            9.992138862609863
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(11)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            178.85122680664063,
+            -129.04507446289063,
+            14.31271743774414
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993457794189453,
+            10.0,
+            9.993457794189453
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(4)_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -83.39140319824219,
+            -30.88048553466797,
+            -75.71025085449219
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995319366455078,
+            10.0,
+            9.995319366455078
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        }
+      ],
+      "transform": {
+        "position": [
+          278.64764404296875,
+          -144.97372436523438,
+          -305.2119140625
+        ],
+        "rotation": [
+          0.012212546542286873,
+          -8.987821047412581e-07,
+          0.999925434589386,
+          -8.987821047412581e-07
+        ],
+        "scale": [
+          1.000345230102539,
+          1.0,
+          1.000345230102539
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "BuildingGroup_(0)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -5.375083923339844,
+            -16.774559020996094,
+            -15.145530700683594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.999773025512695,
+            10.0,
+            9.999773025512695
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(0)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            172.00689697265625,
+            -67.5296401977539,
+            -37.642303466796875
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.997032165527344,
+            10.0,
+            9.997032165527344
+          ],
+          "meshPath": "MODELS/Building2.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            37.73572540283203,
+            -62.06562042236328,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.997010231018066,
+            10.0,
+            9.997010231018066
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(2)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            125.58073425292969,
+            -29.671058654785156,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99640941619873,
+            10.0,
+            9.99640941619873
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            78.43377685546875,
+            -75.2252426147461,
+            -83.13809204101563
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995001792907715,
+            10.0,
+            9.995001792907715
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)_(2)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -79.57740020751953,
+            44.39533233642578,
+            -15.145561218261719
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.999247550964355,
+            10.0,
+            9.999247550964355
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -79.57718658447266,
+            -67.67366790771484,
+            -15.145561218261719
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99743938446045,
+            10.0,
+            9.99743938446045
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(4)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            125.58092498779297,
+            -138.24960327148438,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995802879333496,
+            10.0,
+            9.995802879333496
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            78.43389892578125,
+            -186.69754028320313,
+            -83.13809204101563
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993416786193848,
+            10.0,
+            9.993416786193848
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            37.735939025878906,
+            -173.60980224609375,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99618148803711,
+            10.0,
+            9.99618148803711
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            222.30734252929688,
+            40.06901550292969,
+            -7.741878509521484
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993193626403809,
+            10.0,
+            9.993193626403809
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.6986312866211,
+            32.268028259277344,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995110511779785,
+            10.0,
+            9.995110511779785
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.69853973388672,
+            -78.99706268310547,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993517875671387,
+            10.0,
+            9.993517875671387
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.69845581054688,
+            -183.52764892578125,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992738723754883,
+            10.0,
+            9.992738723754883
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            32.60011291503906,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995380401611328,
+            10.0,
+            9.995380401611328
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            -78.92717742919922,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.994906425476074,
+            10.0,
+            9.994906425476074
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            -189.02938842773438,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99447250366211,
+            10.0,
+            9.99447250366211
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)_(2)_(3)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            173.6319580078125,
+            -58.354026794433594,
+            -101.89105224609375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.998745918273926,
+            10.0,
+            9.998745918273926
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            173.63192749023438,
+            -169.07748413085938,
+            -101.89105224609375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.998273849487305,
+            10.0,
+            9.998273849487305
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -83.07959747314453,
+            -138.8292236328125,
+            -75.79055786132813
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995771408081055,
+            10.0,
+            9.995771408081055
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            11.61912727355957,
+            -29.76287078857422,
+            -101.79922485351563
+          ],
+          "rotation": [
+            0.6810600161552429,
+            -1.0351209311920684e-05,
+            0.732227623462677,
+            8.85516874404857e-06
+          ],
+          "scale": [
+            9.997781753540039,
+            10.0,
+            9.997781753540039
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)_(10)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            216.45993041992188,
+            -28.191505432128906,
+            -73.27197265625
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992382049560547,
+            10.0,
+            9.992382049560547
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(10)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.57809448242188,
+            -132.80718994140625,
+            -62.0345458984375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992369651794434,
+            10.0,
+            9.992369651794434
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            11.622146606445313,
+            -140.61083984375,
+            -101.79922485351563
+          ],
+          "rotation": [
+            0.6810600161552429,
+            -1.0351209311920684e-05,
+            0.732227623462677,
+            8.85516874404857e-06
+          ],
+          "scale": [
+            9.997815132141113,
+            10.0,
+            9.997815132141113
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)_(10)_(11)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            178.85137939453125,
+            -18.480323791503906,
+            14.31271743774414
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.994270324707031,
+            10.0,
+            9.994270324707031
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            222.30734252929688,
+            -68.7654037475586,
+            -7.741878509521484
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992138862609863,
+            10.0,
+            9.992138862609863
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(11)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            178.85122680664063,
+            -129.04507446289063,
+            14.31271743774414
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993457794189453,
+            10.0,
+            9.993457794189453
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(4)_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -83.39140319824219,
+            -30.88048553466797,
+            -75.71025085449219
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995319366455078,
+            10.0,
+            9.995319366455078
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        }
+      ],
+      "transform": {
+        "position": [
+          48.682777404785156,
+          -75.13407135009766,
+          -310.8302307128906
+        ],
+        "rotation": [
+          0.012212546542286873,
+          -8.987821047412581e-07,
+          0.999925434589386,
+          -8.987821047412581e-07
+        ],
+        "scale": [
+          1.000345230102539,
+          1.0,
+          1.000345230102539
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "BuildingGroup_(2)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -5.375083923339844,
+            -16.774559020996094,
+            -15.145530700683594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.999773025512695,
+            10.0,
+            9.999773025512695
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(0)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            172.00689697265625,
+            -67.5296401977539,
+            -37.642303466796875
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.997032165527344,
+            10.0,
+            9.997032165527344
+          ],
+          "meshPath": "MODELS/Building2.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            37.73572540283203,
+            -62.06562042236328,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.997010231018066,
+            10.0,
+            9.997010231018066
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(2)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            125.58073425292969,
+            -29.671058654785156,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99640941619873,
+            10.0,
+            9.99640941619873
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            78.43377685546875,
+            -75.2252426147461,
+            -83.13809204101563
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995001792907715,
+            10.0,
+            9.995001792907715
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)_(2)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -79.57740020751953,
+            44.39533233642578,
+            -15.145561218261719
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.999247550964355,
+            10.0,
+            9.999247550964355
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -79.57718658447266,
+            -67.67366790771484,
+            -15.145561218261719
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99743938446045,
+            10.0,
+            9.99743938446045
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(4)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            125.58092498779297,
+            -138.24960327148438,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995802879333496,
+            10.0,
+            9.995802879333496
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            78.43389892578125,
+            -186.69754028320313,
+            -83.13809204101563
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993416786193848,
+            10.0,
+            9.993416786193848
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            37.735939025878906,
+            -173.60980224609375,
+            -51.87278747558594
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99618148803711,
+            10.0,
+            9.99618148803711
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            222.30734252929688,
+            40.06901550292969,
+            -7.741878509521484
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993193626403809,
+            10.0,
+            9.993193626403809
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.6986312866211,
+            32.268028259277344,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995110511779785,
+            10.0,
+            9.995110511779785
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.69853973388672,
+            -78.99706268310547,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993517875671387,
+            10.0,
+            9.993517875671387
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -66.69845581054688,
+            -183.52764892578125,
+            -123.58969116210938
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992738723754883,
+            10.0,
+            9.992738723754883
+          ],
+          "meshPath": "MODELS/Building4.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            32.60011291503906,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995380401611328,
+            10.0,
+            9.995380401611328
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            -78.92717742919922,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.994906425476074,
+            10.0,
+            9.994906425476074
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.0966796875,
+            -189.02938842773438,
+            -139.6346893310547
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.99447250366211,
+            10.0,
+            9.99447250366211
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(1)_(2)_(3)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            173.6319580078125,
+            -58.354026794433594,
+            -101.89105224609375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.998745918273926,
+            10.0,
+            9.998745918273926
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            173.63192749023438,
+            -169.07748413085938,
+            -101.89105224609375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.998273849487305,
+            10.0,
+            9.998273849487305
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)_(7)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            11.61912727355957,
+            -29.76287078857422,
+            -101.79922485351563
+          ],
+          "rotation": [
+            0.6810600161552429,
+            -1.0351209311920684e-05,
+            0.732227623462677,
+            8.85516874404857e-06
+          ],
+          "scale": [
+            9.997781753540039,
+            10.0,
+            9.997781753540039
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)_(10)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            216.45993041992188,
+            -28.191505432128906,
+            -73.27197265625
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992382049560547,
+            10.0,
+            9.992382049560547
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(10)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            204.57809448242188,
+            -132.80718994140625,
+            -62.0345458984375
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992369651794434,
+            10.0,
+            9.992369651794434
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(5)_(6)_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            11.622146606445313,
+            -140.61083984375,
+            -101.79922485351563
+          ],
+          "rotation": [
+            0.6810600161552429,
+            -1.0351209311920684e-05,
+            0.732227623462677,
+            8.85516874404857e-06
+          ],
+          "scale": [
+            9.997815132141113,
+            10.0,
+            9.997815132141113
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(9)_(10)_(11)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            178.85137939453125,
+            -18.480323791503906,
+            14.31271743774414
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.994270324707031,
+            10.0,
+            9.994270324707031
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(6)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            222.30734252929688,
+            -68.7654037475586,
+            -7.741878509521484
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.992138862609863,
+            10.0,
+            9.992138862609863
+          ],
+          "meshPath": "MODELS/Building5.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(11)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            178.85122680664063,
+            -129.04507446289063,
+            14.31271743774414
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.993457794189453,
+            10.0,
+            9.993457794189453
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(3)_(4)_(5)_(6)_(7)_(8)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -83.07959747314453,
+            -138.8292236328125,
+            -75.79055786132813
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995771408081055,
+            10.0,
+            9.995771408081055
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_60_(4)_(5)",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -83.39140319824219,
+            -30.88048553466797,
+            -75.71025085449219
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -7.81119695147936e-07,
+            0.7071068286895752,
+            -7.81119695147936e-07
+          ],
+          "scale": [
+            9.995319366455078,
+            10.0,
+            9.995319366455078
+          ],
+          "meshPath": "MODELS/Building3.obj",
+          "materialPath": "MODELS/Building.mat"
+        }
+      ],
+      "transform": {
+        "position": [
+          -319.0391540527344,
+          -75.13513946533203,
+          -79.134033203125
+        ],
+        "rotation": [
+          0.9012918472290039,
+          4.25933649239596e-07,
+          0.4332124888896942,
+          1.214346184497117e-06
+        ],
+        "scale": [
+          1.000345230102539,
+          1.0,
+          1.000345230102539
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "fog",
+      "enabled": true,
+      "children": [
+        {
+          "type": "AtlasRendererComponent",
+          "name": "AtlasRendererComponent_7398",
+          "enabled": true,
+          "children": [
+            {
+              "type": "AtlasSpriteComponent",
+              "name": "AT_LEV1_assets_RealFog_0",
+              "enabled": true,
+              "children": null,
+              "position": [
+                -0.536224365234375,
+                10.394037246704102,
+                -198.5
+              ],
+              "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1420.9000244140625,
+                38.599998474121094,
+                1.0
+              ],
+              "regionName": "AT_LEV1_assets_RealFog",
+              "color": [
+                0.29414841532707214,
+                0.13145731389522552,
+                0.6156584024429321,
+                1.0
+              ]
+            },
+            {
+              "type": "AtlasSpriteComponent",
+              "name": "AT_LEV1_assets_RealFog_0_(0)",
+              "enabled": true,
+              "children": null,
+              "position": [
+                -0.536224365234375,
+                67.32784271240234,
+                -150.0
+              ],
+              "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1427.800048828125,
+                38.599998474121094,
+                1.0
+              ],
+              "regionName": "AT_LEV1_assets_RealFog",
+              "color": [
+                0.4117647111415863,
+                0.14509804546833038,
+                0.9411764740943909,
+                0.5960784554481506
+              ]
+            },
+            {
+              "type": "AtlasSpriteComponent",
+              "name": "AT_LEV1_assets_RealFog_0_(1)",
+              "enabled": true,
+              "children": null,
+              "position": [
+                -12.172561645507813,
+                114.02557373046875,
+                -101.5999984741211
+              ],
+              "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1468.300048828125,
+                38.599998474121094,
+                1.0
+              ],
+              "regionName": "AT_LEV1_assets_RealFog",
+              "color": [
+                0.4470588266849518,
+                0.08235294371843338,
+                0.6549019813537598,
+                0.49803921580314636
+              ]
+            },
+            {
+              "type": "AtlasSpriteComponent",
+              "name": "AT_LEV1_assets_RealFog_0_(2)",
+              "enabled": true,
+              "children": null,
+              "position": [
+                -12.172561645507813,
+                -29.789337158203125,
+                -85.5999984741211
+              ],
+              "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1468.300048828125,
+                20.399999618530273,
+                1.0
+              ],
+              "regionName": "AT_LEV1_assets_RealFog",
+              "color": [
+                0.5973957777023315,
+                0.3950178027153015,
+                1.0,
+                0.7019608020782471
+              ]
+            },
+            {
+              "type": "AtlasSpriteComponent",
+              "name": "AT_LEV1_assets_RealFog_0_(3)",
+              "enabled": true,
+              "children": null,
+              "position": [
+                45.675132751464844,
+                2.0179433822631836,
+                -1.7000000476837158
+              ],
+              "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1201.5,
+                10.300000190734863,
+                1.0
+              ],
+              "regionName": "AT_LEV1_assets_RealFog",
+              "color": [
+                1.0,
+                1.0,
+                1.0,
+                0.6627451181411743
+              ]
+            }
+          ],
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "atlasResourcePath": "ENVIRO/LEVEL1/BACK/AT_LEV1_assets_ambiental/AT_LEV1_asset_fog.atlas"
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "transform": {
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+}

@@ -1,0 +1,339 @@
+{
+  "type": "Actor",
+  "name": "billboardmanager",
+  "enabled": true,
+  "children": [
+    {
+      "type": "Light2D",
+      "name": "Light_3",
+      "enabled": true,
+      "children": null,
+      "transform": {
+        "position": [
+          -7.156722068786621,
+          17.81389045715332,
+          -18.092079162597656
+        ],
+        "rotation": [
+          0.7057256102561951,
+          0.04417375475168228,
+          0.04417375475168228,
+          -0.7057257294654846
+        ],
+        "scale": [
+          14.0,
+          14.0,
+          1.0
+        ]
+      },
+      "radius": 7.0,
+      "intensity": 1.0,
+      "volumetric_intensity": 0.0,
+      "angle": 0.0,
+      "radial_softness": 0.25,
+      "angular_softness": 0.5199999809265137,
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "type": "Light2D",
+      "name": "Light_1",
+      "enabled": true,
+      "children": null,
+      "transform": {
+        "position": [
+          -14.146337509155273,
+          17.81389045715332,
+          -18.092079162597656
+        ],
+        "rotation": [
+          0.7057256102561951,
+          0.04417375475168228,
+          0.04417375475168228,
+          -0.7057257294654846
+        ],
+        "scale": [
+          14.0,
+          14.0,
+          1.0
+        ]
+      },
+      "radius": 7.0,
+      "intensity": 1.0,
+      "volumetric_intensity": 0.0,
+      "angle": 0.0,
+      "radial_softness": 0.25,
+      "angular_softness": 0.5199999809265137,
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "type": "Light2D",
+      "name": "Light_2",
+      "enabled": true,
+      "children": null,
+      "transform": {
+        "position": [
+          -10.63003921508789,
+          17.81389045715332,
+          -18.092079162597656
+        ],
+        "rotation": [
+          0.7057256102561951,
+          0.04417375475168228,
+          0.04417375475168228,
+          -0.7057257294654846
+        ],
+        "scale": [
+          14.0,
+          14.0,
+          1.0
+        ]
+      },
+      "radius": 7.0,
+      "intensity": 1.0,
+      "volumetric_intensity": 0.0,
+      "angle": 0.0,
+      "radial_softness": 0.25,
+      "angular_softness": 0.5199999809265137,
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "type": "Light2D",
+      "name": "Light_6",
+      "enabled": true,
+      "children": null,
+      "transform": {
+        "position": [
+          3.234193801879883,
+          17.81389045715332,
+          -18.092079162597656
+        ],
+        "rotation": [
+          0.7057256102561951,
+          0.04417375475168228,
+          0.04417375475168228,
+          -0.7057257294654846
+        ],
+        "scale": [
+          14.0,
+          14.0,
+          1.0
+        ]
+      },
+      "radius": 7.0,
+      "intensity": 1.0,
+      "volumetric_intensity": 0.0,
+      "angle": 0.0,
+      "radial_softness": 0.25,
+      "angular_softness": 0.5199999809265137,
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "type": "Light2D",
+      "name": "Light_5",
+      "enabled": true,
+      "children": null,
+      "transform": {
+        "position": [
+          -0.00511932373046875,
+          17.81389045715332,
+          -18.092079162597656
+        ],
+        "rotation": [
+          0.7057256102561951,
+          0.04417375475168228,
+          0.04417375475168228,
+          -0.7057257294654846
+        ],
+        "scale": [
+          14.0,
+          14.0,
+          1.0
+        ]
+      },
+      "radius": 7.0,
+      "intensity": 1.0,
+      "volumetric_intensity": 0.0,
+      "angle": 0.0,
+      "radial_softness": 0.25,
+      "angular_softness": 0.5199999809265137,
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "type": "Actor",
+      "name": "Billboard",
+      "enabled": true,
+      "children": [
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_449",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "meshPath": "MODELS/Billboard/Billboard.obj",
+          "materialPath": "MODELS/Billboard/Materials/Billboard_Move.mat"
+        }
+      ],
+      "transform": {
+        "position": [
+          3.44619083404541,
+          3.236112117767334,
+          -19.944169998168945
+        ],
+        "rotation": [
+          0.7071067094802856,
+          -2.842170943040401e-14,
+          0.7071068286895752,
+          -2.842170943040401e-14
+        ],
+        "scale": [
+          0.0499921590089798,
+          0.05000000074505806,
+          0.0499921590089798
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "billbulding",
+      "enabled": true,
+      "children": [
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_454",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "meshPath": "MODELS/Building1.obj",
+          "materialPath": "MODELS/Building.mat"
+        }
+      ],
+      "transform": {
+        "position": [
+          -6.6179351806640625,
+          -77.66773223876953,
+          -34.475067138671875
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          14.054890632629395,
+          7.19849967956543,
+          7.217801094055176
+        ]
+      }
+    },
+    {
+      "type": "Light2D",
+      "name": "Light_4",
+      "enabled": true,
+      "children": null,
+      "transform": {
+        "position": [
+          -3.5742874145507813,
+          17.81389045715332,
+          -18.092079162597656
+        ],
+        "rotation": [
+          0.7057256102561951,
+          0.04417375475168228,
+          0.04417375475168228,
+          -0.7057257294654846
+        ],
+        "scale": [
+          14.0,
+          14.0,
+          1.0
+        ]
+      },
+      "radius": 7.0,
+      "intensity": 1.0,
+      "volumetric_intensity": 0.0,
+      "angle": 0.0,
+      "radial_softness": 0.25,
+      "angular_softness": 0.5199999809265137,
+      "color": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "transform": {
+    "position": [
+      24.06072998046875,
+      0.0,
+      10.800000190734863
+    ],
+    "rotation": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.100000023841858,
+      1.100000023841858,
+      1.100000023841858
+    ]
+  }
+}

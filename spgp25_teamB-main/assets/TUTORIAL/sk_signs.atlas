@@ -1,0 +1,366 @@
+sk_signs.png
+size:3315,1214
+filter:Linear,Linear
+pma:true
+Board
+bounds:210,290,394,449
+offsets:7,0,408,466
+Board2
+bounds:337,773,373,439
+offsets:0,0,373,440
+Board3
+bounds:606,332,373,439
+offsets:0,0,373,440
+Board4
+bounds:712,773,373,439
+offsets:0,0,373,440
+D
+bounds:3066,5,65,84
+offsets:1,0,66,84
+D Dark
+bounds:2999,5,65,84
+offsets:1,0,66,84
+D2
+bounds:2835,871,96,107
+offsets:2,2,101,115
+rotate:90
+E
+bounds:2862,225,65,105
+offsets:2,1,71,109
+E Dark
+bounds:2862,332,65,105
+offsets:2,1,71,109
+E2
+bounds:2866,6,131,133
+offsets:5,3,139,140
+Enemy
+bounds:3152,981,231,151
+offsets:1,0,232,151
+rotate:90
+Enemy Shadow_
+bounds:1963,110,314,232
+offsets:12,14,338,260
+rotate:90
+Enemy2
+bounds:3152,806,145,173
+Enemy3
+bounds:3198,4,70,73
+offsets:1,3,73,77
+rotate:90
+Gun Shadow
+bounds:1999,549,233,308
+offsets:3,3,239,313
+Gun Shadow_
+bounds:942,8,259,322
+offsets:1,0,260,322
+Gun Shoot Down
+bounds:2337,2,93,128
+offsets:1,1,94,129
+Gun Shoot Down Point
+bounds:1819,2,69,85
+offsets:3,2,75,92
+rotate:90
+Gun Shoot Down Shadow_
+bounds:747,6,193,324
+offsets:3,2,201,328
+Gun Shoot Shadow
+bounds:1087,783,429,191
+offsets:6,7,435,199
+rotate:90
+Gun Shoot2
+bounds:2666,182,251,112
+offsets:1,0,252,112
+rotate:90
+Shotgun3
+bounds:2666,182,251,112
+offsets:1,0,252,112
+rotate:90
+Gun2
+bounds:3024,638,77,74
+offsets:4,5,84,82
+rotate:90
+Gun3lines
+bounds:2415,953,259,230
+offsets:1,0,260,230
+rotate:90
+H
+bounds:3198,76,63,81
+rotate:90
+H Dark
+bounds:3133,58,63,81
+H2
+bounds:2168,428,151,119
+offsets:3,2,169,127
+L
+bounds:2929,166,184,112
+offsets:1,0,185,112
+L Dark
+bounds:3038,792,184,112
+offsets:1,0,185,112
+rotate:90
+L Dark-1
+bounds:2082,860,56,81
+rotate:90
+L-1
+bounds:2165,860,56,81
+rotate:90
+L2
+bounds:2636,3,228,170
+offsets:6,8,237,183
+L2-1
+bounds:2944,871,92,105
+offsets:2,3,97,111
+LBRB
+bounds:1788,498,356,132
+rotate:90
+LBRB Dark
+bounds:1769,856,356,132
+rotate:90
+LBRBshadow
+bounds:2,287,452,206
+offsets:8,8,470,226
+rotate:90
+LT
+bounds:2875,635,234,147
+offsets:0,4,234,151
+rotate:90
+LT Dark
+bounds:2726,631,234,147
+offsets:0,4,234,151
+rotate:90
+LT Shadow
+bounds:316,2,286,184
+offsets:3,2,293,189
+rotate:90
+O
+bounds:2510,865,72,86
+offsets:1,0,73,86
+O Dark
+bounds:1973,426,72,86
+offsets:1,0,73,86
+rotate:90
+Pull To Gravponits And Speed Up
+bounds:1593,840,372,83
+rotate:90
+Pull To Gravponits And Speed Up Dark
+bounds:1508,840,372,83
+rotate:90
+Pull To Gravponits And Speed Up Shadow
+bounds:1280,810,402,121
+offsets:1,4,408,128
+rotate:90
+R
+bounds:3149,412,202,164
+rotate:90
+R Dark
+bounds:2432,3,202,164
+R With Arrow
+bounds:2515,435,158,192
+offsets:17,23,194,217
+rotate:90
+R With Arrow Dark
+bounds:2321,430,158,192
+offsets:17,23,194,217
+rotate:90
+R With Arrow Shadow_
+bounds:2647,969,205,243
+offsets:10,9,224,264
+R2
+bounds:2930,280,215,195
+offsets:2,3,220,201
+R3
+bounds:3147,222,140,188
+offsets:7,0,171,190
+R3 Dark
+bounds:3152,616,140,188
+offsets:7,0,171,190
+R3 Shadow_
+bounds:2709,439,188,219
+offsets:8,6,207,232
+rotate:90
+RT
+bounds:3003,978,234,147
+offsets:0,4,234,151
+rotate:90
+RT dark
+bounds:2854,978,234,147
+offsets:0,4,234,151
+rotate:90
+RT2
+bounds:2234,590,268,193
+offsets:3,6,274,202
+rotate:90
+Ramps
+bounds:1363,421,387,255
+rotate:90
+Ramps Shadow
+bounds:2,741,471,333
+offsets:15,14,504,362
+rotate:90
+Ramps2
+bounds:1280,775,58,33
+offsets:1,1,61,35
+S
+bounds:2780,335,80,102
+offsets:1,0,81,114
+S Dark
+bounds:2780,176,80,102
+offsets:1,0,81,114
+S2
+bounds:2061,426,105,121
+offsets:1,3,109,129
+Shoot The Enemies Dark
+bounds:1620,426,351,39
+Shoot The Enemies Shadow
+bounds:1620,467,371,66
+offsets:5,1,378,69
+rotate:90
+Shoot The Enemies_
+bounds:1819,73,351,39
+rotate:90
+Shot Down To Make A Jump
+bounds:2930,477,217,77
+Shot Down To Make A Jump Shadow_
+bounds:2930,556,217,77
+Shot Down To Make A Jump-1
+bounds:2618,629,236,106
+offsets:2,2,240,110
+rotate:90
+Shotgun
+bounds:3115,141,79,174
+rotate:90
+Shotgun shadow_
+bounds:981,341,430,380
+offsets:5,7,435,392
+rotate:90
+Shotgun2
+bounds:337,747,24,57
+offsets:1,1,26,59
+rotate:90
+Spin Around Points To Gain Speed
+bounds:1734,7,333,83
+rotate:90
+Spin Around Points To Gain Speed Dark
+bounds:1649,7,333,83
+rotate:90
+Spin Around Points To Gain Speed Shadow
+bounds:1980,859,353,100
+offsets:3,1,359,104
+rotate:90
+Spin Shadow_
+bounds:1203,3,354,336
+offsets:7,7,368,350
+Spin2
+bounds:1999,508,50,39
+offsets:1,1,52,41
+Spin_
+bounds:2,10,312,275
+To Aim Dark
+bounds:2082,918,294,74
+rotate:90
+To Aim R
+bounds:2158,918,294,74
+rotate:90
+To Aim R Shadow
+bounds:1860,94,330,101
+offsets:4,4,336,107
+rotate:90
+To Move Dark
+bounds:609,2,328,67
+rotate:90
+To Move L
+bounds:678,2,328,67
+rotate:90
+To Move L Shadow
+bounds:1688,485,358,98
+offsets:4,5,366,107
+rotate:90
+To Pick Up Guns
+bounds:2302,132,294,87
+offsets:1,0,296,88
+rotate:90
+To Pick Up Guns Dark
+bounds:1906,5,294,87
+offsets:1,0,296,88
+To Pick Up Guns Shadow
+bounds:2197,119,307,103
+offsets:1,1,309,106
+rotate:90
+To Shoot Dark
+bounds:1903,857,355,75
+rotate:90
+To Shoot RT
+bounds:1922,500,355,75
+rotate:90
+To Shoot RT Shadow
+bounds:1403,834,378,103
+offsets:3,5,383,113
+rotate:90
+To Switch Guns
+bounds:2581,175,258,83
+offsets:0,0,288,83
+rotate:90
+To Switch Guns Dark
+bounds:2496,170,258,83
+offsets:0,0,288,83
+rotate:90
+To Switch Guns Shadow
+bounds:2234,942,270,97
+offsets:2,1,273,99
+rotate:90
+To Throw Guns
+bounds:2584,867,249,84
+offsets:0,0,250,84
+To Throw Guns Dark
+bounds:2532,614,249,84
+offsets:0,0,250,84
+rotate:90
+To Throw Guns Shadow
+bounds:2429,595,263,101
+offsets:2,2,266,105
+rotate:90
+U
+bounds:2999,91,73,105
+offsets:0,6,81,124
+rotate:90
+U Dark
+bounds:3024,717,73,105
+offsets:0,6,81,124
+rotate:90
+U2
+bounds:2202,4,113,133
+offsets:1,3,116,139
+rotate:90
+Use Gun To Jump
+bounds:1604,6,334,43
+offsets:0,0,335,43
+rotate:90
+Use Gun To Jump Dark
+bounds:1559,6,334,43
+offsets:0,0,335,43
+rotate:90
+Use Gun To Jump Shadow_
+bounds:1678,845,367,89
+offsets:2,3,371,94
+rotate:90
+Use Ramps To Gain Velocity
+bounds:1363,342,226,77
+offsets:0,0,227,77
+Use Ramps To Gain Velocity-1
+bounds:2391,169,259,103
+offsets:3,4,264,110
+rotate:90
+Use Ramps To Gain Velocity_
+bounds:1591,342,226,77
+offsets:0,0,227,77
+Use Shotguns To Jump Higher Dark
+bounds:2248,860,260,80
+offsets:1,0,261,80
+Use Shotguns To Jump Higher Shadow
+bounds:502,2,286,105
+offsets:2,1,290,110
+rotate:90
+Use Shotguns To Jump Higher_
+bounds:2333,952,260,80
+offsets:1,0,261,80
+rotate:90

@@ -1,0 +1,97 @@
+-- Particle System Configuration
+
+return {
+    format = "particle_system",
+    emitters = {
+        {
+            startRotation = {
+                0,
+                360,
+            },
+            emissionRate = 15,
+            duration = 5,
+            lifetime = {
+                1e+09,
+                99999,
+            },
+            emissionMode = "continuous",
+            additiveBlending = false,
+            useTexture = true,
+            texturePath = "Dust.png",
+            drag = 0,
+            enabled = true,
+            localRotation = {
+                [3] = 0,
+                [1] = 0,
+                [2] = 0,
+            },
+            gravity = {
+                [3] = 0,
+                [1] = -20,
+                [2] = 0,
+            },
+            looping = true,
+            startColorRangeMax = {
+                [3] = 1,
+                [1] = 1,
+                [2] = 1,
+                [4] = 1,
+            },
+            maxParticles = 10000,
+            speed = {
+                3,
+                3,
+            },
+            randomizeStartColor = false,
+            endColor = {
+                [3] = 1,
+                [1] = 1,
+                [2] = 1,
+                [4] = 0.0784314,
+            },
+            startColor = {
+                [3] = 1,
+                [1] = 1,
+                [2] = 1,
+                [4] = 0.0784314,
+            },
+            rotationSpeed = {
+                0,
+                180,
+            },
+            coneAngle = 45,
+            endSize = {
+                0.1,
+                30,
+            },
+            shape = "sphere",
+            startSize = {
+                0.5,
+                30,
+            },
+            startColorRangeMin = {
+                [3] = 0,
+                [1] = 0,
+                [2] = 0,
+                [4] = 1,
+            },
+            localOffset = {
+                [3] = 0,
+                [1] = 0,
+                [2] = 0,
+            },
+            name = "Emitter 1",
+            shapeSize = {
+                [3] = 1,
+                [1] = 40,
+                [2] = 1,
+            },
+            directionRandomness = 0,
+            direction = {
+                [3] = 0,
+                [1] = 0,
+                [2] = 1,
+            },
+        },
+    },
+}

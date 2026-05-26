@@ -1,0 +1,378 @@
+{
+  "type": "GameFlowDoor",
+  "name": "GameFlowDoor",
+  "enabled": true,
+  "children": [
+    {
+      "type": "Actor",
+      "name": "GameFlow",
+      "enabled": true,
+      "children": [
+        {
+          "type": "GameFlowTrigger",
+          "name": "gRight",
+          "enabled": false,
+          "children": null,
+          "transform": {
+            "position": [
+              2.93758487701416,
+              0.6017014980316162,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.9999342560768127,
+              9.199997901916504,
+              0.9999539852142334
+            ]
+          },
+          "debug.draw": true,
+          "debug.log": false,
+          "debug.defaultColor": [
+            0.0,
+            1.0,
+            1.0,
+            0.5
+          ],
+          "debug.collideColor": [
+            1.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "GameFlowType": 1
+        },
+        {
+          "type": "GameFlowTrigger",
+          "name": "gLeft",
+          "enabled": false,
+          "children": null,
+          "transform": {
+            "position": [
+              -3.887864589691162,
+              0.7219478487968445,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.9999626874923706,
+              9.300000190734863,
+              0.9999738931655884
+            ]
+          },
+          "debug.draw": true,
+          "debug.log": false,
+          "debug.defaultColor": [
+            0.0,
+            1.0,
+            1.0,
+            0.5
+          ],
+          "debug.collideColor": [
+            1.0,
+            0.0,
+            0.0,
+            0.5
+          ],
+          "GameFlowType": 1
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "AtlasRendererComponent",
+      "name": "Sprites",
+      "enabled": true,
+      "children": [
+        {
+          "type": "AtlasSpriteComponent",
+          "name": "sRight",
+          "enabled": true,
+          "children": null,
+          "position": [
+            1.353166103363037,
+            0.843292236328125,
+            0.10999999940395355
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "regionName": "AT_LEV1_FinalDoor_Right",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "type": "AtlasSpriteComponent",
+          "name": "sDoor",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0457758903503418,
+            0.0,
+            0.09000000357627869
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "regionName": "AT_LEV1_FinalDoor_Midle",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "type": "AtlasSpriteComponent",
+          "name": "sLeft",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -1.9681625366210938,
+            0.8397216796875,
+            0.10999999940395355
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "regionName": "AT_LEV1_FinalDoor_Left",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "atlasResourcePath": "ENVIRO/LEVEL1/SPECIAL/AT_LEV1_FinalDoor.atlas"
+    },
+    {
+      "type": "Actor",
+      "name": "Triggers",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Trigger",
+          "name": "tLeft",
+          "enabled": true,
+          "children": null,
+          "transform": {
+            "position": [
+              -0.9175253510475159,
+              -0.22759617865085602,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.19999997317790985,
+              5.999999523162842,
+              0.9999945759773254
+            ]
+          },
+          "debug.draw": true,
+          "debug.log": false,
+          "debug.defaultColor": [
+            0.0,
+            1.0,
+            1.0,
+            0.5
+          ],
+          "debug.collideColor": [
+            1.0,
+            0.0,
+            0.0,
+            0.5
+          ]
+        },
+        {
+          "type": "Trigger",
+          "name": "tMiddle",
+          "enabled": true,
+          "children": null,
+          "transform": {
+            "position": [
+              0.0,
+              -0.2275962233543396,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.20000000298023224,
+              6.0,
+              1.0
+            ]
+          },
+          "debug.draw": true,
+          "debug.log": false,
+          "debug.defaultColor": [
+            0.0,
+            1.0,
+            1.0,
+            0.5
+          ],
+          "debug.collideColor": [
+            1.0,
+            0.0,
+            0.0,
+            0.5
+          ]
+        },
+        {
+          "type": "Trigger",
+          "name": "tRight",
+          "enabled": true,
+          "children": null,
+          "transform": {
+            "position": [
+              0.8938762545585632,
+              -0.20391197502613068,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.19999997317790985,
+              5.999999523162842,
+              0.9999511241912842
+            ]
+          },
+          "debug.draw": true,
+          "debug.log": false,
+          "debug.defaultColor": [
+            0.0,
+            1.0,
+            1.0,
+            0.5
+          ],
+          "debug.collideColor": [
+            1.0,
+            0.0,
+            0.0,
+            0.5
+          ]
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "transform": {
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.399999976158142,
+      1.399999976158142,
+      1.0
+    ]
+  }
+}

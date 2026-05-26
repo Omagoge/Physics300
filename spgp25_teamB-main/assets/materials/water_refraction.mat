@@ -1,0 +1,7 @@
+{
+  "materialParams": [
+    "EDITOR/WaterNormal.jpg",
+    "EDITOR/WaterNormal.jpg"
+    ],
+  "shaderPath": "SHADERS/water_refraction.shader"
+}

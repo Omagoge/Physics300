@@ -1,0 +1,14 @@
+BG_LEV1_Assets_Building.png
+size:484,1712
+filter:Linear,Linear
+pma:true
+ENV_LEV1_Assets_Building
+bounds:256,914,222,796
+ENV_LEV1_Assets_Building_left_e
+bounds:2,64,211,853
+ENV_LEV1_Assets_Building_left_t
+bounds:215,2,267,910
+offsets:2,0,269,910
+ENV_LEV1_Assets_Building_right_f
+bounds:2,919,252,791
+offsets:0,0,253,791

@@ -1,0 +1,175 @@
+{
+  "type": "Actor",
+  "name": "End_Trigger",
+  "enabled": true,
+  "children": [
+    {
+      "type": "GameFlowTrigger",
+      "name": "GameFlowTrigger_462",
+      "enabled": true,
+      "children": null,
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          4.0,
+          5.5,
+          1.0
+        ]
+      },
+      "debug.draw": true,
+      "debug.log": false,
+      "debug.defaultColor": [
+        0.0,
+        1.0,
+        1.0,
+        0.5
+      ],
+      "debug.collideColor": [
+        1.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "GameFlowType": 1
+    },
+    {
+      "type": "AtlasRendererComponent",
+      "name": "AtlasRendererComponent_463",
+      "enabled": true,
+      "children": [
+        {
+          "type": "AtlasSpriteComponent",
+          "name": "AT_LEV1_FinalDoor_Midle_0",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            -0.49233829975128174
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "regionName": "AT_LEV1_FinalDoor_Midle",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "type": "AtlasSpriteComponent",
+          "name": "AT_LEV1_FinalDoor_Left_0",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -1.9841294288635254,
+            0.83795166015625,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "regionName": "AT_LEV1_FinalDoor_Left",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "type": "AtlasSpriteComponent",
+          "name": "AT_LEV1_FinalDoor_Right_0",
+          "enabled": true,
+          "children": null,
+          "position": [
+            1.29784095287323,
+            0.8416576385498047,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "regionName": "AT_LEV1_FinalDoor_Right",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "atlasResourcePath": "ENVIRO/LEVEL1/SPECIAL/AT_LEV1_FinalDoor.atlas"
+    }
+  ],
+  "transform": {
+    "position": [
+      142.1329803466797,
+      -27.14397430419922,
+      -0.5
+    ],
+    "rotation": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+}

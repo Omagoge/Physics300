@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Settings</title>
+	<link rel="stylesheet" href="MainMenu.css"/>
+	<link rel="stylesheet" href="Settings.css"/>
+</head>
+<body>
+	<div id="bg">
+		<div id="bgTint"></div>
+	</div>
+
+	<div class="content">
+		<div class="title">
+			<div class="gameTitle" data-i18n="menu.main.settings">SETTINGS</div>
+		</div>
+
+		<div class="main-container">
+			<nav class="menu" id="settingsMenu">
+				<li id="language" data-section="section-language" data-i18n="menu.settings.language">LANGUAGE</li>
+				<li id="sound" data-section="section-sound" data-i18n="menu.settings.sound">SOUND</li>
+				<li id="graphics" data-section="section-graphics" data-i18n="menu.settings.graphics">GRAPHICS</li>
+				<li id="back" data-i18n="menu.settings.back">BACK</li>
+			</nav>
+
+			<div id="subMenuContainer">
+				<!-- Language Section -->
+				<div class="settings-section" id="section-language">
+					<ul class="language-list">
+						<li data-lang="en" data-nav-row="0">ENGLISH</li>
+						<li data-lang="es" data-nav-row="1">ESPAÑOL</li>
+						<li data-lang="eu" data-nav-row="2">EUSKERA</li>
+						<li data-lang="ru" data-nav-row="3">РУССКИЙ</li>
+						<li data-lang="zh" data-nav-row="4">中文</li>
+						<li data-lang="fr" data-nav-row="5">FRANÇAIS</li>
+						<li data-lang="it" data-nav-row="6">ITALIANO</li>
+						<li data-lang="tr" data-nav-row="7">TÜRKÇE</li>
+					</ul>
+				</div>
+
+				<!-- Sound Section -->
+				<div class="settings-section" id="section-sound">
+					<div class="setting-row" data-nav-row="0">
+						<label data-i18n="menu.settings.musicVolume">Music Volume</label>
+						<div class="slider-container">
+							<div class="slider-wrapper">
+								<div class="slider-fill" style="width: 100%"></div>
+								<input type="range" id="musicVolume" min="0" max="100" value="100" tabindex="-1">
+							</div>
+							<span class="slider-value">100%</span>
+						</div>
+					</div>
+					<div class="setting-row" data-nav-row="1">
+						<label data-i18n="menu.settings.sfxVolume">Effects Volume</label>
+						<div class="slider-container">
+							<div class="slider-wrapper">
+								<div class="slider-fill" style="width: 100%"></div>
+								<input type="range" id="effectsVolume" min="0" max="100" value="100" tabindex="-1">
+							</div>
+							<span class="slider-value">100%</span>
+						</div>
+					</div>
+					<div class="setting-row" data-nav-row="2">
+						<label data-i18n="menu.settings.audioConfig">Audio Mode</label>
+						<div class="dropdown-container">
+							<div class="dropdown" id="audioMode" data-value="stereo" tabindex="-1">
+								<span class="dropdown-current">Stereo</span>
+								<ul class="dropdown-options">
+									<li data-value="mono" data-i18n="menu.settings.audioMono">Mono</li>
+									<li data-value="stereo" data-i18n="menu.settings.audioStereo">Stereo</li>
+									<li data-value="binaural" data-i18n="menu.settings.audioBinaural">Binaural</li>
+									<li data-value="surround" data-i18n="menu.settings.audioAtmos">Surround</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Graphics Section -->
+				<div class="settings-section" id="section-graphics">
+					<div class="setting-row" data-nav-row="0">
+						<label data-i18n="menu.settings.graphics.preset">Preset</label>
+						<div class="dropdown-container">
+							<div class="dropdown" id="graphicsPreset" data-value="ultra" tabindex="-1">
+								<span class="dropdown-current">Ultra</span>
+								<ul class="dropdown-options">
+									<li data-value="low" data-i18n="menu.settings.graphics.option.low">Low</li>
+									<li data-value="high" data-i18n="menu.settings.graphics.option.high">High</li>
+									<li data-value="ultra" data-i18n="menu.settings.graphics.option.ultra">Ultra</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="setting-row" data-nav-row="1">
+						<label data-i18n="menu.settings.graphics.scale">Resolution Scale</label>
+						<div class="slider-container">
+							<div class="slider-wrapper">
+								<div class="slider-fill" style="width: 100%"></div>
+								<input type="range" id="resolutionScale" min="50" max="100" step="5" value="100" tabindex="-1">
+							</div>
+							<span class="slider-value">100%</span>
+						</div>
+					</div>
+					<div class="setting-row" data-nav-row="2">
+						<label data-i18n="menu.settings.graphics.lightResolution">Light Resolution</label>
+						<div class="slider-container">
+							<div class="slider-wrapper">
+								<div class="slider-fill" style="width: 100%"></div>
+								<input type="range" id="lightResolutionScale" min="15" max="100" step="5" value="100" tabindex="-1">
+							</div>
+							<span class="slider-value">100%</span>
+						</div>
+					</div>
+					<div class="setting-row" data-nav-row="3">
+						<label data-i18n="menu.settings.graphics.lightQuality">Light Quality</label>
+						<div class="dropdown-container">
+							<div class="dropdown" id="lightQuality" data-value="ultra" tabindex="-1">
+								<span class="dropdown-current">Ultra</span>
+								<ul class="dropdown-options">
+									<li data-value="low" data-i18n="menu.settings.graphics.option.low">Low</li>
+									<li data-value="mid" data-i18n="menu.settings.graphics.option.mid">Mid</li>
+									<li data-value="high" data-i18n="menu.settings.graphics.option.high">High</li>
+									<li data-value="ultra" data-i18n="menu.settings.graphics.option.ultra">Ultra</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="setting-row" data-nav-row="4">
+						<label data-i18n="menu.settings.graphics.physics">Physics Quality</label>
+						<div class="dropdown-container">
+							<div class="dropdown" id="physicsQuality" data-value="high" tabindex="-1">
+								<span class="dropdown-current">High</span>
+								<ul class="dropdown-options">
+									<li data-value="low" data-i18n="menu.settings.graphics.option.low">Low</li>
+									<li data-value="mid" data-i18n="menu.settings.graphics.option.mid">Mid</li>
+									<li data-value="high" data-i18n="menu.settings.graphics.option.high">High</li>
+									<li data-value="ultra" data-i18n="menu.settings.graphics.option.ultra">Ultra</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="setting-row" data-nav-row="5">
+						<label data-i18n="menu.settings.graphics.displayMode">Display Mode</label>
+						<div class="dropdown-container">
+							<div class="dropdown" id="displayMode" data-value="fullscreen" tabindex="-1">
+								<span class="dropdown-current">Fullscreen</span>
+								<ul class="dropdown-options">
+									<li data-value="fullscreen" data-i18n="menu.settings.graphics.option.fullscreen">Fullscreen</li>
+									<li data-value="windowed" data-i18n="menu.settings.graphics.option.windowed">Windowed</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="setting-row" data-nav-row="6">
+						<label data-i18n="menu.settings.graphics.resolution">Resolution</label>
+						<div class="resolution-selects">
+							<div class="dropdown-container">
+								<div class="dropdown" id="aspectRatio" data-value="16:9" tabindex="-1">
+									<span class="dropdown-current">16:9</span>
+									<ul class="dropdown-options">
+										<li data-value="16:9">16:9</li>
+										<li data-value="16:10">16:10</li>
+										<li data-value="21:9">21:9</li>
+										<li data-value="4:3">4:3</li>
+									</ul>
+								</div>
+							</div>
+							<div class="dropdown-container">
+								<div class="dropdown" id="resolution" data-value="1920x1080" tabindex="-1">
+									<span class="dropdown-current">1920x1080</span>
+									<ul class="dropdown-options" id="resolutionOptions"></ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="setting-row" data-nav-row="7">
+						<label data-i18n="menu.settings.graphics.vsync">VSync</label>
+						<div class="checkbox-container">
+							<div class="checkbox" id="vsync" data-checked="true" tabindex="-1"></div>
+						</div>
+					</div>
+					<div class="setting-row" data-nav-row="8">
+						<label data-i18n="menu.settings.graphics.fps">Max FPS</label>
+						<div class="slider-container">
+							<div class="slider-wrapper">
+								<div class="slider-fill" style="width: 57%"></div>
+								<input type="range" id="maxFps" min="15" max="241" step="1" value="144" tabindex="-1">
+							</div>
+							<span class="slider-value">144</span>
+						</div>
+					</div>
+					<div class="setting-row apply-row" data-nav-row="9">
+						<button id="applyGraphics" class="apply-btn" tabindex="-1" data-i18n="menu.settings.graphics.apply">APPLY</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div></div>
+	</div>
+	<script src="Settings.js"></script>
+</body>
+</html>

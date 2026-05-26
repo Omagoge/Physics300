@@ -1,0 +1,13 @@
+{
+  "materialParams": [
+    "ASSETS/ASSETS/ASSETS/ENVIRO/LEVEL1/BACK/Fog.jpg",
+    "ASSETS/ASSETS/ASSETS/ENVIRO/LEVEL1/BACK/Fog.jpg",
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "shaderPath": "shaders/default.shader"
+}

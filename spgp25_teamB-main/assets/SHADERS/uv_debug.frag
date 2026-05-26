@@ -1,0 +1,19 @@
+#version 460 core
+
+// Forward-shaded output
+layout (location = 0) out vec4 gAlbedo;
+
+in vec2 vTexCoord;
+in vec3 vWorldPos;
+
+uniform vec4 gColor;
+uniform sampler2D gTexture;
+
+void main()
+{
+    vec4 texel = texture(gTexture, vTexCoord) * gColor;
+    if (texel.a < 0.1)
+        discard;
+
+    gAlbedo = vec4(vTexCoord.x, 0.0, vTexCoord.y, 1.0);
+}

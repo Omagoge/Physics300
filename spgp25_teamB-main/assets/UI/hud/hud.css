@@ -1,0 +1,340 @@
+/**
+ * @file hud.css
+ * @author Dante and Xein
+ * @date 27 Mar 2026
+ */
+
+@font-face {
+  font-family: 'Resource Han Rounded';
+  src: url('../../FONTS/ResourceHanRounded/ResourceHanRoundedSC-Regular.ttf') format('truetype');
+  unicode-range: U+4E00-U+9FFF, U+3400-U+4DBF, U+F900-U+FAFF;
+}
+
+:root {
+  /* --- Sizing --- */
+  --slot-size:        11vmin;
+  --slot-size-small:  7vmin;
+  --segment-height:   3vh;
+  --bars-height:      11vh;
+  --health-bar-width: 16vw;
+  --ammo-bar-width:   22vw;
+
+  /* --- Spacing --- */
+  --hud-padding: 1.25vh;
+  --hud-gap:     0.75vh;
+  --slot-gap:    0.75vh;
+  --bar-gap:     0.75vh;
+  --bar-padding: 0.5vh;
+
+  /* --- Border --- */
+  --border-width: 6px;
+
+  /* --- Colors --- */
+  --color-accent:        #99999950;
+  --color-hover:         #ffffff;
+  --color-selected:      #ffffff;
+  --color-reserve-ammo:  #ddaa00;
+  --bg-dark:             #0a0a0aff;
+  --bg-darker:           #0a0a0aee;
+  --segment-inactive:    #70707040;
+  --health-bar-color:    #cc3333;
+  --health-recharge-color: #ff6666;
+  --ammo-bar-color:      #ddaa00;
+
+  /* --- Animation --- */
+  --fade-duration: 0.6s;
+  --damage-flash-duration: 1s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* layout =============================================== */
+
+#game-hud {
+  position: fixed;
+  bottom: var(--hud-padding);
+  left: var(--hud-padding);
+  z-index: 100;
+
+  display: flex;
+  align-items: flex-end;
+  gap: var(--hud-gap);
+
+  font-family: 'Courier New', 'Resource Han Rounded', monospace;
+  user-select: none;
+  pointer-events: auto;
+}
+
+.weapon-section {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--hud-gap);
+}
+
+/* 2-slot grid
+ * unequipped slot is smaller
+ * equipped is larger */
+.weapon-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--slot-gap);
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+  gap: var(--bar-gap);
+  height: var(--bars-height);
+}
+
+/* weapon slots ========================================= */
+
+.weapon-slot {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--slot-size);
+  height: var(--slot-size);
+  background: var(--bg-darker);
+  border: var(--border-width) dashed var(--color-accent);
+  border-radius: 2px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.weapon-slot.unequipped {
+  width: var(--slot-size-small);
+  height: var(--slot-size-small);
+}
+
+/* Disable interaction when no weapon image is loaded */
+.weapon-slot:not(:has(.weapon-icon[src]:not([src=""]))) {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}
+
+/* Switch from dashed to solid border when a weapon image is loaded */
+.weapon-slot:has(.weapon-icon[src]:not([src=""])) {
+  border-style: solid;
+}
+
+.weapon-slot:hover {
+  border-color: var(--color-hover);
+}
+
+.weapon-slot.selected {
+  border-color: var(--color-selected);
+}
+
+.weapon-icon {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 4px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.weapon-icon[src]:not([src=""]) {
+  opacity: 1;
+}
+
+/* .weapon-number { */
+/*   position: absolute; */
+/*   z-index: 1; */
+/*   font-size: 2.222vh; */
+/*   font-weight: bold; */
+/*   color: var(--color-accent); */
+/*   pointer-events: none; */
+/* } */
+
+.reserve-ammo {
+  position: absolute;
+  bottom: 2px;
+  right: 8px;
+  z-index: 10;
+  font-size: 2.5vh;
+  font-weight: bold;
+  font-family: "Orbitron";
+  color: var(--color-selected);
+  text-shadow: 1px 1px 2px #000;
+  pointer-events: none;
+}
+
+/* bars ================================================= */
+
+.bar-wrapper {
+  display: flex;
+  align-items: center;
+  flex: 0;
+  padding: var(--bar-padding);
+  background: var(--bg-dark);
+  border: var(--border-width) solid var(--color-accent);
+  border-radius: 1px;
+}
+
+.bar-wrapper.health-bar-wrapper {
+  width: var(--health-bar-width);
+  border-color: var(--health-bar-color);
+}
+
+.bar-wrapper.ammo-bar-wrapper {
+  width: var(--ammo-bar-width);
+  border-color: var(--ammo-bar-color);
+}
+
+.status-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.segment {
+  position: relative;
+  flex: 1;
+  height: var(--segment-height);
+  background: var(--segment-inactive);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.segment .recharge-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  transform-origin: left center;
+  transform: scaleX(0);
+  background: var(--health-recharge-color);
+  z-index: 1;
+  opacity: 0; /* hidden by default; shown only during recharge */
+}
+
+.health-bar .segment.active {
+  background: var(--health-bar-color);
+}
+
+.segment.recharging {
+  /* reserved for additional styling when recharging */
+}
+
+
+/* Animation for health segment regeneration */
+@keyframes segmentFill {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left center;
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    transform-origin: left center;
+    opacity: 1;
+  }
+}
+
+.ammo-bar .segment.active {
+  background: var(--ammo-bar-color);
+}
+
+#effect {
+  position: fixed;
+  inset: 0;
+  z-index: 150;
+  pointer-events: none;
+  background-color: transparent;
+}
+
+#damage-vignette {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  pointer-events: none;
+  opacity: 0;
+  will-change: opacity;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 0, 0, 0) 36%,
+    rgba(255, 0, 0, 0.38) 70%,
+    rgba(255, 0, 0, 0.9) 100%
+  );
+}
+
+#damage-vignette.hit-flash {
+  animation: damageVignetteFlash var(--damage-flash-duration) ease-out;
+}
+
+#damage-vignette.hit-flash-strong {
+  animation: damageVignetteFlashStrong var(--damage-flash-duration) ease-out;
+}
+
+@keyframes damageVignetteFlash {
+  0% { opacity: 0; }
+  25% { opacity: 0.82; }
+  100% { opacity: 0; }
+}
+
+@keyframes damageVignetteFlashStrong {
+  0% { opacity: 0; }
+  25% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes toBlack {
+  from { background-color: transparent; }
+  to   { background-color: black; }
+}
+
+@keyframes toTransparent {
+  from { background-color: black; }
+  to   { background-color: transparent; }
+}
+
+.is-black {
+  animation: toBlack var(--fade-duration) forwards;
+}
+
+.is-transparent {
+  animation: toTransparent var(--fade-duration) forwards;
+}
+
+/* Timer HUD Container in Main HUD */
+#timer-hud-container {
+  position: fixed;
+  top: 2vh;
+  left: 0;
+  width: 50vw;
+  height: 10vw; /* Increased from 8vw */
+  z-index: 100;
+  pointer-events: none;
+  border: none;
+  overflow: hidden;
+}
+
+/* Timer HUD Container in Main HUD */
+#timer-hud-container {
+  position: fixed;
+  top: 2vh;
+  left: 0;
+  width: 50vw;
+  height: 10vw; /* Increased from 8vw */
+  z-index: 100;
+  pointer-events: none;
+  border: none;
+  overflow: hidden;
+}

@@ -1,0 +1,12 @@
+{
+  "materialParams": [
+    "WHITEBOXING/T_MAGNENT.jpg",
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "shaderPath": "SHADERS/default.shader"
+}

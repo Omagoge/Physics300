@@ -1,0 +1,13 @@
+{
+  "materialParams": [
+    "ENVIRO/LEVEL1/WALLS/AT_LEV1_BRICKSWALL/AT_LEV1_bricks/wall_building_LEVEL1.png",
+    [
+      0.6939501762390137,
+      0.6939501762390137,
+      0.6939501762390137,
+      1.0
+    ],
+    9.260000228881836
+  ],
+  "shaderPath": "SHADERS/worldTile.shader"
+}

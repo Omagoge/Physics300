@@ -1,0 +1,23 @@
+#version 460
+
+layout(local_size_x = 16, local_size_y = 16) in;
+
+layout(binding = 0) uniform sampler2D nearestTex;
+layout(binding = 1, r32f) uniform writeonly image2D sdfTex;
+
+uniform ivec2 resolution;
+
+void main() {
+    ivec2 pixel = ivec2(gl_GlobalInvocationID.xy);
+
+    vec2 uv = (vec2(pixel) + 0.5) / vec2(resolution);
+    vec2 nearest = texelFetch(nearestTex, pixel, 0).rg;
+
+    float d = 1e20;
+
+    if (nearest.x >= 0.0) {
+        d = distance(uv, nearest);
+    }
+
+    imageStore(sdfTex, pixel, vec4(d, 0, 0, 0));
+}

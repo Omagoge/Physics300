@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>End Level Title</title>
+  <style>
+    * {
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    body {
+      background-color: transparent;
+      color: White;
+      font-family: 'Orbitron', sans-serif;
+      margin: 0;
+      overflow: hidden;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #bg-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(128, 128, 128, 0.4);
+      opacity: 0;
+      transition: opacity 0.6s ease-in-out;
+      z-index: -1;
+    }
+
+    #bg-overlay.is-visible {
+      opacity: 1;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(0, 0, 0); /* Pure black */
+      min-width: 50vw;
+      min-height: 80vh;
+      box-shadow: 20px 20px 0px rgba(0,0,0,0.5);
+      color: white;
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+      pointer-events: none;
+      box-sizing: border-box;
+      padding: 30px;
+    }
+
+    .inner-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      border: 7px solid white;
+      padding: 80px 60px;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      flex-grow: 1;
+    }
+
+    .content.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+
+    #text-container {
+      font-size: 5vw;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    #time-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+      font-size: 2vw;
+      font-weight: 500;
+      gap: 10px;
+    }
+
+    .time-label {
+      color: #aaa;
+      font-size: 1.5vw;
+      margin-right: 10px;
+    }
+
+    .time-value {
+      color: white;
+      font-family: 'Orbitron', sans-serif;
+    }
+
+    .menu {
+      font-size: 2.5vw;
+      font-weight: 500;
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .menu li {
+      cursor: pointer;
+      width: fit-content;
+      padding: 5px 15px;
+      border: 4px solid transparent;
+      transition: all 0.3s ease;
+      color: white;
+      margin: 5px 0;
+    }
+
+    .menu li:hover,
+    .menu li.focused {
+      border: 7px solid white;
+      border-radius: 4px;
+    }
+
+    .menu li:active,
+    .menu li.active {
+      background-color: white;
+      color: black;
+      border-color: white;
+    }
+
+    @keyframes slideUpFade {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="bg-overlay"></div>
+  <div class="content">
+    <div class="inner-content">
+      <div id="text-container"></div>
+      
+      <div id="time-container">
+        <div><span class="time-label" id="label-time">TIME:</span><span id="current-time" class="time-value">--:--.---</span></div>
+        <div><span class="time-label" id="label-best-time">BEST TIME:</span><span id="best-time" class="time-value">--:--.---</span></div>
+      </div>
+
+      <nav class="menu" id="mainMenu">
+        <li id="next-level">CONTINUE</li>
+        <li id="restart-level">RETRY</li>
+        <li id="main-menu">MAIN MENU</li>
+      </nav>
+    </div>
+  </div>
+
+  <script>
+    const textElement = document.getElementById('text-container');
+    const mainMenu = document.getElementById('mainMenu');
+    const bgOverlay = document.getElementById('bg-overlay');
+    const content = document.querySelector('.content');
+    const items = Array.from(mainMenu.querySelectorAll('li'));
+    let focusIndex = -1;
+    let dict = {};
+
+    function t(key, fallback = key) {
+      const value = dict[key];
+      return (typeof value === "string" && value.length > 0) ? value : fallback;
+    }
+
+    function applyLocalization() {
+      const textFallback = textElement.textContent && textElement.textContent.length > 0 ? textElement.textContent : "LEVEL CLEARED!";
+      textElement.textContent = t("endpopup.title", textFallback);
+
+      const timeLabel = document.getElementById("label-time");
+      if (timeLabel) {
+        timeLabel.textContent = t("endpopup.time", timeLabel.textContent);
+      }
+      const bestTimeLabel = document.getElementById("label-best-time");
+      if (bestTimeLabel) {
+        bestTimeLabel.textContent = t("endpopup.bestTime", bestTimeLabel.textContent);
+      }
+
+      const next = document.getElementById("next-level");
+      if (next) {
+        next.textContent = t("endpopup.button.continue", next.textContent);
+      }
+      const retry = document.getElementById("restart-level");
+      if (retry) {
+        retry.textContent = t("endpopup.button.retry", retry.textContent);
+      }
+      const menu = document.getElementById("main-menu");
+      if (menu) {
+        menu.textContent = t("endpopup.button.menu", menu.textContent);
+      }
+    }
+
+    window.setLocalizationData = function(translations, language) {
+      if (translations && typeof translations === "object") {
+        dict = translations;
+      }
+      if (typeof language === "string" && language.length > 0) {
+        window.__toastLang = language.toLowerCase();
+      }
+      applyLocalization();
+    };
+
+    window.onToastLanguageChanged = function() {
+      applyLocalization();
+    };
+
+    function setText(newText) {
+      textElement.textContent = newText;
+      console.log('Text set to:', newText);
+    }
+
+    function formatTime(totalMilliseconds) {
+      if (isNaN(totalMilliseconds)) return "--:--.---";
+      const minutes = Math.floor(totalMilliseconds / 60000);
+      const seconds = Math.floor((totalMilliseconds % 60000) / 1000);
+      const ms = Math.floor(totalMilliseconds % 1000);
+      return minutes.toString().padStart(2, '0') + ":" + 
+             seconds.toString().padStart(2, '0') + "." + 
+             ms.toString().padStart(3, '0');
+    }
+
+    function setTimes(timeMs, bestTimeMs) {
+      document.getElementById('current-time').textContent = formatTime(timeMs);
+      document.getElementById('best-time').textContent = formatTime(bestTimeMs);
+      console.log('Times set - Current:', timeMs, 'Best:', bestTimeMs);
+    }
+
+    function fadeTextIn() {
+      // Force a reflow to ensure the transition triggers
+      content.offsetHeight;
+      content.classList.add('is-visible');
+      bgOverlay.classList.add('is-visible');
+      if (focusIndex === -1) setFocus(0);
+      console.log('Fading in UI');
+    }
+
+    function fadeTextOut() {
+      textElement.classList.remove('is-visible');
+      console.log('Fading text out');
+    }
+
+    function setFocus(index) {
+      if (items.length === 0) return;
+      items.forEach(li => li.classList.remove('focused'));
+      focusIndex = ((index % items.length) + items.length) % items.length;
+      items[focusIndex].classList.add('focused');
+    }
+
+    function menuMoveUp() {
+      setFocus(focusIndex <= 0 ? items.length - 1 : focusIndex - 1);
+    }
+
+    function menuMoveDown() {
+      setFocus(focusIndex < 0 ? 0 : focusIndex + 1);
+    }
+
+    function menuActivate() {
+      if (focusIndex < 0) return;
+      items[focusIndex].classList.add('active');
+      console.log("[Menu] active " + items[focusIndex].id);
+    }
+
+    function menuSelect() {
+      if (focusIndex < 0) return;
+      items[focusIndex].classList.remove('active');
+      console.log("[Menu] " + items[focusIndex].id);
+    }
+
+    // Mouse hover sets focus too
+    items.forEach((li, i) => {
+      li.addEventListener('mouseenter', () => setFocus(i));
+    });
+
+    mainMenu.addEventListener('click', (e) => {
+      const target = e.target.closest('li');
+      if (!target) return;
+      console.log("[Menu] " + target.id);
+    });
+
+    applyLocalization();
+  </script>
+</body>
+
+</html>

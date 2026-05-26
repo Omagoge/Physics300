@@ -1,0 +1,123 @@
+{
+  "type": "EnemyClearDoor",
+  "name": "EnemyClearDoor",
+  "enabled": true,
+  "children": [
+    {
+      "type": "MeshRendererComponent",
+      "name": "MeshRendererComponent_165",
+      "enabled": true,
+      "children": null,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshPath": "MODELS/quad.obj",
+      "materialPath": "ENVIRO/GEN/EnemyClearDoor/EnemyClearDoor.mat"
+    },
+    {
+      "type": "Rigidbody",
+      "name": "Rigidbody_85",
+      "enabled": true,
+      "children": null,
+      "radius": 0.0,
+      "mass": 1.0,
+      "friction": 0.2,
+      "hasGravity": false,
+      "gravityScale": [
+        1.0,
+        1.0
+      ],
+      "hasDrag": true,
+      "drag": [
+        0.5,
+        0.5
+      ],
+      "restitution": 0.6,
+      "restitutionThreshold": 0.5,
+      "minimumVelocity": [
+        0.10000000149011612,
+        0.10000000149011612
+      ],
+      "ignorePlayer": false,
+      "debug.show": true,
+      "debug.defaultColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "debug.collidingColor": [
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "debug.skipResolution": false,
+      "flags": 1
+    },
+    {
+      "type": "Collider",
+      "name": "Collider_167",
+      "enabled": true,
+      "children": null,
+      "points": [
+        [
+          -1.0158805847167969,
+          -1.0
+        ],
+        [
+          0.9841194152832031,
+          -1.0
+        ],
+        [
+          0.9841194152832031,
+          1.0
+        ],
+        [
+          -1.0158805847167969,
+          1.0
+        ]
+      ],
+      "friction": 0.4,
+      "debug.showPoints": true,
+      "debug.showColliders": true,
+      "debug.showNormals": false,
+      "flags": 0,
+      "data.forceLeft": false
+    }
+  ],
+  "transform": {
+    "position": [
+      18.171768188476563,
+      1.9792879819869995,
+      0.0
+    ],
+    "rotation": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.3837907314300537,
+      6.3393940925598145,
+      1.0
+    ]
+  },
+  "doorTag": "test",
+  "openDistance": 5.0,
+  "openSpeed": 3.0
+}

@@ -1,0 +1,17 @@
+{
+  "type": "Scene",
+  "name": "Fade",
+  "enabled": true,
+  "children": [
+    {
+      "type": "HtmlView",
+      "name": "Fade_View",
+      "enabled": true,
+      "children": null,
+      "url": "file:///assets/UI/transition.html",
+      "sort_order": 67
+    }
+  ],
+  "format": "scene",
+  "file_path": "SCENES/Fade.scene"
+}

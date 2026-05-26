@@ -1,0 +1,184 @@
+{
+  "type": "EnemyClearDoor",
+  "name": "EnemyClearTrapDoor",
+  "enabled": true,
+  "children": [
+    {
+      "type": "MeshRendererComponent",
+      "name": "MeshRendererComponent_2527",
+      "enabled": true,
+      "children": null,
+      "position": [
+        0.0,
+        2.25,
+        -0.0010000000474974513
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        5.0,
+        0.25,
+        1.0
+      ],
+      "meshPath": "MODELS/quad.obj",
+      "materialPath": "materials/bricks_top.mat",
+      "isOccluder": false
+    },
+    {
+      "type": "Rigidbody",
+      "name": "Rigidbody_85",
+      "enabled": true,
+      "children": null,
+      "radius": 0.0,
+      "mass": 1.0,
+      "friction": 0.2,
+      "hasGravity": false,
+      "gravityScale": [
+        1.0,
+        1.0
+      ],
+      "hasDrag": true,
+      "drag": [
+        0.5,
+        0.5
+      ],
+      "restitution": 0.6,
+      "restitutionThreshold": 0.5,
+      "minimumVelocity": [
+        0.10000000149011612,
+        0.10000000149011612
+      ],
+      "ignorePlayer": false,
+      "debug.show": true,
+      "debug.defaultColor": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "debug.collidingColor": [
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "debug.skipResolution": false,
+      "flags": 1
+    },
+    {
+      "type": "Collider",
+      "name": "Collider_167",
+      "enabled": true,
+      "children": null,
+      "points": [
+        [
+          5.0,
+          2.0
+        ],
+        [
+          -5.0,
+          2.0
+        ],
+        [
+          -5.0,
+          -3.0
+        ],
+        [
+          5.0,
+          -3.0
+        ]
+      ],
+      "friction": 0.4,
+      "debug.showPoints": true,
+      "debug.showColliders": true,
+      "debug.showNormals": false,
+      "flags": 1,
+      "data.forceLeft": false,
+      "renderable": {
+        "type": "TransformComponent",
+        "name": "",
+        "enabled": true,
+        "children": null,
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "material_path": "materials/bricks_wall.mat",
+        "showTop": true,
+        "maxSlope": 45.0,
+        "topHeight": 0.5,
+        "topOffset": 0.0,
+        "topMaterialPath": "materials/bricks_top.mat",
+        "isOccluder": false,
+        "show": true,
+        "horizontal_offset": 0.0
+      }
+    },
+    {
+      "type": "MeshRendererComponent",
+      "name": "MeshRendererComponent_2526",
+      "enabled": true,
+      "children": null,
+      "position": [
+        0.0,
+        -0.5,
+        -0.0010000000474974513
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        5.0,
+        2.5,
+        1.0
+      ],
+      "meshPath": "MODELS/quad.obj",
+      "materialPath": "materials/bricks_wall.mat",
+      "isOccluder": false
+    }
+  ],
+  "transform": {
+    "position": [
+      245.0,
+      48.0,
+      0.0
+    ],
+    "rotation": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "doorTag": "first_area",
+  "openDistance": 10.0,
+  "openSpeed": 5.0,
+  "usingEnemies": true,
+  "verticalMovement": false,
+  "yDir": 1,
+  "xDir": -1
+}

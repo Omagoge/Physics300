@@ -1,0 +1,12 @@
+{
+  "materialParams": [
+    "EDITOR/Default.png",
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "shaderPath": "SHADERS/default.shader"
+}

@@ -1,0 +1,37 @@
+AT_LEV1_Window.png
+size:145,549
+filter:Linear,Linear
+pma:true
+AT_LEV1_Window light1
+bounds:73,255,94,64
+offsets:1,1,97,65
+rotate:90
+AT_LEV1_Window light2
+bounds:2,2,53,72
+offsets:1,1,55,74
+rotate:90
+AT_LEV1_Window light3
+bounds:73,168,67,85
+offsets:3,1,71,87
+AT_LEV1_Window light4
+bounds:2,252,69,97
+offsets:1,1,71,99
+AT_LEV1_Window light5
+bounds:2,450,140,97
+offsets:1,4,142,102
+AT_LEV1_Window1
+bounds:2,57,94,64
+offsets:1,1,97,65
+rotate:90
+AT_LEV1_Window2
+bounds:76,7,53,72
+offsets:1,1,55,74
+AT_LEV1_Window3
+bounds:76,81,67,85
+offsets:3,1,71,87
+AT_LEV1_Window4
+bounds:2,153,69,97
+offsets:1,1,71,99
+AT_LEV1_Window5
+bounds:2,351,140,97
+offsets:1,4,142,102

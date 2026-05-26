@@ -1,0 +1,12 @@
+{
+  "materialParams": [
+    "MODELS/Billboard/Textures/enemyTut.png",
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "shaderPath": "SHADERS/default.shader"
+}

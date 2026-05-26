@@ -1,0 +1,90 @@
+{
+  "type": "Scene",
+  "name": "RayDemo",
+  "enabled": true,
+  "children": [
+    {
+      "type": "RayTest",
+      "name": "RayTest_53",
+      "enabled": true,
+      "children": null,
+      "transform": {
+        "position": [
+          -6.4062652587890625,
+          2.215839385986328,
+          0.00018310471205040812
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "ColliderTest",
+      "name": "ColliderTest_58",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Collider",
+          "name": "Collider",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              -5.0,
+              3.0
+            ],
+            [
+              -3.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0
+            ],
+            [
+              4.0,
+              6.0
+            ],
+            [
+              2.0,
+              0.0
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          -0.042610228061676025,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "format": "scene",
+  "file_path": "SCENES/RayDemo.scene"
+}

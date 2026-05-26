@@ -1,0 +1,49 @@
+#version 460
+
+layout(local_size_x = 16, local_size_y = 16) in;
+
+layout(binding = 0) uniform sampler2D inputTex;
+layout(binding = 1, rg32f) uniform writeonly image2D outputTex;
+
+uniform ivec2 resolution;
+uniform int stepValue;
+
+void main() {
+    ivec2 pixel = ivec2(gl_GlobalInvocationID.xy);
+
+    if (pixel.x >= resolution.x || pixel.y >= resolution.y)
+    return;
+
+    vec2 bestPos = texelFetch(inputTex, pixel, 0).rg;
+    float bestDist = 1e20;
+
+    if (bestPos.x >= 0.0) {
+        bestDist = distance(bestPos, (vec2(pixel) + 0.5) / vec2(resolution));
+    }
+
+    // 8 directions
+    for (int y = -1; y <= 1; y++) {
+        for (int x = -1; x <= 1; x++) {
+
+            ivec2 offset = ivec2(x, y) * stepValue;
+            ivec2 sampleCoord = pixel + offset;
+
+            if (sampleCoord.x < 0 || sampleCoord.y < 0 ||
+            sampleCoord.x >= resolution.x || sampleCoord.y >= resolution.y)
+            continue;
+
+            vec2 samplePos = texelFetch(inputTex, sampleCoord, 0).rg;
+
+            if (samplePos.x < 0.0) continue;
+
+            float d = distance(samplePos, (vec2(pixel) + 0.5) / vec2(resolution));
+
+            if (d < bestDist) {
+                bestDist = d;
+                bestPos = samplePos;
+            }
+        }
+    }
+
+    imageStore(outputTex, pixel, vec4(bestPos, 0, 0));
+}

@@ -1,0 +1,12 @@
+{
+  "materialParams": [
+    "WHITEBOXING/T_PLACEHOLDER.png",
+    [
+      0.125490203499794,
+      0.10980392247438431,
+      0.21176470816135406,
+      1.0
+    ]
+  ],
+  "shaderPath": "SHADERS/default.shader"
+}

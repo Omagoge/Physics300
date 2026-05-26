@@ -1,0 +1,45 @@
+New folder.png
+size:778,560
+filter:Linear,Linear
+pma:true
+Alarm
+bounds:2,2,149,99
+rotate:90
+Camera A
+bounds:675,44,97,144
+offsets:0,0,98,144
+Camera B
+bounds:103,5,146,89
+rotate:90
+Camera C
+bounds:106,208,85,66
+Camera D
+bounds:537,83,163,136
+rotate:90
+Exit_
+bounds:194,8,266,155
+rotate:90
+Light A
+bounds:2,153,102,405
+Light B
+bounds:675,190,56,101
+rotate:90
+Light C
+bounds:537,248,224,114
+offsets:0,1,225,115
+Light D Front
+bounds:537,364,194,231
+offsets:1,0,196,231
+rotate:90
+Light D Side
+bounds:106,276,282,215
+offsets:0,0,283,215
+rotate:90
+Light E Front_
+bounds:323,282,276,203
+offsets:0,0,283,204
+rotate:90
+Light E Side
+bounds:351,22,258,184
+offsets:0,0,259,185
+rotate:90

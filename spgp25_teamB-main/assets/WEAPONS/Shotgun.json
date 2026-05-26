@@ -1,0 +1,31 @@
+{
+  "name": "Shotgun",
+  "damage": 10.0,
+  "cooldown": 0.5,
+  "isAutomatic": false,
+  "maxForce": 48.0,
+  "magazineSize": 2,
+  "initialAmmo": 6,
+  "droppedTexture": "WEAPONS/Shotgun.mat",
+  "uiIconPath": "UI/new_hud/_0003_Shotgun_icon.png",
+  "aimingAnimation": "an_cat_aim_shotguns",
+  "shootingAnimation": "an_cat_shoot_shotguns",
+  "recoil.forceFalloffVec": [
+    0.5170000195503235,
+    0.38600000739097595
+  ],
+  "recoil.velocityReduction": 0.6759999990463257,
+  "recoil.forceReduction": 2.1519999504089355,
+  "recoil.maxSpeedFactor": 3.0,
+  "recoil.oppositeBoostScale": 0.49799999594688416,
+  "recoil.groundDamp": 0.6000000238418579,
+  "recoil.yBoostScale": 3.0169999599456787,
+  "recoil.yBoostCap": 18.90399932861328,
+  "recoil.xImpulseCap": 8.494999885559082,
+  "recoil.xImpulseScale": 2.1649999618530273,
+  "effectSocket": "cat_shotgun_origin",
+  "maxDispersionAngle": 15.927000045776367,
+  "maxBulletsPerShot": 5,
+  "muzzleAnimName": "shotgun",
+  "collision_flag": 4
+}

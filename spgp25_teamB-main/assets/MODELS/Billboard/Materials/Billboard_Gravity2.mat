@@ -1,0 +1,12 @@
+{
+  "materialParams": [
+    "MODELS/Billboard/Textures/gravityTut2.png",
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "shaderPath": "SHADERS/default.shader"
+}

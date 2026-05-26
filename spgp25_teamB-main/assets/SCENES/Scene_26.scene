@@ -1,0 +1,116 @@
+{
+  "type": "Scene",
+  "name": "Scene_26",
+  "enabled": true,
+  "children": [
+    {
+      "type": "Actor",
+      "name": "Actor_28",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Collider",
+          "name": "Collider_29",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              2.0,
+              0.0
+            ],
+            [
+              2.0,
+              -2.0
+            ],
+            [
+              0.0,
+              -2.0
+            ],
+            [
+              -1.0,
+              1.0
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 0,
+          "data.forceLeft": false,
+          "renderable": {
+            "material_path": "EDITOR/toast.mat"
+          }
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "a",
+      "enabled": true,
+      "children": [
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_32",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            -4.099999904632568
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            7.099999904632568,
+            5.5,
+            1.0
+          ],
+          "meshPath": "MODELS/quad.obj",
+          "materialPath": "MATERIALS/default.mat"
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "format": "scene",
+  "file_path": "SCENES/Scene_26.scene"
+}

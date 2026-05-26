@@ -1,0 +1,443 @@
+{
+  "type": "Scene",
+  "name": "PlayerScene",
+  "enabled": true,
+  "children": [
+    {
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.25,
+          0.25,
+          1.0
+        ]
+      }
+    },
+    {
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "WeaponType": 0
+    },
+    null,
+    {
+      "type": "Player",
+      "name": "Player_1",
+      "enabled": true,
+      "children": [
+        {
+          "type": "LaserBeamEffect",
+          "name": "LaserBeamEffect_2417",
+          "enabled": true,
+          "children": [
+            {
+              "type": "LaserBeamRenderer",
+              "name": "LaserBeamRenderer_2418",
+              "enabled": true,
+              "children": null,
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          ],
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "luaConfigPath": "VFX/PARTICLES/OnAirParticles.lua",
+          "playing": false,
+          "cullingRadius": 20
+        },
+        {
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "luaConfigPath": "VFX/PARTICLES/DustFeetBraking.lua",
+          "playing": false,
+          "cullingRadius": 20
+        },
+        {
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "luaConfigPath": "VFX/PARTICLES/DustFeetBraking.lua",
+          "playing": false,
+          "cullingRadius": 20
+        },
+        {
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.25,
+              0.25,
+              1.0
+            ]
+          }
+        },
+        {
+          "type": "Rigidbody",
+          "name": "Rigidbody_617",
+          "enabled": true,
+          "children": null,
+          "radius": 1.0,
+          "infinite_mass": false,
+          "mass": 1.0,
+          "friction": 0.2,
+          "hasGravity": true,
+          "gravityScale": [
+            0.0,
+            0.0
+          ],
+          "hasDrag": true,
+          "drag": [
+            0.5,
+            0.5
+          ],
+          "restitution": 0.10000000149011612,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "ignorePlayer": false,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.skipResolution": false,
+          "flags": 2
+        },
+        {
+          "type": "SpineRendererComponent",
+          "name": "SpineRendererComponent_618",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.25,
+            0.25,
+            1.0
+          ],
+          "atlasResourcePath": "CHARS/PLAYER/ANIMATIONS/CH_Cat.atlas",
+          "skeletonDataResourcePath": "CHARS/PLAYER/ANIMATIONS/CH_Cat.json",
+          "isOccluder": true,
+          "castsDirectionalShadow": true,
+          "drawToDepth": true,
+          "selectedAnimation": "",
+          "selectedAnimationLoop": false,
+          "playSelectedAnimationOnBegin": false
+        }
+      ],
+      "transform": {
+        "position": [
+          4.0,
+          2.0,
+          0.10000000149011612
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "PauseMenuActor",
+      "enabled": true,
+      "children": [
+        {
+          "type": "PauseMenu",
+          "name": "PauseMenu_1",
+          "enabled": false,
+          "children": null,
+          "url": "file:///assets/UI/menus/PauseMenu.html",
+          "sort_order": 10
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "GlobalLight",
+      "name": "GlobalLight_130",
+      "enabled": true,
+      "children": null,
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.01730005070567131,
+          0.9971011877059937,
+          -0.0012853748630732298,
+          0.07408281415700912
+        ],
+        "scale": [
+          1.0,
+          1.0000189542770386,
+          1.0000276565551758
+        ]
+      },
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "intensity": 0.527999997138977,
+      "enableLight": true,
+      "useTransformDirection": true,
+      "manualDirection": [
+        -0.3215206563472748,
+        -0.9186304211616516,
+        -0.2296576052904129
+      ],
+      "showDirectionalShadowArrow": true,
+      "directionalShadowArrowLength": 6.0
+    },
+    {
+      "type": "Actor",
+      "name": "HUD",
+      "enabled": true,
+      "children": [
+        {
+          "type": "HtmlView",
+          "name": "HtmlView_HUD",
+          "enabled": true,
+          "children": null,
+          "url": "file:///assets/UI/new_hud/hud.html",
+          "sort_order": 0
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "format": "scene",
+  "file_path": "SCENES/PlayerScene.scene"
+}

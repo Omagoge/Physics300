@@ -1,0 +1,31 @@
+{
+  "name": "GUN",
+  "damage": 1.0,
+  "cooldown": 0.18000000715255737,
+  "isAutomatic": false,
+  "maxForce": 26.0,
+  "magazineSize": 6,
+  "initialAmmo": 2144483647,
+  "droppedTexture": "WEAPONS/GUN.mat",
+  "uiIconPath": "UI/new_hud/_0005_Pistol_icon.png",
+  "aimingAnimation": "an_cat_aim_guns",
+  "shootingAnimation": "an_cat_shoot_guns",
+  "recoil.forceFalloffVec": [
+    0.8999999761581421,
+    0.59
+  ],
+  "recoil.velocityReduction": 0.800000011920929,
+  "recoil.forceReduction": 5.517000198364258,
+  "recoil.maxSpeedFactor": 3.0,
+  "recoil.oppositeBoostScale": 0.38600000739097595,
+  "recoil.groundDamp": 0.4309999942779541,
+  "recoil.yBoostScale": 3.4240000247955322,
+  "recoil.yBoostCap": 8.072999954223633,
+  "recoil.xImpulseCap": 3.0,
+  "recoil.xImpulseScale": 0.5649999976158142,
+  "effectSocket": "cat_gun_origin",
+  "maxDispersionAngle": 20.0,
+  "maxBulletsPerShot": 1,
+  "muzzleAnimName": "gun",
+  "collision_flag": 4
+}

@@ -1,0 +1,10 @@
+AT_LEV1_BG_STAIRS.png
+size:692,655
+filter:Linear,Linear
+pma:true
+AT_LEV1_BG_STAIRS_1
+bounds:2,33,398,620
+offsets:0,1,398,621
+AT_LEV1_BG_STAIRS_2
+bounds:402,2,288,651
+offsets:0,1,288,652

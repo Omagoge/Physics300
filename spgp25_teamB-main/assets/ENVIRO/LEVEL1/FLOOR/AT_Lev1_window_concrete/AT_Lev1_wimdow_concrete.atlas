@@ -1,0 +1,30 @@
+AT_Lev1_wimdow_concrete.png
+size:488,1043
+filter:Linear,Linear
+pma:true
+AT_LEV1_WindowBase_concrete
+bounds:2,795,332,246
+offsets:0,0,333,246
+AT_LEV1_WindowBase_concrete2
+bounds:2,164,206,272
+offsets:0,0,208,272
+rotate:90
+AT_LEV1_WindowBase_concrete3
+bounds:2,570,223,311
+offsets:0,0,224,311
+rotate:90
+AT_LEV1_Window_concrete _BG
+bounds:2,372,298,196
+AT_LEV1_Window_concrete _BG2
+bounds:336,826,150,215
+AT_LEV1_Window_concrete _BG3
+bounds:315,347,163,260
+AT_LEV1_Window_concrete _fog
+bounds:276,56,289,187
+rotate:90
+AT_LEV1_Window_concrete _fog2
+bounds:336,609,150,215
+AT_LEV1_Window_concrete _fog3
+bounds:2,2,160,255
+offsets:0,2,161,257
+rotate:90

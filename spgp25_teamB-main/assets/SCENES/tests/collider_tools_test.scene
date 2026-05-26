@@ -1,0 +1,107 @@
+{
+  "type": "Scene",
+  "name": "collider_tools_test",
+  "enabled": true,
+  "children": [
+    {
+      "type": "Actor",
+      "name": "Actor_29",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Collider",
+          "name": "Collider_30",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              -1.6336063146591187,
+              -1.28631591796875
+            ],
+            [
+              -1.5876073837280273,
+              2.421630859375
+            ],
+            [
+              1.868788719177246,
+              2.510356903076172
+            ],
+            [
+              7.004780292510986,
+              0.9417763948440552
+            ],
+            [
+              9.593191146850586,
+              1.0008726119995117
+            ],
+            [
+              10.265053749084473,
+              -2.9392683506011963
+            ],
+            [
+              2.3837125301361084,
+              -2.81878662109375
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 0,
+          "data.forceLeft": false,
+          "renderable": {
+            "type": "TransformComponent",
+            "name": "",
+            "enabled": true,
+            "children": null,
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "material_path": "ENVIRO/LEVEL1/WALLS/AT_LEV1_BRICKSWALL/TileableWall.mat",
+            "showTop": true,
+            "maxSlope": 49.0,
+            "topHeight": 0.5,
+            "topOffset": -0.20000000298023224,
+            "topMaterialPath": "materials/bricks_top.mat",
+            "isOccluder": false,
+            "show": true,
+            "horizontal_offset": 0.10000000149011612
+          }
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "format": "scene",
+  "file_path": "SCENES/collider_tools_test.scene"
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="hud.css">
+    <script src="../script.js" defer></script>
+    <script src="hud.js" defer></script>
+</head>
+<body>
+
+<iframe id="timer-hud-container" src="../hud/timer.html"></iframe>
+
+<div id="effect" class="is-transparent"></div>
+<div id="damage-vignette" aria-hidden="true"></div>
+<div id="game-hud">
+  <div class="weapon-section">
+    <div class="weapon-grid">
+      <div id="slot-1" class="slot weapon-slot" data-index="1">
+        <img id="img-1" class="weapon-icon" alt="Weapon 1">
+      </div>
+      <div id="slot-2" class="slot weapon-slot" data-index="2">
+        <img id="img-2" class="weapon-icon" alt="Weapon 2">
+        <div id="reserve-ammo-2" class="reserve-ammo">--</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bars">
+    <div class="bar-wrapper health-bar-wrapper">
+      <div class="status-bar health-bar" id="health-bar">
+        <div class="heart-segment">
+          <img class="heart-layer heart-dead" src="_0002_Heart_dead.png" alt="">
+          <div class="heart-alive-mask">
+            <img class="heart-layer heart-alive" src="_0001_Heart_alive.png" alt="">
+          </div>
+          <img class="heart-layer heart-outline" src="_0000_Heart_outline.png" alt="">
+        </div>
+        <div class="heart-segment">
+          <img class="heart-layer heart-dead" src="_0002_Heart_dead.png" alt="">
+          <div class="heart-alive-mask">
+            <img class="heart-layer heart-alive" src="_0001_Heart_alive.png" alt="">
+          </div>
+          <img class="heart-layer heart-outline" src="_0000_Heart_outline.png" alt="">
+        </div>
+        <div class="heart-segment">
+          <img class="heart-layer heart-dead" src="_0002_Heart_dead.png" alt="">
+          <div class="heart-alive-mask">
+            <img class="heart-layer heart-alive" src="_0001_Heart_alive.png" alt="">
+          </div>
+          <img class="heart-layer heart-outline" src="_0000_Heart_outline.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="bar-wrapper ammo-bar-wrapper">
+      <div class="status-bar ammo-bar" id="ammo-bar">
+        <div class="ammo-segment"><img class="ammo-pip" src="_0017_Bullet_empty.png" alt=""></div>
+        <div class="ammo-segment"><img class="ammo-pip" src="_0017_Bullet_empty.png" alt=""></div>
+        <div class="ammo-segment"><img class="ammo-pip" src="_0017_Bullet_empty.png" alt=""></div>
+        <div class="ammo-segment"><img class="ammo-pip" src="_0017_Bullet_empty.png" alt=""></div>
+        <div class="ammo-segment"><img class="ammo-pip" src="_0017_Bullet_empty.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

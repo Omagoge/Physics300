@@ -1,0 +1,67 @@
+{
+  "type": "Portal",
+  "name": "Portal_1",
+  "enabled": true,
+  "children": [
+    {
+      "type": "MeshRendererComponent",
+      "name": "MeshRendererComponent_419",
+      "enabled": true,
+      "children": null,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshPath": "MODELS/quad.obj",
+      "materialPath": "EDITOR/toast.mat",
+      "isOccluder": false,
+      "drawToDepth": true
+    }
+  ],
+  "transform": {
+    "position": [
+      10.0,
+      5.0,
+      -6.103515625e-05
+    ],
+    "rotation": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "debug.draw": true,
+  "debug.log": false,
+  "debug.defaultColor": [
+    0.0,
+    1.0,
+    1.0,
+    0.5
+  ],
+  "debug.collideColor": [
+    1.0,
+    0.0,
+    0.0,
+    0.5
+  ],
+  "world": 0,
+  "level": 0
+}

@@ -1,0 +1,135 @@
+{
+  "type": "Actor",
+  "name": "walls",
+  "enabled": true,
+  "children": [
+    {
+      "type": "Actor",
+      "name": "left",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Collider",
+          "name": "Collider_151",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              50.0
+            ],
+            [
+              -10.0,
+              50.0
+            ],
+            [
+              -10.0,
+              0.0
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 1,
+          "data.forceLeft": false
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "right",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Collider",
+          "name": "Collider_151",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              50.0
+            ],
+            [
+              -10.0,
+              50.0
+            ],
+            [
+              -10.0,
+              0.0
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 1,
+          "data.forceLeft": false
+        }
+      ],
+      "transform": {
+        "position": [
+          150.0,
+          34.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "transform": {
+    "position": [
+      -32.0,
+      -4.0,
+      0.0
+    ],
+    "rotation": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+}

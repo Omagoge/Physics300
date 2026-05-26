@@ -1,0 +1,552 @@
+{
+  "type": "Scene",
+  "name": "ColliderTest",
+  "enabled": true,
+  "children": [
+    {
+      "type": "RigidbodyTest",
+      "name": "Ball_(0)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Rigidbody",
+          "name": "Rigidbody",
+          "enabled": true,
+          "children": null,
+          "radius": 1.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "transform": {
+        "position": [
+          0.20008552074432373,
+          13.704463958740234,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "Collider",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Collider",
+          "name": "Collider_29",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              -7.0,
+              3.0
+            ],
+            [
+              -1.0,
+              0.0
+            ],
+            [
+              10.0,
+              1.0
+            ],
+            [
+              8.0,
+              -2.0
+            ],
+            [
+              -6.0,
+              -2.0
+            ]
+          ],
+          "friction": 0.330636,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "RigidbodyTest",
+      "name": "Ball",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Rigidbody",
+          "name": "Rigidbody",
+          "enabled": true,
+          "children": null,
+          "radius": 1.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "transform": {
+        "position": [
+          -0.514472484588623,
+          6.655977249145508,
+          -6.103515625e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "RigidbodyTest",
+      "name": "Ball_(1)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Rigidbody",
+          "name": "Rigidbody",
+          "enabled": true,
+          "children": null,
+          "radius": 1.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "transform": {
+        "position": [
+          -1.7256449460983276,
+          8.650741577148438,
+          -0.0001220705162268132
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "RigidbodyTest",
+      "name": "Ball_(2)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Rigidbody",
+          "name": "Rigidbody",
+          "enabled": true,
+          "children": null,
+          "radius": 1.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "transform": {
+        "position": [
+          2.9921457767486572,
+          11.77485466003418,
+          -6.103515625e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "RigidbodyTest",
+      "name": "Ball_(3)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Rigidbody",
+          "name": "Rigidbody",
+          "enabled": true,
+          "children": null,
+          "radius": 1.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "transform": {
+        "position": [
+          -0.0761258602142334,
+          10.851907730102539,
+          -0.0001220705162268132
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "RigidbodyTest",
+      "name": "Ball_(5)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Rigidbody",
+          "name": "Rigidbody",
+          "enabled": true,
+          "children": null,
+          "radius": 1.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "transform": {
+        "position": [
+          1.8405635356903076,
+          9.192679405212402,
+          -6.103515625e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "RigidbodyTest",
+      "name": "Ball_(6)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Rigidbody",
+          "name": "Rigidbody",
+          "enabled": true,
+          "children": null,
+          "radius": 1.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "transform": {
+        "position": [
+          -4.235446453094482,
+          5.938419818878174,
+          -0.0001220705162268132
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "RigidbodyTest",
+      "name": "Ball_(7)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Rigidbody",
+          "name": "Rigidbody",
+          "enabled": true,
+          "children": null,
+          "radius": 1.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "transform": {
+        "position": [
+          -4.428292274475098,
+          9.691129684448242,
+          -0.0001220705162268132
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "RigidbodyTest",
+      "name": "Ball_(4)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Rigidbody",
+          "name": "Rigidbody",
+          "enabled": true,
+          "children": null,
+          "radius": 1.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "transform": {
+        "position": [
+          6.083622932434082,
+          9.318331718444824,
+          -6.103515625e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "format": "scene",
+  "file_path": "SCENES/ColliderTest.scene"
+}

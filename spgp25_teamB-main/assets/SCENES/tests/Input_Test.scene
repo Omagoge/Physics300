@@ -1,0 +1,33 @@
+
+  "type": "Scene",
+  "name": "Input_Test",
+  "enabled": true,
+  "children": [
+    {
+      "type": "TestInput",
+      "name": "TestInput_17",
+      "enabled": true,
+      "children": null,
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "format": "scene",
+  "file_path": "SCENES/Input_Test.scene"
+}

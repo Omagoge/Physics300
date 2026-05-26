@@ -1,0 +1,829 @@
+{
+  "type": "Scene",
+  "name": "Box_Tests",
+  "enabled": true,
+  "children": [
+    {
+      "type": "BoxRbTest",
+      "name": "Box1",
+      "enabled": true,
+      "children": [
+        {
+          "type": "BoxRigidbody",
+          "name": "Box_Rigidbody",
+          "enabled": true,
+          "children": null,
+          "size": [
+            2.0,
+            2.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "angularDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.009999999776482582,
+            0.009999999776482582
+          ],
+          "minimumAngularVelocity": 0.01,
+          "disableAngular": false,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.showManifolds": false
+        }
+      ],
+      "transform": {
+        "position": [
+          -10.0,
+          8.0,
+          0.00018310509040020406
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          5.1913266361225396e-05
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "ColliderTest",
+      "name": "ColliderTest_29",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Collider",
+          "name": "Collider",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              -50.0,
+              3.0
+            ],
+            [
+              -50.0,
+              -3.0
+            ],
+            [
+              50.0,
+              -3.0
+            ],
+            [
+              50.0,
+              3.0
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 1,
+          "data.forceLeft": false
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "BoxRbTest",
+      "name": "Box2",
+      "enabled": true,
+      "children": [
+        {
+          "type": "BoxRigidbody",
+          "name": "Box_Rigidbody",
+          "enabled": true,
+          "children": null,
+          "size": [
+            2.0,
+            2.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "angularDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.009999999776482582,
+            0.009999999776482582
+          ],
+          "minimumAngularVelocity": 0.01,
+          "disableAngular": false,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.showManifolds": false
+        }
+      ],
+      "transform": {
+        "position": [
+          -7.949999809265137,
+          8.0,
+          -0.00018310698214918375
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          6.337888771668077e-05
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "BoxRbTest",
+      "name": "Box3",
+      "enabled": true,
+      "children": [
+        {
+          "type": "BoxRigidbody",
+          "name": "Box_Rigidbody",
+          "enabled": true,
+          "children": null,
+          "size": [
+            2.0,
+            2.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "angularDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.009999999776482582,
+            0.009999999776482582
+          ],
+          "minimumAngularVelocity": 0.01,
+          "disableAngular": false,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.showManifolds": false
+        }
+      ],
+      "transform": {
+        "position": [
+          -12.050000190734863,
+          8.0,
+          -0.00012207058898638934
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "BoxRbTest",
+      "name": "Box4",
+      "enabled": true,
+      "children": [
+        {
+          "type": "BoxRigidbody",
+          "name": "Box_Rigidbody",
+          "enabled": true,
+          "children": null,
+          "size": [
+            2.0,
+            2.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "angularDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.009999999776482582,
+            0.009999999776482582
+          ],
+          "minimumAngularVelocity": 0.01,
+          "disableAngular": false,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.showManifolds": false
+        }
+      ],
+      "transform": {
+        "position": [
+          -7.949999809265137,
+          6.0,
+          -6.103515625e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "BoxRbTest",
+      "name": "Box5",
+      "enabled": true,
+      "children": [
+        {
+          "type": "BoxRigidbody",
+          "name": "Box_Rigidbody",
+          "enabled": true,
+          "children": null,
+          "size": [
+            2.0,
+            2.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "angularDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.009999999776482582,
+            0.009999999776482582
+          ],
+          "minimumAngularVelocity": 0.01,
+          "disableAngular": false,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.showManifolds": false
+        }
+      ],
+      "transform": {
+        "position": [
+          -10.0,
+          6.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "BoxRbTest",
+      "name": "Box6",
+      "enabled": true,
+      "children": [
+        {
+          "type": "BoxRigidbody",
+          "name": "Box_Rigidbody",
+          "enabled": true,
+          "children": null,
+          "size": [
+            2.0,
+            2.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "angularDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.009999999776482582,
+            0.009999999776482582
+          ],
+          "minimumAngularVelocity": 0.01,
+          "disableAngular": false,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.showManifolds": false
+        }
+      ],
+      "transform": {
+        "position": [
+          -12.050000190734863,
+          6.0,
+          -6.103515625e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "BoxRbTest",
+      "name": "Box7",
+      "enabled": true,
+      "children": [
+        {
+          "type": "BoxRigidbody",
+          "name": "Box_Rigidbody",
+          "enabled": true,
+          "children": null,
+          "size": [
+            2.0,
+            2.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "angularDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.009999999776482582,
+            0.009999999776482582
+          ],
+          "minimumAngularVelocity": 0.01,
+          "disableAngular": false,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.showManifolds": false
+        }
+      ],
+      "transform": {
+        "position": [
+          -7.949999809265137,
+          4.0,
+          -0.0001220703125
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "BoxRbTest",
+      "name": "Box8",
+      "enabled": true,
+      "children": [
+        {
+          "type": "BoxRigidbody",
+          "name": "Box_Rigidbody",
+          "enabled": true,
+          "children": null,
+          "size": [
+            2.0,
+            2.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "angularDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.009999999776482582,
+            0.009999999776482582
+          ],
+          "minimumAngularVelocity": 0.01,
+          "disableAngular": false,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.showManifolds": false
+        }
+      ],
+      "transform": {
+        "position": [
+          -12.050000190734863,
+          4.0,
+          -0.0001220703125
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "BoxRbTest",
+      "name": "Box9",
+      "enabled": true,
+      "children": [
+        {
+          "type": "BoxRigidbody",
+          "name": "Box_Rigidbody",
+          "enabled": true,
+          "children": null,
+          "size": [
+            2.0,
+            2.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "angularDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.009999999776482582,
+            0.009999999776482582
+          ],
+          "minimumAngularVelocity": 0.01,
+          "disableAngular": false,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.showManifolds": false
+        }
+      ],
+      "transform": {
+        "position": [
+          -10.0,
+          4.0,
+          -0.0001220703125
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "BoxRbTest",
+      "name": "Box10",
+      "enabled": true,
+      "children": [
+        {
+          "type": "BoxRigidbody",
+          "name": "Box_Rigidbody",
+          "enabled": true,
+          "children": null,
+          "size": [
+            2.0,
+            2.0
+          ],
+          "offset": [
+            0.0,
+            0.0
+          ],
+          "rotation": 0.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "linearDrag": 0.5,
+          "angularDrag": 0.5,
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.009999999776482582,
+            0.009999999776482582
+          ],
+          "minimumAngularVelocity": 0.01,
+          "disableAngular": false,
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.showManifolds": false
+        }
+      ],
+      "transform": {
+        "position": [
+          7.187767028808594,
+          12.139060020446777,
+          -0.00018310571613255888
+        ],
+        "rotation": [
+          0.9238795042037964,
+          0.0,
+          0.0,
+          0.3826834559440613
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "RigidbodyTest",
+      "name": "Ball1",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Rigidbody",
+          "name": "Rigidbody",
+          "enabled": true,
+          "children": null,
+          "radius": 1.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "hasGravity": true,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "hasDrag": true,
+          "drag": [
+            0.5,
+            0.5
+          ],
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.skipResolution": false,
+          "flags": 0
+        }
+      ],
+      "transform": {
+        "position": [
+          7.181488037109375,
+          4.596107482910156,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "format": "scene",
+  "file_path": "SCENES/Box_Tests.scene"
+}

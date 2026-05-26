@@ -1,0 +1,9 @@
+AT_LEV2_Celing_Stone.png
+size:1057,394
+filter:Linear,Linear
+pma:true
+Platform_stone_celling
+bounds:2,2,585,390
+offsets:13,2,598,392
+Platform_stone_celling_back
+bounds:589,58,466,334

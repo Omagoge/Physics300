@@ -1,0 +1,20 @@
+format: projectData
+projectName: Demo Project
+projectVersion: [1, 0, 0]
+
+input:
+  deadzone: 0.2
+  layouts:
+    - LAYOUTS/editor.lua
+    - LAYOUTS/player.lua
+    - LAYOUTS/ui.lua
+    - LAYOUTS/null.lua
+
+physics:
+  iterationCount: 5
+  gravity: [0.0, -9.81]
+  positionCorrection:
+    slop: 1.0e-3
+    ptc: 0.4
+  eps: 1.0e-6
+  epsSmall: 1.0e-9

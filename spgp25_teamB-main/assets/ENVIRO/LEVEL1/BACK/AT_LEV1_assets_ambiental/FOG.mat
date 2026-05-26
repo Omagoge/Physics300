@@ -1,0 +1,12 @@
+{
+  "materialParams": [
+    "ENVIRO/LEVEL1/BACK/AT_LEV1_assets_ambiental/AT_LEV1_asset_fog.png",
+    [
+      1.0,
+      1.0,
+      1.0,
+      0.37254902720451355
+    ]
+  ],
+  "shaderPath": "SHADERS/default.shader"
+}

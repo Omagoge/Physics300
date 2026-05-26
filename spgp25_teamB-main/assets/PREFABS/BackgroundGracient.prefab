@@ -1,0 +1,126 @@
+{
+  "type": "Actor",
+  "name": "BackgroundGracient",
+  "enabled": true,
+  "children": [
+    {
+      "type": "AtlasRendererComponent",
+      "name": "AtlasRendererComponent_61",
+      "enabled": true,
+      "children": [
+        {
+          "type": "AtlasSpriteComponent",
+          "name": "LEV1_BG_Sky_0",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1000.0,
+            25.0,
+            1.0
+          ],
+          "regionName": "LEV1_BG_Sky",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "atlasResourcePath": "ENVIRO/LEVEL1/BACK/AT_LEV1_assets_ambiental/AT_LEV1_assets_ambiental.atlas"
+    },
+    {
+      "type": "MeshRendererComponent",
+      "name": "MeshRendererComponent_63",
+      "enabled": true,
+      "children": null,
+      "position": [
+        0.0,
+        456.60150146484375,
+        0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        833.8453369140625,
+        196.5,
+        1.0
+      ],
+      "meshPath": "MODELS/quad.obj",
+      "materialPath": "ENVIRO/LEVEL1/BACK/AT_LEV1_assets_ambiental/BackgroundBlueSolid.mat"
+    },
+    {
+      "type": "MeshRendererComponent",
+      "name": "MeshRendererComponent_63_(0)",
+      "enabled": true,
+      "children": null,
+      "position": [
+        0.0,
+        -451.9107666015625,
+        0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        833.8453369140625,
+        196.5,
+        1.0
+      ],
+      "meshPath": "MODELS/quad.obj",
+      "materialPath": "ENVIRO/LEVEL1/BACK/AT_LEV1_assets_ambiental/BackgroundYellowSolid.mat"
+    }
+  ],
+  "transform": {
+    "position": [
+      416.4140625,
+      19.599990844726563,
+      -199.38491821289063
+    ],
+    "rotation": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+}

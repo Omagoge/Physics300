@@ -1,0 +1,74 @@
+{
+  "type": "Actor",
+  "name": "Building1",
+  "enabled": true,
+  "children": [
+    {
+      "type": "ParticleSystem",
+      "name": "ParticleSystem_492",
+      "enabled": true,
+      "children": null,
+      "position": [
+        -1.3860000371932983,
+        11.180000305175781,
+        -0.8999999761581421
+      ],
+      "rotation": [
+        1.0,
+        6.991741907658167e-11,
+        -7.105426934084528e-15,
+        -1.1367675464141191e-13
+      ],
+      "scale": [
+        0.0,
+        0.9999997615814209,
+        1.0
+      ],
+      "luaConfigPath": "",
+      "playing": true,
+      "cullingRadius": 20
+    },
+    {
+      "type": "MeshRendererComponent",
+      "name": "MeshRendererComponent_452",
+      "enabled": true,
+      "children": null,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshPath": "MODELS/Building1.obj",
+      "materialPath": "MODELS/Building.mat"
+    }
+  ],
+  "transform": {
+    "position": [
+      0.00016194701311178505,
+      -96.39977264404297,
+      19.689842224121094
+    ],
+    "rotation": [
+      -0.7071067094802856,
+      -7.81119695147936e-07,
+      0.7071068286895752,
+      -7.81119695147936e-07
+    ],
+    "scale": [
+      9.999114036560059,
+      10.0,
+      9.999114036560059
+    ]
+  }
+}

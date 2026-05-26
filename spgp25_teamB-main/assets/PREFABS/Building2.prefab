@@ -1,0 +1,49 @@
+{
+  "type": "Actor",
+  "name": "Building2",
+  "enabled": true,
+  "children": [
+    {
+      "type": "MeshRendererComponent",
+      "name": "MeshRendererComponent_452",
+      "enabled": true,
+      "children": null,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshPath": "MODELS/Building2.obj",
+      "materialPath": "MODELS/Building.mat"
+    }
+  ],
+  "transform": {
+    "position": [
+      107.86198425292969,
+      -122.5930404663086,
+      -38.79368591308594
+    ],
+    "rotation": [
+      0.7071069478988647,
+      -0.00017263351764995605,
+      -0.7071065902709961,
+      -0.00017263343033846468
+    ],
+    "scale": [
+      -10.0,
+      10.0,
+      9.999998092651367
+    ]
+  }
+}

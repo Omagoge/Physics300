@@ -1,0 +1,909 @@
+{
+  "type": "Scene",
+  "name": "Test_Movement",
+  "enabled": true,
+  "children": [
+    null,
+    {
+      "type": "ColliderTest",
+      "name": "Test_Floor",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Collider",
+          "name": "Collider",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              -100.0,
+              -5.0
+            ],
+            [
+              -100.0,
+              0.0
+            ],
+            [
+              -75.0,
+              0.0
+            ],
+            [
+              -75.0,
+              10.0
+            ],
+            [
+              -36.81855010986328,
+              8.159687042236328
+            ],
+            [
+              -36.604248046875,
+              3.980224132537842
+            ],
+            [
+              -31.367351531982422,
+              4.032094955444336
+            ],
+            [
+              -28.91028594970703,
+              6.579069137573242
+            ],
+            [
+              -25.973770141601563,
+              6.561540603637695
+            ],
+            [
+              -23.039722442626953,
+              3.3305559158325195
+            ],
+            [
+              -21.811824798583984,
+              2.1540260314941406
+            ],
+            [
+              -19.024261474609375,
+              0.8081365823745728
+            ],
+            [
+              -15.0,
+              0.0
+            ],
+            [
+              -6.5481109619140625,
+              0.2567746639251709
+            ],
+            [
+              5.6773681640625,
+              2.3110504150390625
+            ],
+            [
+              35.777835845947266,
+              18.474002838134766
+            ],
+            [
+              40.0,
+              5.0
+            ],
+            [
+              50.0,
+              10.0
+            ],
+            [
+              70.0,
+              0.0
+            ],
+            [
+              100.0,
+              0.0
+            ],
+            [
+              100.0,
+              -5.0
+            ]
+          ],
+          "friction": 0.508584,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 1,
+          "data.forceLeft": false
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "WeaponActor",
+      "name": "WeaponActor_55",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Rigidbody",
+          "name": "Rigidbody_56",
+          "enabled": true,
+          "children": null,
+          "radius": 1.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "hasGravity": true,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "hasDrag": true,
+          "drag": [
+            0.5,
+            0.5
+          ],
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.skipResolution": false,
+          "flags": 0
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_57",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.75,
+            0.75,
+            1.0
+          ],
+          "meshPath": "MODELS/quad.obj",
+          "materialPath": "WEAPONS/GUN.mat"
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "WeaponType": 0
+    },
+    {
+      "type": "FollowCamera",
+      "name": "Camera",
+      "enabled": true,
+      "children": null,
+      "transform": {
+        "position": [
+          0.35119056701660156,
+          5.9908952713012695,
+          15.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "isActiveCamera": true
+    },
+    {
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.25,
+          0.25,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Player",
+      "name": "Player",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Rigidbody",
+          "name": "Rigidbody_20",
+          "enabled": true,
+          "children": null,
+          "radius": 1.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "hasGravity": true,
+          "gravityScale": [
+            0.0,
+            0.0
+          ],
+          "hasDrag": true,
+          "drag": [
+            0.5,
+            0.5
+          ],
+          "restitution": 0.10000000149011612,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.skipResolution": false,
+          "flags": 2
+        },
+        {
+          "type": "SpineRendererComponent",
+          "name": "SpineRendererComponent_23",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.25,
+            0.25,
+            1.0
+          ],
+          "atlasResourcePath": "CHARS/PLAYER/ANIMATIONS/CH_Cat.atlas",
+          "skeletonDataResourcePath": "CHARS/PLAYER/ANIMATIONS/CH_Cat.json"
+        },
+        {
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.25,
+              0.25,
+              1.0
+            ]
+          }
+        },
+        {
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "transform": {
+        "position": [
+          0.299446702003479,
+          5.917618751525879,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "WeaponType": 0
+    },
+    {
+      "type": "Rat",
+      "name": "Rat_118",
+      "enabled": true,
+      "children": [
+        {
+          "type": "SpineRendererComponent",
+          "name": "SpineRendererComponent_119",
+          "enabled": true,
+          "children": null,
+          "position": [
+            -0.125,
+            -1.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.125,
+            0.125,
+            1.0
+          ],
+          "atlasResourcePath": "CHARS/PLAYER/ANIMATIONS/CH_Cat.atlas",
+          "skeletonDataResourcePath": "CHARS/PLAYER/ANIMATIONS/CH_Cat.json"
+        },
+        {
+          "type": "Rigidbody",
+          "name": "Rigidbody_120",
+          "enabled": true,
+          "children": null,
+          "radius": 1.0,
+          "mass": 100.0,
+          "friction": 0.2,
+          "hasGravity": true,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "hasDrag": true,
+          "drag": [
+            0.5,
+            0.5
+          ],
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.skipResolution": false,
+          "flags": 4
+        },
+        {
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.25,
+              0.25,
+              1.0
+            ]
+          }
+        },
+        {
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "transform": {
+        "position": [
+          -34.01190948486328,
+          5.061036109924316,
+          -0.0001245547755388543
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "Range Limit": 50.0,
+      "Interp Factor": 3.0,
+      "Close Aim Speed": 15.0,
+      "Aim Time": 0.5,
+      "Shoot Time": 0.10000000149011612,
+      "Cooldown Time": 2.0,
+      "Aim Distance": 3.0,
+      "Muzzle Distance": 0.125,
+      "Enable Shooting": true
+    },
+    {
+      "type": "WeaponActor",
+      "name": "WeaponActor_59",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Rigidbody",
+          "name": "Rigidbody_60",
+          "enabled": true,
+          "children": null,
+          "radius": 1.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "hasGravity": true,
+          "gravityScale": [
+            1.0,
+            1.0
+          ],
+          "hasDrag": true,
+          "drag": [
+            0.5,
+            0.5
+          ],
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.skipResolution": false,
+          "flags": 0
+        },
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_61",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.75,
+            0.75,
+            1.0
+          ],
+          "meshPath": "MODELS/quad.obj",
+          "materialPath": "WEAPONS/Shotgun.mat"
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "WeaponType": 1
+    },
+    {
+      "type": "Actor",
+      "name": "Background",
+      "enabled": true,
+      "children": [
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_36",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "meshPath": "MODELS/quad.obj",
+          "materialPath": "WHITEBOXING/BACKGROUND.mat"
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          100.0,
+          100.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Pigeon",
+      "name": "Pigeon_37",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Rigidbody",
+          "name": "Rigidbody_39",
+          "enabled": true,
+          "children": null,
+          "radius": 1.25,
+          "mass": 100.0,
+          "friction": 0.2,
+          "hasGravity": true,
+          "gravityScale": [
+            0.0,
+            0.0
+          ],
+          "hasDrag": true,
+          "drag": [
+            0.5,
+            0.5
+          ],
+          "restitution": 0.6,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.skipResolution": false,
+          "flags": 4
+        },
+        {
+          "type": "SpineRendererComponent",
+          "name": "SpineRendererComponent_69",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            -0.5,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.5,
+            0.5,
+            1.0
+          ],
+          "atlasResourcePath": "CHARS/PLAYER/ANIMATIONS/CH_Cat.atlas",
+          "skeletonDataResourcePath": "CHARS/PLAYER/ANIMATIONS/CH_Cat.json"
+        },
+        {
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.25,
+              0.25,
+              1.0
+            ]
+          }
+        },
+        {
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ],
+      "transform": {
+        "position": [
+          -0.44775390625,
+          14.776359558105469,
+          -6.103530176915228e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "Range Limit": 25.0,
+      "Interp Factor": 5.0,
+      "Close Aim Speed": 20.0,
+      "Aim Time": 1.0,
+      "Shoot Time": 2.0,
+      "Cooldown Time": 2.0,
+      "Aim Distance": 5.0,
+      "Muzzle Distance": 7.0,
+      "Enable Shooting": true,
+      "Speed": 10.0,
+      "Point Rad": 0.25,
+      "points": [
+        [
+          0.0,
+          20.0
+        ],
+        [
+          -10.0,
+          10.0
+        ],
+        [
+          10.0,
+          10.0
+        ]
+      ]
+    }
+  ],
+  "format": "scene",
+  "file_path": "SCENES/Test_Movement.scene"
+}

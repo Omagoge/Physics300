@@ -1,0 +1,91 @@
+VFX_breakablestates.png
+size:1811,406
+filter:Linear,Linear
+pma:true
+Alarm
+bounds:1229,23,149,99
+offsets:1,1,151,101
+Alarm Destroyed
+bounds:1651,80,149,98
+offsets:1,1,151,100
+Camera A
+bounds:693,101,97,144
+offsets:1,1,100,146
+rotate:90
+Camera A Destroyed
+bounds:675,2,97,168
+offsets:1,1,99,170
+rotate:90
+Camera B
+bounds:1438,10,146,89
+offsets:1,1,148,91
+Camera B Destroyed
+bounds:1116,45,146,111
+offsets:1,1,148,113
+rotate:90
+Camera C
+bounds:1724,12,85,66
+offsets:1,1,87,68
+Camera C Destroyed
+bounds:845,19,85,92
+offsets:1,1,87,94
+Camera D
+bounds:1586,3,75,136
+offsets:1,1,77,138
+rotate:90
+Camera D Destroyed
+bounds:839,113,96,85
+offsets:1,1,99,87
+Exit
+bounds:937,36,177,155
+offsets:1,1,179,157
+Exit  Destroyed
+bounds:496,32,177,155
+offsets:1,1,179,157
+Light A
+bounds:2,198,102,405
+offsets:1,1,104,407
+rotate:90
+Light A Destroyed
+bounds:2,302,102,405
+offsets:1,1,104,407
+rotate:90
+Light B
+bounds:1380,21,56,101
+offsets:1,1,58,103
+Light B Destroyed
+bounds:1116,3,40,101
+offsets:1,1,42,103
+rotate:90
+Light C
+bounds:1695,180,224,114
+offsets:1,2,227,117
+rotate:90
+Light C Destroyed
+bounds:1231,124,222,99
+offsets:1,2,224,102
+Light D Front
+bounds:2,2,194,231
+offsets:2,1,198,233
+rotate:90
+Light D Front Destroyed
+bounds:1455,101,194,111
+offsets:2,2,198,114
+Light D Side
+bounds:409,189,282,215
+offsets:1,1,285,217
+Light D Side Destroyed
+bounds:968,193,261,211
+offsets:14,1,277,213
+Light E Front
+bounds:693,200,273,204
+offsets:0,1,285,206
+Light E Front Destroyed
+bounds:1481,214,212,190
+offsets:1,1,215,193
+Light E Side
+bounds:235,2,259,185
+offsets:1,1,261,187
+Light E Side Destroyed
+bounds:1231,225,248,179
+offsets:11,1,261,182

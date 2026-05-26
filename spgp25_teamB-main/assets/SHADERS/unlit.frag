@@ -1,0 +1,15 @@
+#version 460 core
+
+layout (location = 0) out vec4 gAlbedo;
+
+in vec2 vTexCoord;
+
+uniform vec4 gColor;
+uniform sampler2D gTexture;
+
+void main() {
+	vec4 texel = texture(gTexture, vTexCoord) * gColor;
+	if (texel.a < 0.1) discard;
+
+	gAlbedo = texel;
+}

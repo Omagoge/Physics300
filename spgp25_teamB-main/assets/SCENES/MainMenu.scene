@@ -1,0 +1,133 @@
+{
+  "type": "MainMenu",
+  "name": "MainMenu",
+  "enabled": true,
+  "children": [
+    {
+      "type": "SpineRendererComponent",
+      "name": "SpineRendererComponent_39",
+      "enabled": false,
+      "children": null,
+      "position": [
+        -9.649999618530273,
+        -5.5,
+        0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "atlasResourcePath": "CHARS/PLAYER/ANIMATIONS/CH_Cat.atlas",
+      "skeletonDataResourcePath": "CHARS/PLAYER/ANIMATIONS/CH_Cat.json",
+      "isOccluder": false,
+      "castsDirectionalShadow": true,
+      "drawToDepth": true,
+      "selectedAnimation": "",
+      "selectedAnimationLoop": false,
+      "playSelectedAnimationOnBegin": false
+    },
+    {
+      "type": "Camera",
+      "name": "Camera_41",
+      "enabled": true,
+      "children": null,
+      "transform": {
+        "position": [
+          19.200000762939453,
+          10.800000190734863,
+          10.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "isActiveCamera": false
+    },
+    {
+      "type": "ListenerComponent",
+      "name": "ListenerComponent_42",
+      "enabled": true,
+      "children": null
+    },
+    {
+      "type": "Actor",
+      "name": "Background",
+      "enabled": true,
+      "children": [
+        {
+          "type": "SpineRendererComponent",
+          "name": "SpineRendererComponent_46",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "atlasResourcePath": "UI/menus/Menu.atlas",
+          "skeletonDataResourcePath": "UI/menus/Menu.json",
+          "isOccluder": false,
+          "castsDirectionalShadow": true,
+          "drawToDepth": true,
+          "selectedAnimation": "animation",
+          "selectedAnimationLoop": true,
+          "playSelectedAnimationOnBegin": true
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "HtmlView",
+      "name": "MenuView",
+      "enabled": true,
+      "children": null,
+      "url": "file:///assets/UI/intro.html",
+      "sort_order": 0
+    }
+  ],
+  "format": "scene",
+  "file_path": "SCENES/MainMenu.scene"
+}

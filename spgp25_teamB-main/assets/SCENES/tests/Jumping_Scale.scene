@@ -1,0 +1,660 @@
+{
+  "type": "Scene",
+  "name": "Jumping_Scale",
+  "enabled": true,
+  "children": [
+    {
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "FollowCamera",
+      "name": "Camera",
+      "enabled": true,
+      "children": null,
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "isActiveCamera": false
+    },
+    {
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Player",
+      "name": "Player",
+      "enabled": true,
+      "children": [
+        {
+          "type": "SpineRendererComponent",
+          "name": "SpineRendererComponent_44",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            0.25,
+            0.25,
+            1.0
+          ],
+          "atlasResourcePath": "CHARS/PLAYER/ANIMATIONS/CH_Cat.atlas",
+          "skeletonDataResourcePath": "CHARS/PLAYER/ANIMATIONS/CH_Cat.json"
+        },
+        {
+          "type": "Rigidbody",
+          "name": "Rigidbody_48",
+          "enabled": true,
+          "children": null,
+          "radius": 1.0,
+          "mass": 1.0,
+          "friction": 0.2,
+          "gravityScale": [
+            0.0,
+            0.0
+          ],
+          "drag": [
+            0.5,
+            0.5
+          ],
+          "restitution": 0.10000000149011612,
+          "restitutionThreshold": 0.5,
+          "minimumVelocity": [
+            0.10000000149011612,
+            0.10000000149011612
+          ],
+          "debug.show": true,
+          "debug.defaultColor": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "debug.collidingColor": [
+            0.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "debug.skipResolution": false,
+          "flags": 2
+        },
+        {
+          "type": "MuzzleEffect",
+          "name": "MuzzleEffect_34",
+          "enabled": true,
+          "children": [
+            {
+              "type": "SpineRendererComponent",
+              "name": "SpineRendererComponent_35",
+              "enabled": true,
+              "children": null,
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "atlasResourcePath": "CHARS/PLAYER/ANIMATIONS/CH_Cat.atlas",
+              "skeletonDataResourcePath": "CHARS/PLAYER/ANIMATIONS/CH_Cat.json"
+            }
+          ],
+          "transform": {
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              0.25,
+              0.25,
+              1.0
+            ]
+          }
+        }
+      ],
+      "transform": {
+        "position": [
+          -4.570826530456543,
+          3.4294281005859375,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "FollowCamera",
+      "name": "FollowCamera_43",
+      "enabled": true,
+      "children": null,
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "isActiveCamera": false
+    },
+    {
+      "type": "Actor",
+      "name": "Floor_(2)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Collider",
+          "name": "Collider_48",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              0.0,
+              16.0
+            ],
+            [
+              0.0,
+              0.0
+            ],
+            [
+              -24.0,
+              0.0
+            ],
+            [
+              -24.0,
+              16.0
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 1,
+          "data.forceLeft": false
+        }
+      ],
+      "transform": {
+        "position": [
+          94.02252197265625,
+          20.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "Floor_(1)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Collider",
+          "name": "Collider_44",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              -19.212196350097656,
+              2.05718994140625
+            ],
+            [
+              -8.463623046875,
+              0.0
+            ],
+            [
+              4.0,
+              0.0
+            ],
+            [
+              4.0,
+              -2.0
+            ],
+            [
+              -19.15365982055664,
+              -2.0
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 1,
+          "data.forceLeft": false
+        }
+      ],
+      "transform": {
+        "position": [
+          4.93507194519043,
+          15.003250122070313,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "ColliderTest",
+      "name": "Floor",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Collider",
+          "name": "Collider",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              -421.7039794921875,
+              0.0
+            ],
+            [
+              5.0,
+              0.0
+            ],
+            [
+              5.0,
+              4.0
+            ],
+            [
+              50.0,
+              4.0
+            ],
+            [
+              50.0,
+              20.0263671875
+            ],
+            [
+              94.52491760253906,
+              19.97393798828125
+            ],
+            [
+              92.22427368164063,
+              -20.0
+            ],
+            [
+              -405.91937255859375,
+              -20.0
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 3,
+          "data.forceLeft": false
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "Floor_(0)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Collider",
+          "name": "Collider_44",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              -19.212196350097656,
+              0.0
+            ],
+            [
+              4.0,
+              0.0
+            ],
+            [
+              4.0,
+              -2.0
+            ],
+            [
+              -19.15365982055664,
+              -2.0
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 1,
+          "data.forceLeft": false
+        }
+      ],
+      "transform": {
+        "position": [
+          38.005802154541016,
+          13.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "GravPointList",
+      "name": "GravPointList_68",
+      "enabled": true,
+      "children": [
+        {
+          "type": "GravPoint",
+          "name": "GravPoint_70",
+          "enabled": true,
+          "children": [
+            {
+              "type": "MeshRendererComponent",
+              "name": "MeshRendererComponent_71",
+              "enabled": true,
+              "children": null,
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "meshPath": "MODELS/quad.obj",
+              "materialPath": "WHITEBOXING/MAGNENT.mat"
+            }
+          ],
+          "transform": {
+            "position": [
+              13.147132873535156,
+              9.589019775390625,
+              6.1035025282762945e-05
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "type": "GravPoint",
+          "name": "GravPoint_73",
+          "enabled": true,
+          "children": [
+            {
+              "type": "MeshRendererComponent",
+              "name": "MeshRendererComponent_74",
+              "enabled": true,
+              "children": null,
+              "position": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "meshPath": "MODELS/quad.obj",
+              "materialPath": "WHITEBOXING/MAGNENT.mat"
+            }
+          ],
+          "transform": {
+            "position": [
+              -32.023475646972656,
+              11.699784278869629,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "format": "scene",
+  "file_path": "SCENES/Jumping_Scale.scene"
+}

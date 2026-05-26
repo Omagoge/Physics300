@@ -1,0 +1,62 @@
+{
+  "type": "LevelScene",
+  "name": "LoadTriggerTest",
+  "enabled": true,
+  "children": [
+    {
+      "type": "LoadLevelTrigger",
+      "name": "LoadLevelTrigger_33",
+      "enabled": true,
+      "children": null,
+      "transform": {
+        "position": [
+          0.0,
+          -8.426109313964844,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          53.0,
+          14.899999618530273,
+          1.0
+        ]
+      },
+      "debug.draw": true,
+      "debug.log": false,
+      "debug.defaultColor": [
+        0.0,
+        1.0,
+        1.0,
+        0.5
+      ],
+      "debug.collideColor": [
+        1.0,
+        0.0,
+        0.0,
+        0.5
+      ],
+      "triggerMode": 0,
+      "worldIndex": 0,
+      "levelIndex": 0
+    }
+  ],
+  "format": "scene",
+  "file_path": "SCENES/LoadTriggerTest.scene",
+  "camMin": [
+    -10.0,
+    -10.0
+  ],
+  "camMax": [
+    120.0,
+    20.0
+  ],
+  "playerSpawn": [
+    0.0,
+    0.0
+  ]
+}

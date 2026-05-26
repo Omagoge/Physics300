@@ -1,0 +1,509 @@
+{
+  "type": "Scene",
+  "name": "Particle_Scene",
+  "enabled": true,
+  "children": [
+    {
+      "type": "Actor",
+      "name": "Dust_Particle",
+      "enabled": true,
+      "children": [
+        {
+          "type": "ParticleSystem",
+          "name": "ParticleSystem_402",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "luaConfigPath": "Dust",
+          "playing": true,
+          "cullingRadius": 10
+        }
+      ],
+      "transform": {
+        "position": [
+          589.3243408203125,
+          -24.488243103027344,
+          -6.103515625e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "Dust_Particle_(0)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "ParticleSystem",
+          "name": "ParticleSystem_402",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "luaConfigPath": "Dust",
+          "playing": true,
+          "cullingRadius": 10
+        }
+      ],
+      "transform": {
+        "position": [
+          518.3970947265625,
+          15.358941078186035,
+          -6.103470877860673e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "Dust_Particle_(1)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "ParticleSystem",
+          "name": "ParticleSystem_402",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "luaConfigPath": "Dust",
+          "playing": true,
+          "cullingRadius": 10
+        }
+      ],
+      "transform": {
+        "position": [
+          455.70928955078125,
+          62.61415481567383,
+          -6.103527994127944e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "Dust_Particle_(2)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "ParticleSystem",
+          "name": "ParticleSystem_402",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "luaConfigPath": "Dust",
+          "playing": true,
+          "cullingRadius": 10
+        }
+      ],
+      "transform": {
+        "position": [
+          349.8559265136719,
+          70.12578582763672,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "Dust_Particle_(3)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "ParticleSystem",
+          "name": "ParticleSystem_402",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "luaConfigPath": "Dust",
+          "playing": true,
+          "cullingRadius": 10
+        }
+      ],
+      "transform": {
+        "position": [
+          253.47628784179688,
+          37.00178527832031,
+          -6.103515625e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "Dust_Particle_(4)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "ParticleSystem",
+          "name": "ParticleSystem_402",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "luaConfigPath": "Dust",
+          "playing": true,
+          "cullingRadius": 10
+        }
+      ],
+      "transform": {
+        "position": [
+          166.25982666015625,
+          24.445995330810547,
+          -6.103515625e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "Dust_Particle_(5)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "ParticleSystem",
+          "name": "ParticleSystem_402",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "luaConfigPath": "Dust",
+          "playing": true,
+          "cullingRadius": 10
+        }
+      ],
+      "transform": {
+        "position": [
+          83.23009490966797,
+          11.564754486083984,
+          -6.103515625e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "Dust_Particle_(6)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "ParticleSystem",
+          "name": "ParticleSystem_402",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "luaConfigPath": "Dust",
+          "playing": true,
+          "cullingRadius": 10
+        }
+      ],
+      "transform": {
+        "position": [
+          686.0673828125,
+          1.4738922119140625,
+          -6.103515625e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "Dust_Particle_(7)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "ParticleSystem",
+          "name": "ParticleSystem_402",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "luaConfigPath": "Dust",
+          "playing": true,
+          "cullingRadius": 10
+        }
+      ],
+      "transform": {
+        "position": [
+          770.3023071289063,
+          22.989654541015625,
+          -6.103515625e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "Actor",
+      "name": "Dust_Particle_(8)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "ParticleSystem",
+          "name": "ParticleSystem_402",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "luaConfigPath": "Dust",
+          "playing": true,
+          "cullingRadius": 10
+        }
+      ],
+      "transform": {
+        "position": [
+          20.47585678100586,
+          10.827096939086914,
+          -3.58066608896479e-05
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "format": "scene",
+  "file_path": "SCENES/Particle_Scene.scene"
+}

@@ -1,0 +1,13 @@
+AT_LEV1_FinalDoor.png
+size:540,339
+filter:Linear,Linear
+pma:true
+AT_LEV1_FinalDoor_Left
+bounds:2,2,187,354
+offsets:1,0,188,354
+rotate:90
+AT_LEV1_FinalDoor_Midle
+bounds:358,67,180,270
+AT_LEV1_FinalDoor_Right
+bounds:2,191,146,354
+rotate:90

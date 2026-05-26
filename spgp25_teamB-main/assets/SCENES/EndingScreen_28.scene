@@ -1,0 +1,17 @@
+{
+  "type": "EndingScreen",
+  "name": "EndingScreen_28",
+  "enabled": true,
+  "children": [
+    {
+      "type": "HtmlView",
+      "name": "HtmlView_29",
+      "enabled": true,
+      "children": null,
+      "url": "file:///assets/UI/menus/ThanksForPlaying.html",
+      "sort_order": 0
+    }
+  ],
+  "format": "scene",
+  "file_path": "scenes/EndingScreen_28.scene"
+}

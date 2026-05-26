@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Fade Effect</title>
+  <style>
+    * {
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    body {
+      background-color: transparent;
+      color: White;
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 700;
+      margin: 0;
+      overflow: hidden;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+    }
+
+    #text-container {
+      position: absolute;
+      top: 25%;
+      font-size: 3.5rem;
+      opacity: 0;
+      transition: opacity 0.6s ease-in-out;
+      <!-- text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); -->
+      pointer-events: none;
+      text-align: center;
+    }
+
+    #text-container.is-visible {
+      opacity: 1;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="text-container"></div>
+
+  <script>
+    const textElement = document.getElementById('text-container');
+
+    function setText(newText) {
+      textElement.textContent = newText;
+      console.log('Text set to:', newText);
+    }
+
+    function fadeTextIn() {
+      // Force a reflow to ensure the transition triggers if setText was just called
+      textElement.offsetHeight;
+      textElement.classList.add('is-visible');
+      console.log('Fading text in');
+    }
+
+    function fadeTextOut() {
+      textElement.classList.remove('is-visible');
+      console.log('Fading text out');
+    }
+  </script>
+</body>
+
+</html>

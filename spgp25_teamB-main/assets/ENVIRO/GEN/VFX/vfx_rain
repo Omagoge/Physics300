@@ -1,0 +1,104 @@
+-- Particle System Configuration
+
+return {
+    format = "particle_system",
+    emitters = {
+        {
+            startSize = {
+                0.1,
+                0.8,
+            },
+            localRotation = {
+                [3] = 0,
+                [1] = 0,
+                [2] = 0,
+            },
+            bursts = {
+                {
+                    count = 50,
+                    time = 0,
+                    cycleInterval = 0.5,
+                },
+            },
+            startColorRangeMin = {
+                [3] = 0,
+                [1] = 0,
+                [2] = 0,
+                [4] = 1,
+            },
+            shape = "box",
+            direction = {
+                [3] = 0,
+                [1] = 0,
+                [2] = 1,
+            },
+            shapeSize = {
+                [3] = 1,
+                [1] = 1,
+                [2] = 26.6,
+            },
+            directionRandomness = 1,
+            emissionMode = "continuous",
+            useTexture = true,
+            lifetime = {
+                0.8,
+                60,
+            },
+            texturePath = "testgota.png",
+            enabled = true,
+            looping = true,
+            localOffset = {
+                [3] = 0,
+                [1] = 0,
+                [2] = 0,
+            },
+            duration = 5,
+            gravity = {
+                [3] = 0,
+                [1] = 0.2,
+                [2] = -30.7,
+            },
+            emissionRate = 100,
+            startColorRangeMax = {
+                [3] = 1,
+                [1] = 1,
+                [2] = 1,
+                [4] = 1,
+            },
+            additiveBlending = true,
+            randomizeStartColor = false,
+            name = "Sparks",
+            endColor = {
+                [3] = 0,
+                [1] = 1,
+                [2] = 0.5,
+                [4] = 0,
+            },
+            startColor = {
+                [3] = 1,
+                [1] = 0,
+                [2] = 0.30605,
+                [4] = 1,
+            },
+            speed = {
+                100,
+                0,
+            },
+            startRotation = {
+                0,
+                10,
+            },
+            rotationSpeed = {
+                0,
+                0,
+            },
+            coneAngle = 45,
+            endSize = {
+                0.1,
+                0.8,
+            },
+            maxParticles = 10000,
+            drag = 0,
+        },
+    },
+}

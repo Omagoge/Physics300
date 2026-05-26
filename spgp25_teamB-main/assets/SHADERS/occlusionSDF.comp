@@ -1,0 +1,35 @@
+#version 460
+
+layout(local_size_x = 16, local_size_y = 16) in;
+
+layout(binding = 0) uniform sampler2D occluderTex;
+layout(binding = 1, r32f) uniform writeonly image2D sdfTex;
+
+uniform ivec2 resolution;
+
+// This is shit lmao
+void main() {
+    ivec2 pixel = ivec2(gl_GlobalInvocationID.xy);
+
+    if (pixel.x >= resolution.x || pixel.y >= resolution.y)
+    return;
+
+    vec2 uv = (vec2(pixel) + 0.5) / vec2(resolution);
+
+    float minDist = 1e20;
+
+    for (int y = 0; y < resolution.y; y++) {
+        for (int x = 0; x < resolution.x; x++) {
+            vec2 sampleUV = (vec2(x, y) + 0.5) / vec2(resolution);
+
+            float occ = texture(occluderTex, sampleUV).r;
+
+            if (occ > 0.5) {
+                float d = distance(sampleUV, uv);
+                minDist = min(minDist, d);
+            }
+        }
+    }
+
+    imageStore(sdfTex, pixel, vec4(minDist, 0, 0, 0));
+}

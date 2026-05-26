@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<title>Intro</title>
+	<style>
+		html, body {
+			width: 100%;
+			height: 100%;
+			margin: 0;
+			background: #000;
+			overflow: hidden;
+		}
+
+		#stage {
+			position: relative;
+			width: 100%;
+			height: 100%;
+			background: #000;
+		}
+
+		.logo {
+			position: absolute;
+			inset: 0;
+			margin: auto;
+			max-width: min(70vw, 900px);
+			max-height: 70vh;
+			width: auto;
+			height: auto;
+			object-fit: contain;
+			opacity: 0;
+			transition: opacity 0.8s ease;
+		}
+
+		.logo.is-visible {
+			opacity: 1;
+		}
+
+		#toastSplash {
+			position: absolute;
+			inset: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			gap: min(8vh, 96px);
+			padding: min(6vh, 56px) min(6vw, 72px);
+			color: #fff;
+			opacity: 0;
+			transition: opacity 0.8s ease;
+			box-sizing: border-box;
+		}
+
+		#toastSplash.is-visible {
+			opacity: 1;
+		}
+
+		#toastSplashMain {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			gap: min(5vw, 72px);
+			width: 100%;
+		}
+
+		#toastLogo {
+			width: min(30vw, 420px);
+			max-width: 45vw;
+			max-height: 56vh;
+			object-fit: contain;
+		}
+
+		#toastTitle {
+			font-family: Arial, sans-serif;
+			font-size: clamp(56px, 10vw, 150px);
+			font-weight: 800;
+			line-height: 0.9;
+			letter-spacing: 0.03em;
+			text-align: left;
+			white-space: pre-line;
+		}
+
+		#toastFooter {
+			font-family: Arial, sans-serif;
+			font-size: clamp(20px, 2.4vw, 34px);
+			line-height: 1.2;
+			letter-spacing: 0.01em;
+			text-align: center;
+			white-space: pre-line;
+		}
+
+		#blackOverlay {
+			position: absolute;
+			inset: 0;
+			background: #000;
+			opacity: 0;
+			transition: opacity 0.8s ease;
+			pointer-events: none;
+		}
+
+		#blackOverlay.is-black {
+			opacity: 1;
+		}
+	</style>
+</head>
+<body>
+	<div id="stage">
+		<img id="digiLogo" class="logo is-visible" src="images/digilogo.png" alt="Digi logo" />
+		<img id="nullptrLogo" class="logo" src="images/nullptrlogo.png" alt="Nullptr logo" />
+		<div id="toastSplash" aria-label="Toast Engine splash">
+			<div id="toastSplashMain">
+				<img id="toastLogo" src="credits/toast.png" alt="Toast Engine logo" />
+				<div id="toastTitle">TOAST<br/>ENGINE</div>
+			</div>
+			<div id="toastFooter">made in Toast Engine<br/>a game engine built by students with only C++</div>
+		</div>
+		<div id="blackOverlay"></div>
+	</div>
+
+	<script>
+		const digiLogo = document.getElementById('digiLogo');
+		const nullptrLogo = document.getElementById('nullptrLogo');
+		const toastSplash = document.getElementById('toastSplash');
+		const blackOverlay = document.getElementById('blackOverlay');
+
+		const DIGI_HOLD_MS = 2500;
+		const FADE_MS = 800;
+		const NULLPTR_HOLD_MS = 2000;
+		const TOAST_HOLD_MS = NULLPTR_HOLD_MS;
+		const MAIN_MENU_PATH = 'menus/MainMenu.html';
+
+		const toBlackAfterDigi = DIGI_HOLD_MS;
+		const swapToNullptrAt = toBlackAfterDigi + FADE_MS;
+		const revealNullptrAt = swapToNullptrAt + 100;
+		const toBlackAfterNullptrAt = revealNullptrAt + FADE_MS + NULLPTR_HOLD_MS;
+		const swapToToastAt = toBlackAfterNullptrAt + FADE_MS;
+		const revealToastAt = swapToToastAt + 100;
+		const toBlackBeforeMenuAt = revealToastAt + FADE_MS + TOAST_HOLD_MS;
+		const redirectAt = toBlackBeforeMenuAt + FADE_MS;
+
+		let timeoutIds = [];
+		let transitions = null;
+		let dict = {};
+
+		function t(key, fallback = key) {
+			const value = dict[key];
+			return (typeof value === "string" && value.length > 0) ? value : fallback;
+		}
+
+		function applyLocalization() {
+			const toastTitle = document.getElementById("toastTitle");
+			if (toastTitle) {
+				toastTitle.textContent = t("credits.engineTitle", toastTitle.textContent);
+			}
+			const toastFooter = document.getElementById("toastFooter");
+			if (toastFooter) {
+				const existingLines = toastFooter.textContent.split(/\r?\n/);
+				const line1 = t("splash.toastDisclaimer", existingLines[0] || "made in Toast Engine");
+				const line2 = t("splash.toastDisclaimer2", existingLines[1] || "a game engine built by students with only C++");
+				toastFooter.textContent = `${line1}\n${line2}`;
+			}
+		}
+
+		window.setLocalizationData = function(translations, language) {
+			if (translations && typeof translations === "object") {
+				dict = translations;
+			}
+			if (typeof language === "string" && language.length > 0) {
+				window.__toastLang = language.toLowerCase();
+			}
+			applyLocalization();
+		};
+
+		window.onToastLanguageChanged = function() {
+			applyLocalization();
+		};
+
+		function clearSequenceTimeouts() {
+			for (const id of timeoutIds) {
+				clearTimeout(id);
+			}
+			timeoutIds = [];
+		}
+
+		function schedule(fn, delayMs) {
+			const id = setTimeout(fn, delayMs);
+			timeoutIds.push(id);
+		}
+
+		function setSplashState(showDigi, showNullptr, showToast) {
+			digiLogo.classList.toggle('is-visible', showDigi);
+			nullptrLogo.classList.toggle('is-visible', showNullptr);
+			toastSplash.classList.toggle('is-visible', showToast);
+		}
+
+		function captureTransitions() {
+			transitions = {
+				digi: getComputedStyle(digiLogo).transition || 'opacity 0.8s ease',
+				nullptr: getComputedStyle(nullptrLogo).transition || 'opacity 0.8s ease',
+				toast: getComputedStyle(toastSplash).transition || 'opacity 0.8s ease'
+			};
+		}
+
+		function disableTransitions() {
+			digiLogo.style.transition = 'none';
+			nullptrLogo.style.transition = 'none';
+			toastSplash.style.transition = 'none';
+		}
+
+		function restoreTransitions() {
+			if (!transitions) return;
+			digiLogo.style.transition = transitions.digi;
+			nullptrLogo.style.transition = transitions.nullptr;
+			toastSplash.style.transition = transitions.toast;
+		}
+
+		function resetVisualState() {
+			blackOverlay.classList.remove('is-black');
+			restoreTransitions();
+			setSplashState(true, false, false);
+		}
+
+		function runIntroSequence() {
+			clearSequenceTimeouts();
+			resetVisualState();
+			captureTransitions();
+
+			schedule(() => {
+				blackOverlay.classList.add('is-black');
+			}, toBlackAfterDigi);
+
+			schedule(() => {
+				disableTransitions();
+				setSplashState(false, true, false);
+			}, swapToNullptrAt);
+
+			schedule(() => {
+				restoreTransitions();
+			}, revealNullptrAt + FADE_MS);
+
+			schedule(() => {
+				blackOverlay.classList.remove('is-black');
+			}, revealNullptrAt);
+
+			schedule(() => {
+				blackOverlay.classList.add('is-black');
+			}, toBlackAfterNullptrAt);
+
+			schedule(() => {
+				disableTransitions();
+				setSplashState(false, false, true);
+			}, swapToToastAt);
+
+			schedule(() => {
+				restoreTransitions();
+			}, revealToastAt + FADE_MS);
+
+			schedule(() => {
+				blackOverlay.classList.remove('is-black');
+			}, revealToastAt);
+
+			schedule(() => {
+				blackOverlay.classList.add('is-black');
+			}, toBlackBeforeMenuAt);
+
+			schedule(() => {
+				window.location.replace(MAIN_MENU_PATH);
+			}, redirectAt);
+		}
+
+		if ('onpageshow' in window) {
+			window.addEventListener('pageshow', runIntroSequence);
+		} else {
+			window.addEventListener('load', runIntroSequence);
+		}
+
+		window.addEventListener('pagehide', clearSequenceTimeouts);
+		applyLocalization();
+		console.log("[Settings] init");
+	</script>
+</body>
+</html>

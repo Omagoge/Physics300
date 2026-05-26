@@ -1,0 +1,12 @@
+{
+  "materialParams": [
+    "ENVIRO/LEVEL1/BACK/AT_LEV1_assets_buildings/AT_LEV1_assets_buildings.png",
+    [
+      0.7793594598770142,
+      0.7793594598770142,
+      0.7793594598770142,
+      1.0
+    ]
+  ],
+  "shaderPath": "SHADERS/default.shader"
+}

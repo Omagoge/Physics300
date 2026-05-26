@@ -1,0 +1,15 @@
+AT_LEV1_airthing.png
+size:574,420
+filter:Linear,Linear
+pma:true
+AT_LEV1_airthing_big
+bounds:2,2,320,416
+offsets:5,0,326,448
+AT_LEV1_airthing_midium
+bounds:324,148,155,270
+AT_LEV1_airthing_recto
+bounds:481,158,91,260
+AT_LEV1_airthing_small
+bounds:324,39,107,224
+offsets:0,2,107,226
+rotate:90

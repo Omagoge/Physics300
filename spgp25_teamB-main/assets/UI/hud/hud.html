@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="hud.css">
+    <script src="../script.js" defer></script>
+    <script src="hud.js" defer></script>
+</head>
+<body>
+
+<iframe id="timer-hud-container" src="timer.html"></iframe>
+
+<div id="effect" class="is-transparent"></div>
+<div id="damage-vignette" aria-hidden="true"></div>
+<div id="game-hud">
+  <!-- Weapon Slots -->
+  <div class="weapon-section">
+    <div class="weapon-grid">
+      <div id="slot-1" class="slot weapon-slot" data-index="1">
+        <img id="img-1" class="weapon-icon" alt="Weapon 1">
+        <!-- <div class="weapon-number">1</div> -->
+        <!-- <div id="reserve-ammo-1" class="reserve-ammo">--</div> -->
+      </div>
+      <div id="slot-2" class="slot weapon-slot" data-index="2">
+        <img id="img-2" class="weapon-icon" alt="Weapon 2">
+        <!-- <div class="weapon-number">2</div> -->
+        <div id="reserve-ammo-2" class="reserve-ammo">--</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Status Bars -->
+  <div class="bars">
+    <!-- Health Bar -->
+    <div class="bar-wrapper health-bar-wrapper">
+      <div class="status-bar health-bar" id="health-bar">
+        <div class="segment"></div>
+        <div class="segment"></div>
+        <div class="segment"></div>
+      </div>
+    </div>
+    <!-- Ammo Bar -->
+    <div class="bar-wrapper ammo-bar-wrapper">
+      <div class="status-bar ammo-bar" id="ammo-bar">
+        <div class="segment"></div>
+        <div class="segment"></div>
+        <div class="segment"></div>
+        <div class="segment"></div>
+        <div class="segment"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

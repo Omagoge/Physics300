@@ -1,0 +1,11 @@
+AT_LEV1_assets_ambiental.png
+size:1084,270
+filter:Linear,Linear
+pma:true
+Fog_LEV1
+bounds:2,2,181,990
+offsets:0,0,181,1072
+rotate:90
+LEV1_BG_Sky
+bounds:2,185,83,1080
+rotate:90

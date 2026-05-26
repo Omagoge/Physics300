@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{15a09f76-c289-4625-ae45-b2fdf2b62148}">
+		<property name="color">
+			<value>Purple Light 1</value>
+		</property>
+		<property name="assetPath">
+			<value>music/port/Drums_Outro.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.5625</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{fc20db48-1b46-4e5d-88b7-cab459d400e1}</destination>
+		</relationship>
+	</object>
+</objects>

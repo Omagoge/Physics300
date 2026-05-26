@@ -1,0 +1,64 @@
+{
+  "type": "GameFlowTrigger",
+  "name": "EndLevelTrig",
+  "enabled": true,
+  "children": [
+    {
+      "type": "MeshRendererComponent",
+      "name": "MeshRendererComponent_279",
+      "enabled": true,
+      "children": null,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "meshPath": "MODELS/quad.obj",
+      "materialPath": "WHITEBOXING/END.mat"
+    }
+  ],
+  "transform": {
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "debug.draw": true,
+  "debug.log": false,
+  "debug.defaultColor": [
+    0.0,
+    1.0,
+    1.0,
+    0.5
+  ],
+  "debug.collideColor": [
+    1.0,
+    0.0,
+    0.0,
+    0.5
+  ],
+  "GameFlowType": 1
+}

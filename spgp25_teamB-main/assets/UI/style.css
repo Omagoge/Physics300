@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Resource Han Rounded';
+    src: url('../FONTS/ResourceHanRounded/ResourceHanRoundedSC-Regular.ttf') format('truetype');
+}
+
+* {
+    user-select: none;
+    -webkit-user-select: none; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  font-family: 'Arial Black', 'Resource Han Rounded', Gadget, sans-serif;
+  overflow: hidden;
+}
+
+/* Helper to hide broken images without hiding the whole slot */
+img[src=""], img:not([src]) {
+  visibility: hidden;
+}

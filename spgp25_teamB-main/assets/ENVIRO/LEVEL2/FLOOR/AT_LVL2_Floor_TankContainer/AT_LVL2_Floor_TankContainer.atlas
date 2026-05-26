@@ -1,0 +1,7 @@
+AT_LVL2_Floor_TankContainer.png
+size:536,257
+filter:Linear,Linear
+pma:true
+TankContainer1
+bounds:2,2,532,253
+offsets:1,1,534,255

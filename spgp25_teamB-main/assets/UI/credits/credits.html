@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>Credits</title>
+	<style>
+		:root {
+			--fg: #f5f7ff;
+			--muted: #b9c3da;
+			--accent: #2fc7f2;
+			--panel: #0f1320;
+			--software-cell: 116px;
+			--software-gap: 0.9vw;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		html, body {
+			margin: 0;
+			width: 100%;
+			height: 100%;
+			background: radial-gradient(circle at 50% 0%, #171f35 0%, #090b12 60%, #05060a 100%);
+			color: var(--fg);
+			font-family: 'Orbitron', sans-serif;
+			-webkit-user-select: none;
+			user-select: none;
+			overflow: hidden;
+		}
+
+		#viewport {
+			position: fixed;
+			inset: 0;
+			overflow: hidden;
+			padding: 4vh 6vw;
+		}
+
+	#track {
+		max-width: 1200px;
+		margin: 0 auto;
+		will-change: transform;
+		text-align: center;
+	}
+
+		section {
+			margin-bottom: 8.5vh;
+		}
+
+	.kicker {
+		font-size: clamp(16px, 1.2vw, 24px);
+		line-height: 1.4;
+		letter-spacing: 0.28em;
+		text-transform: none;
+		color: #ffffff;
+		margin-bottom: 1vh;
+		font-family: 'Monocraft', 'Orbitron', monospace;
+	}
+
+		.kicker .null-text {
+			color: #ff4fa3;
+		}
+
+		.kicker .star-text {
+			color: #ffffff;
+		}
+
+	h1 {
+		margin: 0 0 1.4vh 0;
+		font-size: clamp(38px, 5.6vw, 102px);
+		line-height: 1.1;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+	}
+
+	.text-block {
+		font-size: clamp(15px, 1.15vw, 23px);
+		line-height: 1.6;
+		letter-spacing: 0.02em;
+		color: var(--fg);
+		text-transform: uppercase;
+	}
+
+		.text-block .subtle {
+			color: var(--muted);
+		}
+
+	.section-title {
+		font-size: clamp(20px, 2.3vw, 44px);
+		line-height: 1.5;
+		margin: 0 0 1.8vh 0;
+		text-transform: uppercase;
+		letter-spacing: 0.07em;
+	}
+
+		.two-columns {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			gap: 2vw 0.7vw;
+			text-align: center;
+		}
+
+	.role {
+		margin: 0 0 1vh 0;
+		font-size: clamp(18px, 1.4vw, 28px);
+		line-height: 1.6;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--accent);
+	}
+
+	.name-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		font-size: clamp(19px, 1.35vw, 28px);
+		line-height: 1.9;
+		letter-spacing: 0.02em;
+	}
+
+	/* Keep Orbitron on footer/produced text; these are currently stable. */
+	.footer-title,
+	.produced-block > div:nth-child(2),
+	.produced-block > div:nth-child(3) {
+		font-family: 'Orbitron', sans-serif;
+		font-kerning: none;
+		font-variant-ligatures: none;
+		font-feature-settings: "kern" 0, "liga" 0, "clig" 0, "calt" 0;
+		text-rendering: optimizeLegibility;
+	}
+
+	/* Ultralight-safe names rendering while keeping Orbitron. */
+	.name-list,
+	.name-list li {
+		font-family: 'Orbitron', sans-serif !important;
+		font-kerning: none;
+		font-variant-ligatures: none;
+		font-feature-settings: "kern" 0, "liga" 0, "clig" 0, "calt" 0;
+		text-rendering: optimizeLegibility;
+	}
+
+	.name-list li {
+		letter-spacing: 0.04em;
+		font-weight: 500;
+	}
+
+		.single-group {
+			margin-bottom: 3vh;
+		}
+
+		.software-featured {
+			display: grid;
+			grid-template-columns: var(--software-cell) 1fr;
+			align-items: center;
+			gap: var(--software-gap);
+			background: rgba(255, 255, 255, 0.05);
+			border: 1px solid rgba(255, 255, 255, 0.16);
+			border-radius: 12px;
+			padding: 0;
+			margin-bottom: 1.8vh;
+			width: calc((var(--software-cell) * 4) + (var(--software-gap) * 3));
+			height: var(--software-cell);
+			max-width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			overflow: hidden;
+		}
+
+		.software-featured .featured-icon {
+			margin: 0;
+			border: 0;
+			border-right: 1px solid rgba(255, 255, 255, 0.13);
+			border-radius: 0;
+		}
+
+		.software-featured .featured-icon img {
+			width: 100%;
+			aspect-ratio: 1 / 1;
+			object-fit: contain;
+		}
+
+	.software-featured .engine-title {
+		font-size: clamp(16px, 1.25vw, 24px);
+		line-height: 1.4;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+	}
+
+	.software-featured .engine-version {
+		font-size: clamp(12px, 0.9vw, 16px);
+		line-height: 1.4;
+		color: var(--muted);
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+	}
+
+		.software-featured > div:not(.featured-icon) {
+			padding: 0 0.9vw;
+		}
+
+		.software-grid {
+			display: grid;
+			grid-template-columns: repeat(4, var(--software-cell));
+			gap: var(--software-gap);
+			justify-content: center;
+			width: calc((var(--software-cell) * 4) + (var(--software-gap) * 3));
+			max-width: 100%;
+			margin: 0 auto;
+		}
+
+		.software-item {
+			aspect-ratio: 1 / 1;
+			border-radius: 10px;
+			background: rgba(255, 255, 255, 0.05);
+			border: 1px solid rgba(255, 255, 255, 0.13);
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0.8vw;
+		}
+
+		.software-item img {
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+		}
+
+	.footer-title {
+		margin-top: 2vh;
+		font-size: clamp(30px, 3.9vw, 68px);
+		line-height: 1.15;
+		letter-spacing: 0.08em;
+		font-weight: 700;
+		text-transform: uppercase;
+		white-space: nowrap;
+	}
+
+		.stats-panel {
+			margin-top: 2.5vh;
+			background: rgba(11, 16, 29, 0.5);
+			border: 7px solid #ffffff;
+			border-radius: 4px;
+			padding: 1.4vw;
+			width: min(640px, 72vw);
+		}
+
+	.stats-row {
+		display: flex;
+		justify-content: space-between;
+		gap: 1vw;
+		font-size: clamp(15px, 1.05vw, 20px);
+		line-height: 1.7;
+		letter-spacing: 0.02em;
+		text-transform: uppercase;
+	}
+
+		.stats-label {
+			color: var(--muted);
+		}
+
+	.produced-block > div:nth-child(2),
+	.produced-block > div:nth-child(3) {
+		font-size: clamp(22px, 1.75vw, 35px);
+		line-height: 1.5;
+		letter-spacing: 0.04em;
+		font-weight: 600;
+	}
+
+		.role-spaced {
+			margin-top: 3.2vh;
+		}
+
+		.final-section {
+			min-height: 74vh;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: center;
+			padding-top: 12vh;
+		}
+
+		.intro-section {
+			min-height: calc(100vh - 8vh);
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 2vh;
+		}
+
+		.end-spacer {
+			height: 10vh;
+		}
+
+	.continue-hint {
+		position: fixed;
+		left: 50%;
+		bottom: 2.8vh;
+		transform: translateX(-50%);
+		opacity: 0;
+		transition: opacity 0.2s ease;
+		font-size: clamp(13px, 1vw, 19px);
+		line-height: 1.5;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: #d8ecff;
+		background: rgba(0, 0, 0, 0.48);
+		border: 1px solid rgba(216, 236, 255, 0.42);
+		border-radius: 8px;
+		padding: 0.55em 1em;
+	}
+
+		body.finished .continue-hint {
+			opacity: 1;
+		}
+
+		@media (max-width: 950px) {
+			.two-columns {
+				grid-template-columns: 1fr;
+				gap: 2.5vh;
+			}
+		}
+
+		@media (max-width: 1400px) {
+			h1 { line-height: 1.3; }
+			.text-block { line-height: 1.8; }
+			.section-title { line-height: 1.6; }
+			.role { line-height: 1.8; }
+			.name-list { line-height: 2.0; }
+			.footer-title { line-height: 1.3; }
+			.stats-row { line-height: 1.9; }
+		}
+	</style>
+</head>
+<body>
+	<div id="viewport">
+		<div id="track">
+			<section class="intro-section">
+				<div class="kicker"><span id="txt-kicker-prefix">a</span> <span class="null-text">nullptr</span><span class="star-text">*</span> <span id="txt-kicker-suffix">game</span></div>
+				<h1 id="txt-game-title">PAW ON THE TRIGGER</h1>
+				<div class="text-block">
+					<div class="subtle" id="txt-made-in">made in</div>
+					<div>DIGIPEN INSTITUTE OF TECHNOLOGY</div>
+					<div>EUROPE – BILBAO</div>
+					<div>www.digipen.es COPYRIGHT (C) 2026 BY DIGIPEN CORP. USA</div>
+					<div id="txt-all-rights">ALL RIGHTS RESERVED</div>
+				</div>
+			</section>
+
+			<section>
+				<h2 class="section-title" id="txt-team">Team</h2>
+				<div class="two-columns">
+					<div>
+						<h3 class="role" id="txt-lead-programmer">Lead Programmer</h3>
+						<ul class="name-list">
+							<li>Xein Goñi</li>
+						</ul>
+						<h3 class="role role-spaced" id="txt-programmers">Programmers</h3>
+						<ul class="name-list">
+							<li>Darío Rodríguez</li>
+							<li>Dante Harper</li>
+							<li>Iñaki Omaechevarría</li>
+							<li>Alexey Gurov</li>
+							<li>Akaansh Ajit</li>
+						</ul>
+					</div>
+					<div>
+						<h3 class="role" id="txt-lead-artist">Lead Artist</h3>
+						<ul class="name-list">
+							<li>Sofiia Glinskaia</li>
+						</ul>
+						<h3 class="role role-spaced" id="txt-artists">Artists</h3>
+						<ul class="name-list">
+							<li>Sofiia Zhylii</li>
+							<li>Eder Delicado</li>
+							<li>Eider Fang</li>
+							<li>Iker Fernandez</li>
+							<li>Markel Gutierrez</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+
+			<section>
+				<div class="single-group">
+					<h3 class="role" id="txt-instructors">Instructors</h3>
+					<ul class="name-list">
+						<li>Dani Andía</li>
+						<li>Sergio Martínez</li>
+						<li>Fernando Velasco</li>
+					</ul>
+				</div>
+
+				<div class="single-group">
+					<h3 class="role" id="txt-musician">Musician</h3>
+					<ul class="name-list">
+						<li>Xein Goñi</li>
+					</ul>
+				</div>
+
+				<div class="single-group">
+					<h3 class="role" id="txt-translators">Translators</h3>
+					<ul class="name-list">
+						<li>Amos Lau (Chinese)</li>
+						<li>Atahan Akay (Turkish)</li>
+						<li>Sarah Gaman (Romanian)</li>
+						<li>Tommaso Mazzega (French, Italian)</li>
+					</ul>
+				</div>
+
+				<div class="single-group">
+					<h3 class="role" id="txt-pets">Pets</h3>
+					<ul class="name-list">
+						<li>Toast</li>
+						<li>Ulysses</li>
+						<li>Kenzo</li>
+					</ul>
+				</div>
+			</section>
+
+			<section>
+				<h2 class="section-title" id="txt-software">Software</h2>
+				<div class="software-featured">
+					<div class="software-item featured-icon"><img src="toast.png" alt="Toast Engine" /></div>
+					<div>
+						<div class="engine-title" id="txt-engine-title">TOAST ENGINE</div>
+						<div class="engine-version">v1.7.4</div>
+					</div>
+				</div>
+				<div class="software-grid">
+					<div class="software-item"><img src="photoshop.png" alt="Photoshop" /></div>
+					<div class="software-item"><img src="after effects.png" alt="After Effects" /></div>
+					<div class="software-item"><img src="procreate.png" alt="Procreate" /></div>
+					<div class="software-item"><img src="spine.png" alt="Spine" /></div>
+					<div class="software-item"><img src="nvim.png" alt="Neovim" /></div>
+					<div class="software-item"><img src="nix.png" alt="Nix" /></div>
+					<div class="software-item"><img src="fmod.png" alt="FMOD" /></div>
+					<div class="software-item"><img src="nuendo.jpg" alt="Nuendo" /></div>
+				</div>
+			</section>
+
+			<section>
+				<div class="text-block produced-block">
+					<div class="subtle" id="txt-produced-at">Produced at</div>
+					<div>Digipen Institute of Technology</div>
+					<div>Europe – Bilbao</div>
+				</div>
+				<div class="single-group">
+					<h3 class="role" id="txt-president">President</h3>
+					<ul class="name-list">
+						<li>Claude Comair</li>
+					</ul>
+				</div>
+				<div class="single-group">
+					<h3 class="role" id="txt-managing-director">Bilbao Managing Director</h3>
+					<ul class="name-list">
+						<li>Ignacio De Otalora<br><br><br><br></li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="final-section">
+				<div class="footer-title" id="txt-thanks">Thank you for playing</div>
+				<div class="stats-panel">
+					<div class="stats-row"><span class="stats-label" id="txt-stat-time">Time:</span><span id="stat-time">00:00:00</span></div>
+					<div class="stats-row"><span class="stats-label" id="txt-stat-time-on-air">Time on air:</span><span id="stat-time-on-air">00:00:00</span></div>
+					<div class="stats-row"><span class="stats-label" id="txt-stat-time-on-gravity">Time on gravity:</span><span id="stat-time-on-gravity">00:00:00</span></div>
+					<div class="stats-row"><span class="stats-label" id="txt-stat-time-wasted">Time wasted:</span><span id="stat-time-wasted">00:00:00</span></div>
+					<div class="stats-row"><span class="stats-label" id="txt-stat-maximum-speed">Maximum speed:</span><span id="stat-maximum-speed">0</span></div>
+					<div class="stats-row"><span class="stats-label" id="txt-stat-enemies-killed">Enemies Killed:</span><span id="stat-enemies-killed">0</span></div>
+					<div class="stats-row"><span class="stats-label" id="txt-stat-lost-health">Lost Health:</span><span id="stat-lost-health">0</span></div>
+				</div>
+			</section>
+			<div class="end-spacer"></div>
+		</div>
+	</div>
+
+	<div class="continue-hint" id="txt-continue-hint">Click / Space / A to return to main menu</div>
+
+	<script>
+		const viewport = document.getElementById("viewport");
+		const track = document.getElementById("track");
+		const statsPanel = document.querySelector(".stats-panel");
+		const initialHoldMs = 5000;
+		const speedPxPerSecond = 90;
+		let offset = 0;
+		let finished = false;
+		let lastTime = performance.now();
+		let startedAt = performance.now();
+		let dict = {};
+		let currentLanguage = "en";
+
+		function t(key, fallback = key) {
+			if (Object.prototype.hasOwnProperty.call(dict, key) && String(dict[key]).length > 0) {
+				return String(dict[key]);
+			}
+			return fallback;
+		}
+
+		function applyLocalization() {
+			const textMap = {
+				"txt-made-in": "credits.madeIn",
+				"txt-all-rights": "credits.allRightsReserved",
+				"txt-team": "credits.team",
+				"txt-lead-programmer": "credits.leadProgrammer",
+				"txt-programmers": "credits.programmers",
+				"txt-lead-artist": "credits.leadArtist",
+				"txt-artists": "credits.artists",
+				"txt-instructors": "credits.instructors",
+				"txt-musician": "credits.musician",
+				"txt-translators": "credits.translators",
+				"txt-pets": "credits.pets",
+				"txt-software": "credits.software",
+				"txt-engine-title": "credits.engineTitle",
+				"txt-produced-at": "credits.producedAt",
+				"txt-president": "credits.president",
+				"txt-managing-director": "credits.managingDirector",
+				"txt-thanks": "credits.thankYouForPlaying",
+				"txt-stat-time": "credits.stats.time",
+				"txt-stat-time-on-air": "credits.stats.timeOnAir",
+				"txt-stat-time-on-gravity": "credits.stats.timeOnGravity",
+				"txt-stat-time-wasted": "credits.stats.timeWasted",
+				"txt-stat-maximum-speed": "credits.stats.maximumSpeed",
+				"txt-stat-enemies-killed": "credits.stats.enemiesKilled",
+				"txt-stat-lost-health": "credits.stats.lostHealth",
+				"txt-continue-hint": "credits.continueHint"
+			};
+
+			for (const [id, key] of Object.entries(textMap)) {
+				const el = document.getElementById(id);
+				if (!el) continue;
+				el.textContent = t(key, el.textContent);
+			}
+		}
+
+		window.setLocalizationData = function(translations, language) {
+			if (translations && typeof translations === "object") {
+				dict = translations;
+			}
+			if (typeof language === "string" && language.length > 0) {
+				currentLanguage = language.toLowerCase();
+			}
+			applyLocalization();
+		};
+
+		window.onToastLanguageChanged = function() {
+			applyLocalization();
+		};
+
+		function setStats(values) {
+			if (!values || typeof values !== "object") return;
+			const map = {
+				time: "stat-time",
+				time_on_air: "stat-time-on-air",
+				time_on_gravity: "stat-time-on-gravity",
+				time_wasted: "stat-time-wasted",
+				maximum_speed: "stat-maximum-speed",
+				enemies_killed: "stat-enemies-killed",
+				lost_health: "stat-lost-health"
+			};
+			for (const [key, elementId] of Object.entries(map)) {
+				const el = document.getElementById(elementId);
+				if (el && Object.prototype.hasOwnProperty.call(values, key)) {
+					el.textContent = String(values[key]);
+				}
+			}
+		}
+
+		function attemptExit() {
+			console.log("[Credits] return-main");
+			window.location.href = "../menus/MainMenu.html";
+		}
+
+		window.setStats = setStats;
+		window.onUiSelect = attemptExit;
+		window.menuActivate = function() {};
+		window.menuSelect = function() { attemptExit(); };
+		window.menuBack = function() { attemptExit(); };
+
+		document.addEventListener("keydown", (event) => {
+			if (event.code === "Space") {
+				event.preventDefault();
+				attemptExit();
+			}
+		});
+
+		document.addEventListener("mousedown", () => {
+			attemptExit();
+		});
+
+		function animate(now) {
+			const dt = (now - lastTime) / 1000;
+			lastTime = now;
+
+			const maxOffset = Math.max(track.scrollHeight - viewport.clientHeight, 0);
+			const targetOffsetRaw = statsPanel
+				? (statsPanel.offsetTop + statsPanel.offsetHeight / 2) - (viewport.clientHeight / 2)
+				: maxOffset;
+			const targetOffset = Math.max(0, Math.min(targetOffsetRaw, maxOffset));
+			if (!finished) {
+				const inHoldWindow = (now - startedAt) < initialHoldMs;
+				if (!inHoldWindow) {
+					offset = Math.min(offset + dt * speedPxPerSecond, targetOffset);
+				}
+				track.style.transform = `translateY(${-offset}px)`;
+
+				if (!inHoldWindow && offset >= targetOffset - 0.5) {
+					finished = true;
+					document.body.classList.add("finished");
+					console.log("[Credits] ready-to-exit");
+				}
+			}
+
+			requestAnimationFrame(animate);
+		}
+
+		console.log("[Credits] init");
+		console.log("[Settings] init");
+		requestAnimationFrame(animate);
+	</script>
+</body>
+</html>

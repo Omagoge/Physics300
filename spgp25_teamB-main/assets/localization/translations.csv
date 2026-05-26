@@ -1,0 +1,104 @@
+id,en,es,eu,ru,zh,fr,it,tr
+menu.main.title,PAW\nON THE\nTRIGGER,PATA\nEN EL\nGATILLO,PAW\nON THE\nTRIGGER,PAW\nON THE\nTRIGGER,PAW\nON THE\nTRIGGER,PAW\nON THE\nTRIGGER,PAW\nON THE\nTRIGGER,PAW\nON THE\nTRIGGER
+menu.main.play,PLAY,JUGAR,JOLASTU,ИГРАТЬ,开始,JOUER,GIOCA,Başla
+menu.main.settings,SETTINGS,AJUSTES,EZARPENAK,НАСТРОЙКИ,设置,PARAMÈTRES,IMPOSTAZIONI,Ayarlar
+menu.main.form,GOOGLE FORM,FORMULARIO,FORMULARIO,GOOGLE‑ФОРМА,谷歌表单,FORMULAIRE,MODULO,Google Formu
+menu.main.credits,CREDITS,CRÉDITOS,KREDITUAK,АВТОРЫ,制作人员,CRÉDITS,CREDITI,Jenerik
+menu.main.controls,CONTROLS,CONTROLES,KONTROLAK,УПРАВЛЕНИЕ,操控,COMMANDES,CONTROLLI,Kontroller
+menu.main.exit,EXIT,SALIR,IRTEN,ВЫЙТИ,退出,QUITTER,ESCI,Oyundan Çık
+menu.pause.title,PAUSE,PAUSA,PAUSA,ПАУЗА,暂停,PAUSE,PAUSA,Durdur
+menu.pause.skipScene,SKIP,SALTAR,SALTATU,ПРОПУСТИТЬ,跳过,PASSER,SALTA,Atla
+menu.pause.continue,CONTINUE,CONTINUAR,JARRAITU,ПРОДОЛЖИТЬ,继续,CONTINUER,CONTINUA,Devam Et
+menu.pause.retry,RETRY,REINTENTAR,BERRIRO SAIATU,ПОВТОРИТЬ,重试,RÉESSAYER,RIPROVA,Tekrar Dene
+menu.pause.replay,RESTART,REINICIAR,BERRABIARAZI,ПЕРЕЗАПУСТИТЬ,重新开始,RECOMMENCER,RICOMINCIA,Baştan Başla
+menu.pause.settings,SETTINGS,AJUSTES,EZARPENAK,НАСТРОЙКИ,设置,PARAMÈTRES,IMPOSTAZIONI,Ayarlar
+menu.pause.mainMenu,MAIN MENU,MENU PRINCIPAL,MENU NAGUSI,ГЛАВНОЕ МЕНЮ,主菜单,MENU PRINCIPAL,MENU PRINCIPALE,Ana Menü
+menu.pause.exit,EXIT,SALIR,IRTEN,ВЫЙТИ,退出,QUITTER,ESCI,Çık
+menu.pause.hint,↑/↓ Move · Enter/A Select · Esc/B Back,↑/↓ Mover · Enter/A Seleccionar · Esc/B Atrás,↑/↓ Mugitu · Enter/A Hautatu · Esc/B Atzera,↑/↓ Движение · Enter/A Выбрать · Esc/B Назад,↑/↓ 移动 · Enter/A 选择 · Esc/B 返回,↑/↓ Déplacer · Entrée/A Sélectionner · Échap/B Retour,↑/↓ Muovi · Invio/A Seleziona · Esc/B Indietro,↑/↓ Hareket · Enter/A Seç · Esc/B Geri
+menu.controls.backHint,Press A to go back,Pulsa A para volver,Sakatu A itzultzeko,"Нажмите A, чтобы вернуться",按 A 返回,Appuyez sur A pour revenir,Premi A per tornare,Geri dönmek için A'ya bas
+menu.settings.sound,SOUND,SONIDO,SOINU,ЗВУК,音效,SON,AUDIO,Ses
+menu.settings.musicVolume,MUSIC,MÚSICA,MUSIKA,МУЗЫКА,音乐,MUSIQUE,MUSICA,Müzik
+menu.settings.sfxVolume,EFFECTS,EFECTOS,EFEKTU,ЭФФЕКТЫ,效果音,EFFETS,EFFETTI,Efektler
+menu.settings.audioConfig,SPEAKER TYPE,TIPO DE ALTAVOCES,BOZGORAILU-MOTA,ТИП ДИНАМИКОВ,扬声器类型,TYPE D'ENCEINTES,TIPO DI ALTOPARLANTI,Hoperlör Tarzı
+menu.settings.audioMono,Mono,Mono,Mono,Моно,单声道,Mono,Mono,Mono
+menu.settings.audioStereo,Stereo,Estéreo,Estereo,Стерео,立体声,Stéréo,Stereo,Stereo
+menu.settings.audioBinaural,Headphones,Auriculares,Entzungailu,Наушники,耳机,Casque,Cuffie,Kulaklık
+menu.settings.audioAtmos,Surround,Surround,Soinua inguratzaile,Объёмный звук,环绕声,Surround,Surround,çevreleyen ses
+menu.settings.language,LANGUAGE,IDIOMA,HIZKUNTZA,ЯЗЫК,语言,LANGUE,LINGUA,Dil
+menu.settings.graphics,GRAPHICS,GRÁFICOS,GRAFIKOAK,ГРАФИКА,画面,GRAPHISMES,GRAFICA,Grafikler
+menu.settings.controls,CONTROLS,CONTROLES,KONTROLAK,УПРАВЛЕНИЕ,操控,COMMANDES,CONTROLLI,Kontroller
+menu.settings.controlsMove,Move,Movimiento,Mugimendu,Движение,移动,Déplacer,Muovi,ilerle
+menu.settings.controlsAim,Aim,Apuntar,Apuntatu,Прицелиться,瞄准,Viser,Mira,siper al
+menu.settings.controlsShoot,Shoot,Disparar,Tiro egin,Стрелять,射击,Tirer,Spara,Ateş et
+menu.settings.controlsGravity,Use Gravity,Usar Gravedad,Grabitate erabili,Использовать гравитацию,使用重力,Utiliser la gravité,Usa Gravità,yer çekimi kullan
+menu.settings.controlsThrow,Throw Weapon,Tirar el Arma,Arma bota,Бросить оружие,丢弃武器,Lancer l'arme,Lancia Arma,silahı at
+menu.settings.controlsSwitch,Switch Weapons,Cambiar de Arma,Aldatu arma,Сменить оружие,切换武器,Changer d'arme,Cambia Arma,silah değiştir
+menu.settings.controlsPause,Pause,Pausar,Pausa,Пауза,暂停,Pause,Pausa,Durdur
+menu.settings.back,BACK,VOLVER,ITZULI,НАЗАД,返回,RETOUR,INDIETRO,Geri
+menu.settings.graphics.preset,PRESET,PRESET,AURRE-EZARPENA,ПРЕДУСТАНОВКА,预设,PRÉRÉGLAGE,PRESET,Ayarlar
+menu.settings.graphics.scale,RESOLUTION SCALE,ESCALA DE RESOLUCIÓN,BEREIZMEN-ESKALA,МАСШТАБ РАЗРЕШЕНИЯ,分辨率缩放,ÉCHELLE DE RÉSOLUTION,SCALA DI RISOLUZIONE,çözünürlük ölçeği
+menu.settings.graphics.lightResolution,LIGHT RESOLUTION,RESOLUCIÓN DE LUCES,ARGI-BEREIZMENA,РАЗРЕШЕНИЕ ОСВЕЩЕНИЯ,光照分辨率,RÉSOLUTION DES LUMIÈRES,RISOLUZIONE LUCE,Işık çözünürlüğü
+menu.settings.graphics.lightQuality,LIGHT QUALITY,CALIDAD DE LUCES,ARGI-KALITATEA,КАЧЕСТВО ОСВЕЩЕНИЯ,光照质量,QUALITÉ DES LUMIÈRES,QUALITÀ LUCE,Işık kalitesi
+menu.settings.graphics.displayMode,DISPLAY MODE,MODO DE PANTALLA,PANTAILA-MODUA,РЕЖИМ ОТОБРАЖЕНИЯ,显示模式,MODE D'AFFICHAGE,MODALITÀ SCHERMO,Görüntü modu
+menu.settings.graphics.resolution,RESOLUTION,RESOLUCIÓN,BEREIZMEN,РАЗРЕШЕНИЕ,分辨率,RÉSOLUTION,RISOLUZIONE,çözünürlük 
+menu.settings.graphics.vsync,VSYNC,VSYNC,SINKRONIZAZIO BERTIKALA,ВЕРТ. СИНХРОНИЗАЦИЯ,垂直同步,VSYNC,VSYNC,Dikey senkronizasyon
+menu.settings.graphics.fps,MAX FPS,FPS MÁX,GEHIENEZKO FPS,МАКС. FPS,最高帧率,FPS MAX,FPS MAX,Max FPS
+menu.settings.graphics.physics,PHYSICS QUALITY,CALIDAD DE FÍSICA,FISIKA-KALITATEA,КАЧЕСТВО ФИЗИКИ,物理质量,QUALITÉ DE LA PHYSIQUE,QUALITÀ FISICA,Fizik kalitesi
+menu.settings.graphics.apply,APPLY,APLICAR,APLIKATU,ПРИМЕНИТЬ,应用,APPLIQUER,APPLICA,uygula
+menu.settings.graphics.option.low,LOW,BAJO,BAXUA,НИЗКИЙ,低,BAS,BASSO,Düşük
+menu.settings.graphics.option.mid,MID,MEDIO,ERTAINA,СРЕДНИЙ,中,MOYEN,MEDIO,orta
+menu.settings.graphics.option.high,HIGH,ALTO,ALTUA,ВЫСОКИЙ,高,ÉLEVÉ,ALTO,yüksek
+menu.settings.graphics.option.ultra,ULTRA,ULTRA,ULTRA,УЛЬТРА,极高,ULTRA,ULTRA,ultra yüksek
+menu.settings.graphics.option.fullscreen,FULLSCREEN,PANTALLA COMPLETA,PANTAILA OSOA,ПОЛНЫЙ ЭКРАН,全屏,PLEIN ÉCRAN,SCHERMO INTERO,Full Ekran
+menu.settings.graphics.option.windowed,WINDOWED,VENTANA,LEIHO-MODU,ОКОННЫЙ РЕЖИМ,窗口,FENÊTRÉ,FINESTRA,Pencere Ekran
+credits.madeIn,made in,hecho en,[x]-(e)n egina,Сделано в,使用,fait avec,fatto con,yapıldı
+credits.allRightsReserved,ALL RIGHTS RESERVED,TODOS LOS DERECHOS RESERVADOS,ESKUBIDE GUZTIAK GORDETA,ВСЕ ПРАВА ЗАЩИЩЕНЫ,保留所有权利,TOUS DROITS RÉSERVÉS,TUTTI I DIRITTI RISERVATI,Her Hakkı saklıdır
+credits.team,Team,Equipo,Talde,Команда,团队,Équipe,Team,ekip
+credits.leadProgrammer,Lead Programmer,Programadore Principal,Programatzaile Nagusia,Ведущий программист,首席程序员,Programmeur Principal,Programmatore Principale,Ana Programcı
+credits.programmers,Programmers,Programadores,Programatzaileak,Программисты,程序员,Programmeurs,Programmatori,Programcılar
+credits.leadArtist,Lead Artist,Artista Principal,Artista Nagusia,Ведущий художник,首席美术,Artiste Principal,Artista Principale,Ana sanatçı
+credits.artists,Artists,Artistas,Artistak,Художники,美术,Artistes,Artisti,Sanatçılar
+credits.instructors,Instructors,Instructores,Irakasleak,Инструкторы,指导教师,Instructeurs,Istruttori,Öğretmenler
+credits.musician,Composer,Compositore,Konpositore,Композитор,作曲家,Compositeur,Compositore,Müzisyen
+credits.translators,Translators,Traductores,Itzultzaileak,Переводчики,翻译,Traducteurs,Traduttori,çevirmenler
+credits.pets,Pets,Mascotas,Maskotak,Питомцы,宠物,Animaux de compagnie,Animali domestici,Evcil hayvanlar
+credits.software,Software,Software,Software,Программное обеспечение,软件,Logiciels,Software,programlar
+credits.engineTitle,TOAST ENGINE,TOAST ENGINE,TOAST ENGINE,TOAST ENGINE,TOAST ENGINE,TOAST ENGINE,TOAST ENGINE,Tost motoru / TOAST ENGINE
+credits.producedAt,Produced at,Producido en,[x]-(e)n ekaitzia,Произведено в,制作于,Produit à,Prodotto a,üretildi
+credits.president,President,Presidente,Lehendakari,Президент,总裁,Président,Presidente,başkan
+credits.managingDirector,Bilbao Managing Director,Director General de Bilbao,Bilboko Zuzendari Nagusia,Директор филиала в Бильбао,毕尔巴鄂常务董事,Directeur Général de Bilbao,Direttore Generale di Bilbao,Bilbao Direktörü
+credits.thankYouForPlaying,Thank you for playing,Gracias por jugar,Eskerrik asko jolasteagatik,СПАСИБО ЧТО СЫГРАЛИ,感谢游玩,Merci d'avoir joué,Grazie per aver giocato,Oynadığınız için teşekkürler
+credits.stats.time,Time:,Tiempo:,Denbora:,ВРЕМЯ:,时间：,Temps :,Tempo:,Süre
+credits.stats.timeOnAir,Time on air:,Tiempo en el aire:,Airean denbora:,ВРЕМЯ В ВОЗДУХЕ:,空中时间：,Temps en l'air :,Tempo in aria:,Hava süresi
+credits.stats.timeOnGravity,Time on gravity:,Tiempo en gravedad:,Grabitatepeko denbora:,ВРЕМЯ В ГРАВИТАЦИИ:,重力时间：,Temps en gravité :,Tempo in gravità:,Yer çekimi süresi
+credits.stats.timeWasted,Time wasted:,Tiempo perdido:,Galdutako denbora:,ВРЕМЯ ВПУСТУЮ:,浪费时间：,Temps perdu :,Tempo perso:,Harcanan süre
+credits.stats.maximumSpeed,Maximum speed:,Velocidad máxima:,Gehienezko abiadura:,МАКСИМАЛЬНАЯ СКОРОСТЬ:,最高速度：,Vitesse maximale :,Velocità massima:,Maximum hız
+credits.stats.enemiesKilled,Enemies Killed:,Enemigos eliminados:,Hildako etsaiak:,ВРАГОВ УБИТО:,击杀敌人：,Ennemis éliminés :,Nemici uccisi:,öldürülen düşman adedi
+credits.stats.lostHealth,Lost Health:,Vida perdida:,Galdutako osasuna:,ЗДОРОВЬЯ ПОТЕРЯНО:,损失生命值：,Vie perdue :,Salute persa:,kayıp can
+credits.continueHint,Click / Space / A to return to main menu,Haz clic / Espacio / A para volver al menú principal,Click / Zuriune-barra / Sakatu A menu nagusira itzultzeko,КЛИК / ПРОБЕЛ / A — ЧТОБЫ ВЕРНУТЬСЯ В МЕНЮ,点击 / 空格 / A 返回主菜单,Clic / Espace / A pour retourner au menu principal,Clic / Spazio / A per tornare al menu principale,Ana menüye dönüş için tıkla/ boşluk/ A
+credits.art,Artists,Artistas,Artistak,ХУДОЖНИКИ,美术,Artistes,Artisti,çizimciler
+credits.tech,Programmers,Programadores,Programatzaileak,ПРОГРАММИСТЫ,程序员,Programmeurs,Programmatori,Programcılar
+credits.engine,made in Toast Engine,hecho en Toast Engine,Toast Engine-n egina,СДЕЛАНО В TOAST ENGINE,使用 Toast Engine 制作,fait avec Toast Engine,fatto con Toast Engine,Toast Engine yapımı
+credits.thanks,Thank u for playing! <3,¡Gracias por jugar! <3,Eskerrik asko jolasteagatik! <3,СПАСИБО ЧТО СЫГРАЛИ! <3,感谢游玩！<3,Merci d'avoir joué ! <3,Grazie per aver giocato! <3,oynadığınız için teşekkürler <3
+credits.stat1,Time:,Tiempo total:,Denbora:,ВРЕМЯ:,时间：,Temps :,Tempo:,Süre:
+credits.stat2,Time on air:,Tiempo en el aire:,Airean denbora:,ВРЕМЯ В ВОЗДУХЕ:,空中时间：,Temps en l'air :,Tempo in aria:,Hava süresi:
+credits.stat3,Time on gravity:,Tiempo en gravedad:,Grabitatepeko denbora:,ВРЕМЯ В ГРАВИТАЦИИ:,重力时间：,Temps en gravité :,Tempo in gravità:,Yer çekimi süresi:
+credits.stat4,Time wasted:,Tiempo malgastado:,Galdutako denbora:,ВРЕМЯ ВПУСТУЮ:,浪费时间：,Temps perdu :,Tempo perso:,Harcanan süre:
+credits.stat5,Maximum speed:,Velocidad máxima:,Gehienezko abiadura:,МАКСИМАЛЬНАЯ СКОРОСТЬ:,最高速度：,Vitesse maximale :,Velocità massima:,Maximum hız:
+credits.stat6,Enemies killed:,Enemigos matados:,Hildako etsaiak:,ВРАГОВ УБИТО:,击杀敌人：,Ennemis tués :,Nemici uccisi:,Öldürülen düşman:
+credits.stat7,Lost health:,Vida perdida:,Galdutako osasuna:,ЗДОРОВЬЯ ПОТЕРЯНО:,损失生命值：,Vie perdue :,Salute persa:,Kayıp can:
+credits.stat8,Deaths:,Muertes:,Heriotzak:,СМЕРТЕЙ:,死亡次数：,Morts :,Morti:,ölümler
+hub.complete,LEVEL COMPLETE!,NIVEL COMPLETADO!,MAILA OSATUTA,УРОВЕНЬ ПРОЙДЁН!,关卡完成！,NIVEAU TERMINÉ !,LIVELLO COMPLETATO!,Seviye tamamlandı !
+hub.incomplete,LEVEL {},NIVEL {},MAILA {},УРОВЕНЬ {},第 {} 关,NIVEAU {},LIVELLO {},Seviye {}
+hub.locked,LEVEL LOCKED,NIVEL BLOQUEADO,MAILA BLOKEATUTA,УРОВЕНЬ ЗАБЛОКИРОВАН,关卡已锁定,NIVEAU VERROUILLÉ,LIVELLO BLOCCATO,Seviye kilitli
+hub.bestTime,BEST TIME:,TIEMPO RÉCORD:,DENBORARIK ONENA,ЛУЧШЕЕ ВРЕМЯ:,最佳时间：,MEILLEUR TEMPS :,TEMPO MIGLIORE:,En iyi zaman
+hub.playText,PRESS {} TO PLAY,PULSA {} PARA JUGAR,SAKATU {} JOLASTEKO,НАЖМИ {} ЧТОБЫ ИГРАТЬ,按 {} 开始游戏,APPUIE SUR {} POUR JOUER,PREMI {} PER GIOCARE,oynamak için {}
+hub.replayText,PRESS {} TO PLAY AGAIN,PULSA {} PARA VOLVER A JUGAR,SAKATU {} BERRIRO JOLASTEKO,НАЖМИ {} ЧТОБЫ ИГРАТЬ СНОВА,按 {} 再玩一次,APPUIE SUR {} POUR REJOUER,PREMI {} PER GIOCARE DI NUOVO,Tekrar denemek için {}
+endpopup.title,LEVEL CLEARED!,NIVEL COMPLETADO!,MAILA OSATUTA,УРОВЕНЬ ОЧИЩЕН!,关卡通关！,NIVEAU TERMINÉ !,LIVELLO COMPLETATO!,Seviye temizlendi !
+endpopup.time,YOUR TIME:,TIEMPO:,DENBORA:,ТВОЁ ВРЕМЯ:,你的时间：,TON TEMPS :,IL TUO TEMPO:,senin zamanın
+endpopup.bestTime,BEST TIME:,RÉCORD:,DENBORARIK ONENA:,ЛУЧШЕЕ ВРЕМЯ:,最佳时间：,MEILLEUR TEMPS :,TEMPO MIGLIORE:,En iyi zaman
+endpopup.button.retry,RETRY,REINTENTAR,BERRIRO SAIATU,ПОВТОРИТЬ,重试,RÉESSAYER,RIPROVA,Tekrar dene
+endpopup.button.continue,CONTINUE,CONTINUAR,JARRAITU,ПРОДОЛЖИТЬ,继续,CONTINUER,CONTINUA,Devam et
+endpopup.button.menu,MAIN MENU,MENÚ PRINCIPAL,MENU NAGUSIA,ГЛАВНОЕ МЕНЮ,主菜单,MENU PRINCIPAL,MENU PRINCIPALE,Ana Menü
+splash.toastDisclaimer,made in Toast Engine,hecho en Toast Engine,Toast Engine-n egina,СДЕЛАНО В TOAST ENGINE,使用 Toast Engine 制作,fait avec Toast Engine,fatto con Toast Engine,Toast Engine yapımı
+splash.toastDisclaimer2,a game engine built by students with only C++,un motor de estudiantes hecho con sólo C++,Ikasleek C++ soilik erabiliz sortutako motorra,"ИГРОВОЙ ДВИЖОК, СОЗДАННЫЙ СТУДЕНТАМИ ТОЛЬКО НА C++",一款由学生使用纯 C++ 构建的游戏引擎,un moteur de jeu créé par des étudiants avec seulement du C++,un motore di gioco creato da studenti usando solo C++,Bu oyun yanlızca C++ kullanılarak öğrenciler tarafından yapılmıştır

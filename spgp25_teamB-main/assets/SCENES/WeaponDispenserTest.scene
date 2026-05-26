@@ -1,0 +1,293 @@
+{
+  "type": "Scene",
+  "name": "WeaponDispenserTest",
+  "enabled": true,
+  "children": [
+    {
+      "type": "ColliderTest",
+      "name": "Floor",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Collider",
+          "name": "Collider",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              -3.4915897846221924,
+              -1.0
+            ],
+            [
+              1.3544682264328003,
+              -1.0
+            ],
+            [
+              1.3544682264328003,
+              1.0
+            ],
+            [
+              -3.4915897846221924,
+              1.0
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 1,
+          "data.forceLeft": false,
+          "renderable": {
+            "type": "TransformComponent",
+            "name": "",
+            "enabled": true,
+            "children": null,
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "material_path": "",
+            "showTop": false,
+            "maxSlope": 45.0,
+            "topHeight": 0.5,
+            "topOffset": -0.20000000298023224,
+            "topMaterialPath": "",
+            "isOccluder": false,
+            "castsDirectionalShadow": true,
+            "show": false,
+            "horizontal_offset": 0.10000000149011612
+          }
+        }
+      ],
+      "transform": {
+        "position": [
+          0.0,
+          -5.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          30.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "type": "WeaponDispenser",
+      "name": "ShotgunDispenser",
+      "enabled": true,
+      "children": [
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_66",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            3.0,
+            3.0,
+            1.0
+          ],
+          "meshPath": "MODELS/quad.obj",
+          "materialPath": "ENVIRO/GEN/WeaponDispenser/ShotgunDispenser.mat",
+          "isOccluder": false,
+          "castsDirectionalShadow": true,
+          "drawToDepth": true,
+          "isTransparent": false
+        }
+      ],
+      "transform": {
+        "position": [
+          15.0,
+          10.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "weaponType": 1,
+      "respawnDelay": 2.0
+    },
+    {
+      "type": "WeaponDispenser",
+      "name": "SMGDispenser",
+      "enabled": true,
+      "children": [
+        {
+          "type": "MeshRendererComponent",
+          "name": "MeshRendererComponent_67",
+          "enabled": true,
+          "children": null,
+          "position": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            3.0,
+            3.0,
+            1.0
+          ],
+          "meshPath": "MODELS/quad.obj",
+          "materialPath": "ENVIRO/GEN/WeaponDispenser/SMGDispenser.mat",
+          "isOccluder": false,
+          "castsDirectionalShadow": true,
+          "drawToDepth": true,
+          "isTransparent": false
+        }
+      ],
+      "transform": {
+        "position": [
+          -15.0,
+          10.0,
+          0.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "weaponType": 2,
+      "respawnDelay": 2.0
+    },
+    {
+      "type": "ColliderTest",
+      "name": "Floor_(0)",
+      "enabled": true,
+      "children": [
+        {
+          "type": "Collider",
+          "name": "Collider",
+          "enabled": true,
+          "children": null,
+          "points": [
+            [
+              -3.4915897846221924,
+              -1.0
+            ],
+            [
+              3.905031681060791,
+              -1.0
+            ],
+            [
+              3.905031681060791,
+              1.0
+            ],
+            [
+              -3.4915897846221924,
+              1.0
+            ]
+          ],
+          "friction": 0.4,
+          "debug.showPoints": true,
+          "debug.showColliders": true,
+          "debug.showNormals": false,
+          "flags": 1,
+          "data.forceLeft": false,
+          "renderable": {
+            "type": "TransformComponent",
+            "name": "",
+            "enabled": true,
+            "children": null,
+            "position": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rotation": [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "material_path": "",
+            "showTop": false,
+            "maxSlope": 45.0,
+            "topHeight": 0.5,
+            "topOffset": -0.20000000298023224,
+            "topMaterialPath": "",
+            "isOccluder": false,
+            "castsDirectionalShadow": true,
+            "show": false,
+            "horizontal_offset": 0.10000000149011612
+          }
+        }
+      ],
+      "transform": {
+        "position": [
+          -104.07501220703125,
+          98.14474487304688,
+          0.0
+        ],
+        "rotation": [
+          0.7071067094802856,
+          0.0,
+          0.0,
+          0.7071068286895752
+        ],
+        "scale": [
+          29.999387741088867,
+          0.9999808073043823,
+          1.0
+        ]
+      }
+    }
+  ],
+  "format": "scene",
+  "file_path": "SCENES/WeaponDispenserTest.scene"
+}

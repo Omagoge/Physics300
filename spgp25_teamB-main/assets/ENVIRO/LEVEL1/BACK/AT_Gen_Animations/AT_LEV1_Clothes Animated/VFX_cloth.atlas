@@ -1,0 +1,63 @@
+VFX_cloth.png
+size:1530,390
+filter:Linear,Linear
+pma:true
+Capa 1
+bounds:856,28,116,171
+rotate:90
+Capa 10
+bounds:282,95,105,293
+offsets:1,0,107,293
+Capa 11
+bounds:152,2,83,123
+offsets:0,1,92,124
+rotate:90
+Capa 13
+bounds:554,138,176,250
+offsets:0,1,176,252
+Capa 14
+bounds:2,5,62,104
+rotate:90
+Capa 15
+bounds:277,5,80,201
+rotate:90
+Capa 16
+bounds:1102,180,175,208
+Capa 17
+bounds:152,87,128,301
+offsets:5,0,133,301
+Capa 18
+bounds:732,146,139,242
+Capa 2
+bounds:480,9,121,151
+rotate:90
+Capa 3
+bounds:633,5,104,131
+offsets:0,0,104,132
+Capa 4
+bounds:1423,102,93,112
+offsets:0,0,93,113
+Capa 5
+bounds:873,154,227,234
+offsets:1,0,228,234
+Capa 6
+bounds:1279,184,110,204
+offsets:1,0,111,205
+Capa 7
+bounds:1391,216,115,172
+offsets:0,0,116,172
+Capa 8
+bounds:389,132,163,256
+offsets:0,0,163,257
+Capa 9
+bounds:2,69,148,319
+Layer 40
+bounds:1029,8,144,392
+offsets:0,0,145,392
+rotate:90
+Layer 41
+bounds:1423,8,92,105
+rotate:90
+Layer 42
+bounds:739,2,115,142
+offsets:0,0,116,143

@@ -1,0 +1,13 @@
+AT_LEV1_Bricks_Roof.png
+size:921,53
+filter:Linear,Linear
+pma:true
+AT_LEV1_Bricks_Roof
+bounds:2,21,614,30
+AT_LEV1_Bricks_Roof_Left_Corner
+bounds:618,2,118,49
+AT_LEV1_Bricks_Roof_Right_Corner
+bounds:839,13,80,38
+offsets:0,5,122,43
+AT_LEV1_Bricks_Roof_small
+bounds:738,21,99,30

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Game Controls</title>
+	<style>
+		* {
+			user-select: none;
+			-webkit-user-select: none;
+		}
+
+		body {
+			font-family: 'Orbitron', sans-serif;
+			/* Apply Orbitron font */
+			font-weight: 700;
+			/* Apply font-weight 700 */
+			min-height: 100vh;
+			margin: 0;
+			background-color: #ffffff;
+			color: #333333;
+			position: relative;
+			/* Context for absolutely positioned children */
+		}
+
+		#display-name {
+			font-size: 8vw;
+			/* Make name very large, responsive to viewport width */
+			font-weight: bold;
+			color: #000000;
+			/* Make name text black */
+			text-align: center;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+			/* Add text-shadow for visibility */
+			word-break: break-word;
+			/* Ensure long names wrap */
+			padding: 0 10px;
+			/* Small padding on sides */
+			position: absolute;
+			top: 5vh;
+			/* Aligned to the top with a slight offset */
+			left: 50%;
+			transform: translateX(-50%);
+			/* Horizontally center */
+			width: 100%;
+			/* Ensure it takes full width to center text */
+			z-index: 10;
+			/* Ensure it stays on top */
+		}
+
+		#best-time-label {
+			font-family: 'Orbitron', sans-serif;
+			font-weight: bold;
+			color: #000000;
+			font-size: 5vw;
+			/* Increased font size for better visibility */
+			text-align: center;
+			text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+		}
+
+		#timer-group {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			gap: 10px;
+			/* Space between "Best Time" and the timer */
+		}
+
+		#display-timer {
+			font-size: 8vw;
+			/* Increased font size for better visibility */
+			font-weight: bold;
+			color: #000000;
+			/* Black color for visibility on white background */
+			text-align: center;
+			text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+			/* Softer text-shadow */
+			padding: 0 10px;
+		}
+
+		#play-text {
+			font-family: 'Orbitron', sans-serif;
+			font-weight: bold;
+			color: #000000;
+			font-size: 10vw;
+			/* Large size for "PLAY" */
+			text-align: center;
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+			display: none;
+			/* Hidden by default */
+		}
+
+		#locked-overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100vw;
+			height: 100vh;
+			background-color: rgba(0, 0, 0, 0.8);
+			/* Semi-transparent black overlay */
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			z-index: 100;
+			/* Ensure it's on top of everything */
+			pointer-events: none;
+			/* Allow clicks to pass through if needed, or 'auto' to block */
+			opacity: 0;
+			/* Hidden by default */
+			transition: opacity 0.3s ease-in-out;
+		}
+
+		#locked-overlay.show {
+			opacity: 1;
+			pointer-events: auto;
+			/* Re-enable pointer events when shown */
+		}
+
+		#locked-overlay-text {
+			font-family: 'Orbitron', sans-serif;
+			font-weight: bold;
+			color: #e74c3c;
+			/* Red color for "LOCKED" */
+			font-size: 15vw;
+			/* Very large text */
+			text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+			text-align: center;
+		}
+
+		#main-content-area {
+			position: absolute;
+			/* Position independently */
+			top: 50%;
+			/* Moved content to true vertical center */
+			left: 50%;
+			transform: translate(-50%, -50%);
+			/* Centering relative to its own size */
+			display: flex;
+			flex-direction: column;
+			/* Stack children (timer-group, is-played-timer, play-text) */
+			justify-content: center;
+			/* Vertically center children within main-content-area */
+			align-items: center;
+			/* Horizontally center children within main-content-area */
+			width: 100%;
+			/* Ensure it takes full width to center content properly */
+			z-index: 5;
+			/* Ensure it's below display-name but above background */
+		}
+
+		#press-x-bar {
+			position: fixed;
+			/* Always relative to the viewport */
+			bottom: -25vh;
+			/* Start off-screen */
+			left: 0;
+			width: 100vw;
+			height: 25vh;
+			/* 1/4th the viewport height */
+			background-color: black;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			transition: bottom 0.5s ease-out;
+			/* Smooth slide animation */
+			z-index: 90;
+			/* Below locked overlay, above other content */
+		}
+
+		#press-x-bar.show {
+			bottom: 0;
+			/* Slide into view */
+		}
+
+		#press-x-text {
+			font-family: 'Orbitron', sans-serif;
+			font-weight: bold;
+			color: white;
+			font-size: 8vw;
+			/* Large text for visibility */
+			text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+			pointer-events: none;
+			/* Make text non-interactive */
+		}
+	</style>
+</head>
+
+<body>
+	<div id="display-name"></div>
+	<div id="main-content-area">
+		<div id="play-text">PLAY</div> <!-- New PLAY text -->
+		<div id="timer-group" style="display: none;"> <!-- Hidden by default, controlled by JS -->
+			<div id="best-time-label">BEST TIME:</div>
+			<div id="display-timer">
+				<span id="display-minutes">00</span>:<span id="display-seconds">00</span><span class="ms">.<span
+						id="display-milliseconds">000</span></span>
+			</div>
+		</div>
+	</div>
+
+	<div id="press-x-bar"> <!-- New element for the bar -->
+		<span id="press-x-text">Press A</span>
+	</div>
+
+	<div id="locked-overlay">
+		<div id="locked-overlay-text">LOCKED</div>
+	</div>
+
+	<script>
+		let _isUnlockedState = false; // Global state for unlocked status
+		let _isSelectedState = false; // Global state for selected status
+		let _dict = {};
+
+		function t(key, fallback = key) {
+			if (Object.prototype.hasOwnProperty.call(_dict, key) && String(_dict[key]).length > 0) {
+				return String(_dict[key]);
+			}
+			return fallback;
+		}
+
+		function formatWithBinding(template, binding) {
+			return String(template ?? "").replace("{}", binding);
+		}
+
+		function applyLocalization() {
+			const bestTimeLabel = document.getElementById('best-time-label');
+			if (bestTimeLabel) {
+				bestTimeLabel.textContent = t('hub.bestTime', bestTimeLabel.textContent);
+			}
+
+			const playText = document.getElementById('play-text');
+			if (playText) {
+				playText.textContent = t('menu.main.play', playText.textContent);
+			}
+
+			const lockedText = document.getElementById('locked-overlay-text');
+			if (lockedText) {
+				lockedText.textContent = t('hub.locked', lockedText.textContent);
+			}
+
+			const pressXText = document.getElementById('press-x-text');
+			if (pressXText) {
+				const template = t('hub.playText', 'PRESS {} TO PLAY');
+				pressXText.textContent = formatWithBinding(template, 'A');
+			}
+		}
+
+		window.setLocalizationData = function(translations, language) {
+			if (translations && typeof translations === 'object') {
+				_dict = translations;
+			}
+			if (typeof language === 'string' && language.length > 0) {
+				window.__toastLang = language.toLowerCase();
+			}
+			applyLocalization();
+		};
+
+		window.onToastLanguageChanged = function() {
+			applyLocalization();
+		};
+
+		/**
+		 * Clears the content of a timer display.
+		 * @param {string} elementPrefix - The prefix for the minutes, seconds, and milliseconds element IDs.
+		 */
+		function clearTimerDisplay(elementPrefix) {
+			const minElem = document.getElementById(`${elementPrefix}-minutes`);
+			const secElem = document.getElementById(`${elementPrefix}-seconds`);
+			const msElem = document.getElementById(`${elementPrefix}-milliseconds`);
+			if (minElem) minElem.textContent = '00';
+			if (secElem) secElem.textContent = '00';
+			if (msElem) msElem.textContent = '000';
+		}
+
+		/**
+		 * Updates the visibility of the "Press X" bar based on unlocked and selected states.
+		 */
+		function updatePressXBarDisplay() {
+			const pressXBar = document.getElementById('press-x-bar');
+			if (!pressXBar) {
+				console.error("Press X bar element not found.");
+				return;
+			}
+
+			if (_isUnlockedState && _isSelectedState) {
+				pressXBar.classList.add('show'); // Show the bar
+			} else {
+				pressXBar.classList.remove('show'); // Hide the bar
+			}
+		}
+
+		/**
+		 * Sets the "is played" status and updates display accordingly.
+		 * If status is true, shows "Best Time" and the timer.
+		 * If status is false, shows "PLAY" text IF the level is unlocked.
+		 * @param {boolean} status - True if played (best time exists), false otherwise.
+		 */
+		function setIsPlayed(status) {
+			const timerGroup = document.getElementById('timer-group');
+			const playText = document.getElementById('play-text');
+
+			if (!timerGroup || !playText) {
+				console.error("Timer elements for setIsPlayed not found.");
+				return;
+			}
+
+			if (typeof status !== 'boolean') {
+				console.error("setIsPlayed expects a boolean argument.");
+				return;
+			}
+
+			if (status) { // Level is played
+				timerGroup.style.display = 'flex'; // Show Best Time and timer
+				playText.style.display = 'none'; // Hide PLAY text
+			} else { // Level is not played
+				timerGroup.style.display = 'none'; // Always hide Best Time and timer if not played
+				// Show PLAY text only if the level is unlocked.
+				if (_isUnlockedState) {
+					playText.style.display = 'block'; // Show PLAY text
+					clearTimerDisplay('display'); // Clear the displayed time
+				} else {
+					playText.style.display = 'none'; // Hide PLAY text if locked
+				}
+			}
+			console.log(`setIsPlayed called with: ${status}`);
+		}
+
+		/**
+		 * Sets the "is unlocked" status and updates display accordingly.
+		 * If status is true, hides "LOCKED" overlay.
+		 * If status is false, shows "LOCKED" overlay.
+		 * @param {boolean} status - True if unlocked, false otherwise.
+		 */
+		function setIsUnlocked(status) {
+			const lockedOverlay = document.getElementById('locked-overlay');
+			if (!lockedOverlay) {
+				console.error("Locked overlay element not found.");
+				return;
+			}
+
+			if (typeof status !== 'boolean') {
+				console.error("setIsUnlocked expects a boolean argument.");
+				return;
+			}
+
+			_isUnlockedState = status; // Update global state
+
+			if (status) {
+				lockedOverlay.classList.remove('show'); // Hide overlay
+			} else {
+				lockedOverlay.classList.add('show'); // Show overlay
+			}
+			console.log(`setIsUnlocked called with: ${status}`);
+			updatePressXBarDisplay(); // Update Press X bar visibility
+		}
+
+		/**
+		 * Sets the "is selected" status.
+		 * @param {boolean} status - True if selected, false otherwise.
+		 */
+		function setIsSelected(status) {
+			if (typeof status !== 'boolean') {
+				console.error("setIsSelected expects a boolean argument.");
+				return;
+			}
+			_isSelectedState = status; // Update global state
+			console.log(`setIsSelected called with: ${status}`);
+			updatePressXBarDisplay(); // Update Press X bar visibility
+		}
+
+		/**
+		 * Sets a timer for a given duration. Always updates the main display timer.
+		 * @param {number} milliseconds - The duration of the timer in milliseconds.
+		 */
+		function setTimer(milliseconds) {
+			const displayTimerElement = document.getElementById('display-timer');
+			if (displayTimerElement) {
+				formatTimeDisplay('display', milliseconds);
+				console.log(`setTimer called with: ${milliseconds} ms`);
+			} else {
+				console.error("Element with ID 'display-timer' not found.");
+			}
+		}
+
+		/**
+		 * Sets a name.
+		 * @param {string} name - The name to set.
+		 */
+		function setName(name) {
+			const displayNameElement = document.getElementById('display-name');
+			if (displayNameElement) {
+				if (typeof name !== 'string' || name.trim() === '') {
+					displayNameElement.textContent = ''; // Clear name if invalid
+					console.error("setName expects a non-empty string argument.");
+					return;
+				}
+				displayNameElement.textContent = name;
+				console.log(`setName called with: ${name}`);
+			} else {
+				console.error("Element with ID 'display-name' not found.");
+			}
+		}
+
+		/**
+		 * Formats and displays total milliseconds as MM:SS.mmm in specified elements.
+		 * @param {string} elementPrefix - The prefix for the minutes, seconds, and milliseconds element IDs (e.g., "display", "is-played").
+		 * @param {number} totalMilliseconds - The total time in milliseconds to display.
+		 */
+		function formatTimeDisplay(elementPrefix, totalMilliseconds) {
+			const minElem = document.getElementById(`${elementPrefix}-minutes`);
+			const secElem = document.getElementById(`${elementPrefix}-seconds`);
+			const msElem = document.getElementById(`${elementPrefix}-milliseconds`);
+
+			if (!minElem || !secElem || !msElem) {
+				console.error(`Timer elements with prefix '${elementPrefix}' not found.`);
+				return;
+			}
+
+			if (typeof totalMilliseconds !== 'number' || totalMilliseconds < 0) {
+				minElem.textContent = '00';
+				secElem.textContent = '00';
+				msElem.textContent = '000';
+				return;
+			}
+
+			const minutes = Math.floor(totalMilliseconds / 60000);
+			const seconds = Math.floor((totalMilliseconds % 60000) / 1000);
+			const ms = Math.floor(totalMilliseconds % 1000);
+
+			minElem.textContent = minutes.toString().padStart(2, '0');
+			secElem.textContent = seconds.toString().padStart(2, '0');
+			msElem.textContent = ms.toString().padStart(3, '0');
+		}
+
+		applyLocalization();
+	</script>
+</body>
+
+</html>

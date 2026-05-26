@@ -1,0 +1,78 @@
+@font-face {
+	font-family: 'Resource Han Rounded';
+	src: url('../../FONTS/ResourceHanRounded/ResourceHanRoundedSC-Regular.ttf') format('truetype');
+}
+
+html {
+		background-color: transparent;
+}
+
+html, body {
+		margin: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		background-color: transparent;
+}
+
+body {
+		position: relative;
+		-webkit-user-select: none;
+		user-select: none;
+}
+
+#bg {
+		position: fixed;
+		inset: 0;
+		z-index: 0;
+		overflow: hidden;
+		background: transparent;
+}
+
+#bgTint {
+		position: absolute;
+		inset: 0;
+		z-index: 1;
+		background-color: rgba(0, 0, 0, 0.6);
+		animation: fadeIn 0.5s ease-out forwards;
+}
+
+#controlsRoot {
+		position: fixed;
+		inset: 0;
+		z-index: 2;
+		background: transparent;
+}
+
+.controls-image {
+		position: absolute;
+		inset: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: none;
+		background: transparent;
+}
+
+.controls-image.visible {
+		display: block;
+}
+
+.hint {
+		position: fixed;
+		left: 50%;
+		bottom: 2.5vh;
+		transform: translateX(-50%);
+		z-index: 3;
+		font-family: 'Orbitron', 'Resource Han Rounded', sans-serif;
+		font-size: clamp(16px, 1.8vw, 28px);
+		color: white;
+		text-align: center;
+		text-shadow: 0 0 6px rgba(0, 0, 0, 0.85);
+		pointer-events: none;
+}
+
+@keyframes fadeIn {
+		from { background-color: rgba(0, 0, 0, 0); }
+		to { background-color: rgba(0, 0, 0, 0.6); }
+}

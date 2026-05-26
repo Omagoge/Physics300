@@ -1,0 +1,11 @@
+AT_LEV1_TRAGALUZ.png
+size:429,85
+filter:Linear,Linear
+pma:true
+AT_LEV1_TRAGALUZ_left
+bounds:225,2,104,81
+offsets:0,1,104,82
+AT_LEV1_TRAGALUZ_mid
+bounds:2,3,221,80
+AT_LEV1_TRAGALUZ_right
+bounds:331,3,96,80

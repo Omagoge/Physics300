@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Resource Han Rounded';
+  src: url('../../FONTS/ResourceHanRounded/ResourceHanRoundedSC-Regular.ttf') format('truetype');
+  unicode-range: U+4E00-U+9FFF, U+3400-U+4DBF, U+F900-U+FAFF;
+}
+
+body {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#timer-container {
+  display: inline-block;
+}
+
+#timer {
+  font-family: 'Orbitron', 'Resource Han Rounded', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 6vw; /* Increased from 5vw */
+  text-shadow: 0.4vw 0.4vw 0px black;
+  display: inline-block;
+  position: relative;
+  padding: 0 5vw 0 1.5vw;
+  white-space: nowrap;
+}
+
+#timer::after {
+  content: '';
+  position: absolute;
+  bottom: 0.5vw;
+  left: -5vw;
+  width: 42vw; /* Increased from 36vw */
+  height: 5.4vw; /* Proportional to 6vw font */
+  background-color: black;
+  z-index: -1;
+  clip-path: polygon(0% 0%, 100% 0%, calc(100% - 3.5vw) 100%, 0% 100%);
+}
+
+.ms {
+  font-size: 3.6vw; /* Proportional to 6vw main text */
+  margin-left: 0.1vw;
+}

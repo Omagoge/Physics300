@@ -1,0 +1,284 @@
+Cinematic_cat_city.png
+size:8531,3071
+filter:Linear,Linear
+pma:true
+4_0000_Window-Frame-For-Legd
+bounds:1887,438,1282,128
+offsets:338,190,1920,1080
+Anthena 2
+bounds:1887,568,1920,337
+offsets:1,1,1922,339
+Arm 1 Up Down 2
+bounds:2366,31,96,225
+offsets:1,1,98,251
+rotate:90
+Arm Elbow Scene 5-7
+bounds:3171,442,124,130
+offsets:2,2,130,134
+rotate:90
+Arm Paw 2 Middle 2
+bounds:8227,1201,105,174
+offsets:1,1,107,176
+rotate:90
+Arm Scene 5-7
+bounds:8385,1308,126,100
+offsets:19,5,146,106
+Athena
+bounds:2954,93,378,343
+offsets:1,1,380,345
+Background City Scene 4
+bounds:2,1989,1920,1080
+offsets:1,1,1922,1082
+Background Scene 5
+bounds:2,907,1920,1080
+offsets:1,1,1922,1082
+Bed
+bounds:1924,1989,1920,1080
+offsets:1,1,1922,1082
+Body 5
+bounds:8391,1617,134,172
+offsets:1,1,136,174
+Body Scene 7
+bounds:3334,332,314,234
+offsets:2,1,318,236
+Breathing
+bounds:6980,17,425,274
+offsets:1,2,427,278
+Bricks
+bounds:5768,1189,1889,809
+offsets:2,1,1892,811
+Cat Open Eye 3
+bounds:2,2,76,59
+offsets:1,1,78,61
+Cat Pupil 3
+bounds:2442,2,27,26
+offsets:1,1,29,28
+rotate:90
+Cat Shadow
+bounds:1887,129,1065,307
+offsets:25,18,1114,336
+City 1
+bounds:5093,11,1277,894
+offsets:1,1,1279,896
+City 2
+bounds:5768,2000,1920,1069
+offsets:1,1,1922,1072
+City 4
+bounds:1924,907,1920,1080
+offsets:1,1,1922,1082
+City3
+bounds:2,63,1883,842
+offsets:38,1,1922,895
+Coat
+bounds:7743,10,257,162
+offsets:1,1,259,164
+Coat 2
+bounds:5768,907,508,280
+offsets:2,1,511,283
+Ear
+bounds:8058,524,242,266
+offsets:1,2,244,270
+Ear Left 2
+bounds:3334,117,213,292
+offsets:2,2,216,296
+rotate:90
+Ear Right 2
+bounds:7353,297,189,309
+offsets:2,2,192,313
+rotate:90
+Ear3
+bounds:7673,581,383,613
+offsets:1,1,386,616
+Eye
+bounds:3336,2,113,58
+offsets:1,2,116,61
+rotate:90
+Eye Scene 6
+bounds:8465,341,58,47
+offsets:1,1,61,49
+rotate:90
+Eye open 2
+bounds:8002,3,188,190
+offsets:1,1,190,192
+Face
+bounds:7659,1196,566,458
+offsets:1,2,569,462
+Gun
+bounds:8391,2002,136,215
+offsets:2,2,140,218
+Head Scene 3
+bounds:7690,2219,850,763
+offsets:1,1,854,767
+rotate:90
+Hip Leg 2
+bounds:8391,1791,134,209
+offsets:1,1,137,211
+Layer 4
+bounds:8403,1228,78,108
+offsets:1,0,79,109
+rotate:90
+Leg Down 5
+bounds:3135,5,86,95
+offsets:2,2,89,99
+rotate:90
+Leg Up
+bounds:8046,324,198,209
+offsets:1,1,200,211
+rotate:90
+Leg Up 2
+bounds:8192,50,185,197
+offsets:1,2,187,201
+Leg Up 5
+bounds:7954,419,90,160
+offsets:1,1,92,162
+Nose
+bounds:8192,2,54,46
+offsets:1,1,56,48
+Nose 2
+bounds:6578,20,66,38
+offsets:2,2,69,42
+Nose Cat
+bounds:6578,2,35,16
+offsets:1,1,37,18
+Open Eye Scene 7
+bounds:3232,16,102,75
+offsets:1,2,105,78
+Paw 3 Down 2
+bounds:2593,22,182,105
+offsets:1,1,184,107
+Paw 5
+bounds:8455,2675,104,51
+offsets:1,1,106,53
+rotate:90
+Paw Leg 2
+bounds:6372,2,94,56
+offsets:1,1,96,59
+Pupil
+bounds:8257,452,42,70
+offsets:1,1,44,72
+Pupil Scene 7
+bounds:7659,1970,28,29
+offsets:1,1,30,31
+rotate:90
+Rat Hand_
+bounds:8119,262,71,60
+offsets:0,1,71,61
+Rat Tower
+bounds:7353,488,318,699
+offsets:0,1,318,700
+Scar
+bounds:8262,795,191,168
+offsets:1,1,193,170
+Scar 2
+bounds:2132,11,116,232
+offsets:1,1,119,234
+rotate:90
+Tail
+bounds:6372,60,606,231
+offsets:0,0,606,232
+Toes
+bounds:7743,174,229,204
+offsets:1,1,232,206
+rotate:90
+Toes 2
+bounds:8302,571,213,222
+offsets:1,1,216,224
+Untitled_Artwork-2_0000_Windooow
+bounds:3809,15,1282,890
+offsets:338,190,1920,1080
+Untitled_Artwork-2_0001_Btw-Window
+bounds:7690,1656,699,561
+offsets:620,318,1920,1080
+Wall
+bounds:3846,1989,1920,1080
+offsets:1,1,1922,1082
+Window Wall
+bounds:3846,907,1920,1080
+offsets:1,1,1922,1082
+rat hand_up
+bounds:6468,3,108,55
+offsets:995,645,1920,1080
+rats/Untitled_Artwork_0000_Layer-33
+bounds:6372,293,979,894
+offsets:787,0,1920,1080
+rats/Untitled_Artwork_0000s_0000_Rat-3-Hand-L
+bounds:2954,2,89,81
+offsets:1637,835,1920,1080
+rotate:90
+rats/Untitled_Artwork_0000s_0001_Rat-3-Arm-L
+bounds:8455,2852,73,217
+offsets:1650,651,1920,1080
+rats/Untitled_Artwork_0000s_0002_Rat-3-Nose
+bounds:8262,965,188,234
+offsets:1545,723,1920,1080
+rats/Untitled_Artwork_0000s_0003_Rat-3-Body
+bounds:8227,1308,156,346
+offsets:1569,402,1920,1080
+rats/Untitled_Artwork_0000s_0004_Rat-3-Pupil
+bounds:3232,2,12,17
+offsets:1702,806,1920,1080
+rotate:90
+rats/Untitled_Artwork_0000s_0005_Rat-3-Eye
+bounds:3396,65,75,50
+offsets:1669,783,1920,1080
+rats/Untitled_Artwork_0000s_0006_Rat-3-Ear
+bounds:1887,41,86,243
+offsets:1732,547,1920,1080
+rotate:90
+rats/Untitled_Artwork_0000s_0007_Rat-3-Head
+bounds:3628,67,171,200
+offsets:1623,677,1920,1080
+rats/Untitled_Artwork_0001s_0000_Rat-2-Pupil
+bounds:2366,2,74,27
+offsets:1067,726,1920,1080
+rats/Untitled_Artwork_0001s_0001_Rat-2-Eye
+bounds:80,13,109,48
+offsets:1042,721,1920,1080
+rats/Untitled_Artwork_0001s_0002_Rat-2-Nose
+bounds:8385,1410,205,142
+offsets:1048,634,1920,1080
+rotate:90
+rats/Untitled_Artwork_0001s_0005_Rat-2-Body
+bounds:3650,269,156,297
+offsets:1003,396,1920,1080
+rats/Untitled_Artwork_0001s_0008_Rat-2-Head
+bounds:8302,401,168,211
+offsets:1020,611,1920,1080
+rotate:90
+rats/Untitled_Artwork_0001s_0009_Rat-2-Ear
+bounds:7949,195,127,168
+offsets:931,615,1920,1080
+rotate:90
+rats/Untitled_Artwork_0002s_0000_Rat-1-Pupil-
+bounds:6278,917,17,24
+offsets:590,596,1920,1080
+rats/Untitled_Artwork_0002s_0001_Rat-1-Face
+bounds:7407,22,334,273
+offsets:469,452,1920,1080
+rats/Untitled_Artwork_0002s_0002_Tail-Rat
+bounds:7673,405,279,174
+offsets:222,81,1920,1080
+rats/Untitled_Artwork_0002s_0003_Rat-1-Hand
+bounds:3037,3,88,96
+offsets:718,329,1920,1080
+rotate:90
+rats/Untitled_Artwork_0002s_0004_Rat-1-Arm-
+bounds:2777,24,175,103
+offsets:570,385,1920,1080
+rats/Untitled_Artwork_0002s_0005_Rat-1-Body
+bounds:8058,792,202,402
+offsets:467,157,1920,1080
+rats/Untitled_Artwork_0002s_0006_Rat-1-Hand-2
+bounds:8455,2781,69,74
+offsets:705,590,1920,1080
+rotate:90
+rats/Untitled_Artwork_0002s_0007_Rat-1-Arm-2
+bounds:8379,88,130,159
+offsets:613,466,1920,1080
+rats/Untitled_Artwork_0002s_0008_Ear-Rat-1
+bounds:6278,943,244,87
+offsets:377,627,1920,1080
+rotate:90
+rats/Untitled_Artwork_0002s_0009_Ear-Rat-1-Left
+bounds:8257,249,206,150
+offsets:313,466,1920,1080

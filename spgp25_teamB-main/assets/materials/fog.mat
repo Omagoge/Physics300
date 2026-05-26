@@ -1,0 +1,13 @@
+{
+  "materialParams": [
+    "ASSETS/ASSETS/ASSETS/ENVIRO/LEVEL1/BACK/light.jpg",
+    "ASSETS/ASSETS/ASSETS/ENVIRO/LEVEL1/BACK/light.jpg",
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "shaderPath": "shaders/default.shader"
+}

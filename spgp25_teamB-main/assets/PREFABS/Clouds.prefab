@@ -1,0 +1,97 @@
+{
+  "type": "Actor",
+  "name": "Clouds",
+  "enabled": true,
+  "children": [
+    {
+      "type": "MeshRendererComponent",
+      "name": "MeshRendererComponent_454",
+      "enabled": true,
+      "children": null,
+      "position": [
+        105.27987670898438,
+        206.88961791992188,
+        -258.499267578125
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        100.0,
+        100.0,
+        1.0
+      ],
+      "meshPath": "MODELS/quad.obj",
+      "materialPath": "ENVIRO/CLOUDS_XEINN/cloud1.mat"
+    },
+    {
+      "type": "MeshRendererComponent",
+      "name": "MeshRendererComponent_454_(0)",
+      "enabled": true,
+      "children": null,
+      "position": [
+        -206.9921875,
+        173.67718505859375,
+        -268.99615478515625
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        308.2928771972656,
+        100.0,
+        1.0
+      ],
+      "meshPath": "MODELS/quad.obj",
+      "materialPath": "ENVIRO/CLOUDS_XEINN/cloud3.mat"
+    },
+    {
+      "type": "MeshRendererComponent",
+      "name": "MeshRendererComponent_454_(1)",
+      "enabled": true,
+      "children": null,
+      "position": [
+        442.1184997558594,
+        132.87789916992188,
+        -258.499267578125
+      ],
+      "rotation": [
+        0.9926251173019409,
+        0.01676158607006073,
+        -0.0028560461942106485,
+        -0.12002675980329514
+      ],
+      "scale": [
+        99.99999237060547,
+        100.00006103515625,
+        1.0
+      ],
+      "meshPath": "MODELS/quad.obj",
+      "materialPath": "ENVIRO/CLOUDS_XEINN/cloud2.mat"
+    }
+  ],
+  "transform": {
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+}

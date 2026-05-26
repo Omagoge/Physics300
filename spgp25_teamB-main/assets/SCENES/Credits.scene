@@ -1,0 +1,16 @@
+{
+  "type": "CreditsScene",
+  "name": "Credits",
+  "enabled": true,
+  "children": [
+    {
+      "type": "HtmlView",
+      "name": "CreditsView",
+      "enabled": true,
+      "children": null,
+      "url": "file:///assets/UI/credits/credits.html"
+    }
+  ],
+  "format": "scene",
+  "file_path": "scenes/Credits.scene"
+}

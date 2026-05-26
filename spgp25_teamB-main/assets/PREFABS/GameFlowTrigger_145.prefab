@@ -1,0 +1,64 @@
+{
+  "type": "GameFlowTrigger",
+  "name": "GameFlowTrigger_145",
+  "enabled": true,
+  "children": [
+    {
+      "type": "MeshRendererComponent",
+      "name": "MeshRendererComponent_146",
+      "enabled": true,
+      "children": null,
+      "position": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        0.4000000059604645,
+        0.30000001192092896,
+        1.0
+      ],
+      "meshPath": "MODELS/quad.obj",
+      "materialPath": "WHITEBOXING/END.mat"
+    }
+  ],
+  "transform": {
+    "position": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      10.0,
+      6.0,
+      1.0
+    ]
+  },
+  "debug.draw": true,
+  "debug.log": false,
+  "debug.defaultColor": [
+    0.0,
+    1.0,
+    1.0,
+    0.5
+  ],
+  "debug.collideColor": [
+    1.0,
+    0.0,
+    0.0,
+    0.5
+  ],
+  "GameFlowType": 1
+}

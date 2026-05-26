@@ -1,0 +1,13 @@
+{
+  "materialParams": [
+    "ENVIRO/LEVEL2/FLOOR/AT_LEV2_Floor_HardStone/L2_TileableWall.png",
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    9.260000228881836
+  ],
+  "shaderPath": "SHADERS/worldTile.shader"
+}

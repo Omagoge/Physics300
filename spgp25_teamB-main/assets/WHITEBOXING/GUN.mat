@@ -1,0 +1,13 @@
+{
+  "materialParams": [
+    "WHITEBOXING/T_GUN.png",
+    "images/NoNormals.png",
+    [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  ],
+  "shaderPath": "shaders/default.shader"
+}
